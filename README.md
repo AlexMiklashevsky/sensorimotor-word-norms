@@ -51,6 +51,8 @@ Options:
 - `--table-version T --network-version N` also writes versioned copies to `out/` (e.g., `sensorimotor_norms_table_vT.xlsx`).
 - `--relayout` recomputes the whole network layout. Without it, papers keep their stored positions and new papers are placed next to the papers they are linked to.
 
+Visitor statistics: the page counts visits with GoatCounter (cookie-free) when `goatcounter_code` is set in `site_config.json`; the Contact tab then shows a short note on it.
+
 `tests/run_all.sh` runs the browser tests of the page. The GitHub Action in `.github/workflows/build.yml` runs the full rebuild, the checks and the tests on every push and fails if the committed outputs differ from a fresh build.
 
 ## Adding a new study

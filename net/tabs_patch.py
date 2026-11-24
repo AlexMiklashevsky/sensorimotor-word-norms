@@ -119,3 +119,15 @@ t=t.replace(_a,"(function(){const m=document.getElementById('mailme');if(m)m.onc
 # v29: slice outlines scale with zoom (fixed-width white outlines covered small pies when zoomed in)
 _a="'stroke-width':sl.length>1?1:0.8},g)"
 assert t.count(_a)==1; t=t.replace(_a,"'stroke-width':Math.min((sl.length>1?1:0.8)/ZZ(),r*0.12)},g)")
+# v36: visitor statistics with GoatCounter (cookie-free); site code in site_config.json, nothing added while it is empty
+import json as _json, os as _os, re as _re
+_cfg=_json.load(open(_os.path.join(_os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))),'site_config.json'),encoding='utf-8'))
+_gc=(_cfg.get('goatcounter_code') or '').strip()
+if _gc:
+    assert _re.fullmatch(r'[a-z0-9-]+',_gc), 'goatcounter_code: lowercase letters, digits and hyphens only'
+    _a='<h3 class="fh">Last update</h3>'
+    assert t.count(_a)==1
+    t=t.replace(_a,'<h3 class="fh">Visitor statistics</h3>\n<p>This page counts visits with <a href="https://www.goatcounter.com" target="_blank" rel="noopener">GoatCounter</a>, which sets no cookies and stores no personal data. It records page views, the referring site, browser, screen size and country, only as totals. See the <a href="https://www.goatcounter.com/privacy" target="_blank" rel="noopener">GoatCounter privacy policy</a>.</p>\n'+_a,1)
+    _a='</script></body></html>'
+    assert t.count(_a)==1
+    t=t.replace(_a,'</script>\n<script data-goatcounter="https://'+_gc+'.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script></body></html>',1)
