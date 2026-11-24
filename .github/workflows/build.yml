@@ -35,10 +35,11 @@ jobs:
           grep -q "^ERRORS (0)" out/check_report.txt
 
       - name: Committed outputs match the source data
-        # text outputs are compared exactly; the workbooks by cell values (their bytes depend on the zlib build);
-        # PNG and PDF are not compared (they follow from the SVG, which is compared)
+        # text outputs are compared exactly and the workbooks by cell values (their bytes depend on the zlib build).
+        # The figures are not compared: their bytes depend on the fonts installed; their content follows from
+        # net/positions.json and the data, which are compared through the page and the CSV files.
         run: |
-          changed=$(git status --porcelain -- data/*.csv data/*.md data/*.bib data/*.ris figures/*.svg)
+          changed=$(git status --porcelain -- data/*.csv data/*.md data/*.bib data/*.ris)
           if [ -n "$changed" ]; then echo "Outputs differ from a fresh build (run update_all.py and commit):"; echo "$changed"; git diff --stat; exit 1; fi
           for f in data/sensorimotor_norms_table.xlsx data/citation_network.xlsx; do
             git show HEAD:$f > /tmp/committed.xlsx
