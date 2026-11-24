@@ -1,0 +1,237 @@
+[
+{
+"citing": "Trott and Bergen (2026)",
+"cited": "Conde et al. (2025)",
+"reason": "different Conde et al. (2025) paper (Adding LLMs to the psycholinguistic norming toolbox)"
+},
+{
+"citing": "Gijssels and Casasanto (2020)",
+"cited": "Lynott and Connell (2013)",
+"reason": "only Lynott and Connell (2009) in reference list; title similarity"
+},
+{
+"citing": "Ghandhari et al. (2020)",
+"cited": "Villani et al. (2019)",
+"reason": "reference list has a different Villani et al. 2019 paper (Sistemi Intelligenti)"
+},
+{
+"citing": "Bonin et al. (2022)",
+"cited": "Chedid et al. (2019)",
+"reason": "different Chedid et al. 2019 paper (conceptual familiarity norms)"
+},
+{
+"citing": "Paisios (2024)",
+"cited": "Juhasz et al. (2011)",
+"reason": "cited in text only; not in bibliography"
+},
+{
+"citing": "Frau et al. (2025)",
+"cited": "Muraki et al. (2022)",
+"reason": "different Muraki et al. 2022 paper (Heterogenous abstract concepts)"
+},
+{
+"citing": "McLean et al. (2026)",
+"cited": "Filipović Đurđević et al. (2016)",
+"reason": "different 2016 paper (Filipović Đurđević, Karapandžić & Mijalković)"
+},
+{
+"citing": "McLean et al. (2026)",
+"cited": "Winter (2016)",
+"reason": "reference list has Winter 2016 PhD thesis, not the table paper"
+},
+{
+"citing": "Shao et al. (2026)",
+"cited": "Lynott and Connell (2009)",
+"reason": "in-text \"Connell & Lynott, 2009\" is a different paper"
+},
+{
+"citing": "Frau et al. (2025)",
+"cited": "Lynott and Connell (2013)",
+"reason": "in-text \"Connell & Lynott, 2013\" is a different paper"
+},
+{
+"citing": "Vergallito et al. (2020)",
+"cited": "Díez-Álamo et al. (2018)",
+"reason": "in-text citation refers to the SER paper (table row Díez-Álamo et al., 2019)"
+},
+{
+"citing": "Wu and Mu (2024)",
+"cited": "Díez-Álamo et al. (2018)",
+"reason": "in-text citation refers to the SER paper (table row Díez-Álamo et al., 2019)"
+},
+{
+"citing": "Mochizuki and Ota (2026)",
+"cited": "Díez-Álamo et al. (2018)",
+"reason": "name appears as co-author of Alonso et al. (2018), not first author"
+},
+{
+"citing": "Lalancette et al. (2024)",
+"cited": "Díez-Álamo et al. (2018)",
+"reason": "name appears as co-author of Alonso et al. (2018), not first author"
+},
+{
+"citing": "Iida and Akita (2023)",
+"cited": "Alonso et al. (2018)",
+"reason": "name appears as co-author of Díez-Álamo et al. (2018), not first author"
+},
+{
+"citing": "Song and Li (2021)",
+"cited": "Chen et al. (2019)",
+"reason": "different Chen 2019 (Chen & Dong)"
+},
+{
+"citing": "Yi et al. (2025)",
+"cited": "Chen et al. (2019)",
+"reason": "different Chen 2019 paper (emotion)"
+},
+{
+"citing": "Yi et al. (2025)",
+"cited": "Xu and Liu (2024a)",
+"reason": "different Xu et al. 2022 paper (valence/arousal norms)"
+},
+{
+"citing": "Wu and Mu (2024)",
+"cited": "Xu and Liu (2024a)",
+"reason": "different Xu et al. 2022 paper"
+},
+{
+"citing": "Lu and Yang (2025)",
+"cited": "Binder et al. (2016)",
+"reason": "different Binder 2016 paper"
+},
+{
+"citing": "Miceli et al. (2021)",
+"cited": "Binder et al. (2016)",
+"reason": "different Binder 2016 paper (review)"
+},
+{
+"citing": "Miceli et al. (2022)",
+"cited": "Binder et al. (2016)",
+"reason": "different Binder 2016 paper (review)"
+},
+{
+"citing": "Repetto et al. (2023)",
+"cited": "Binder et al. (2016)",
+"reason": "different paper (Fernandino et al., 2016)"
+},
+{
+"citing": "Miceli et al. (2021)",
+"cited": "Pexman et al. (2019)",
+"reason": "different Pexman 2019 paper"
+},
+{
+"citing": "Binder et al. (2016)",
+"cited": "Rueschemeyer et al. (2010)",
+"reason": "different Rueschemeyer 2010 paper"
+},
+{
+"citing": "Pexman et al. (2019)",
+"cited": "Rueschemeyer et al. (2010)",
+"reason": "different paper (van Dam, Rueschemeyer et al., 2010)"
+},
+{
+"citing": "Binder et al. (2016)",
+"cited": "Trumpp et al. (2013)",
+"reason": "different Trumpp 2013 paper (lesion study)"
+},
+{
+"citing": "Dreyer et al. (2015)",
+"cited": "Trumpp et al. (2013)",
+"reason": "different Trumpp 2013 paper (lesion study)"
+},
+{
+"citing": "Filipović Đurđević et al. (2016)",
+"cited": "Trumpp et al. (2013)",
+"reason": "different Trumpp 2013 paper (lesion study)"
+},
+{
+"citing": "Rueschemeyer et al. (2010)",
+"cited": "Kiefer et al. (2008)",
+"reason": "different paper (Hoenig et al., 2008)"
+},
+{
+"citing": "Amsel et al. (2012)",
+"cited": "Kiefer et al. (2008)",
+"reason": "different paper (Hoenig et al., 2008)"
+},
+{
+"citing": "Pexman et al. (2019)",
+"cited": "Kiefer et al. (2008)",
+"reason": "different paper (Hoenig et al., 2008)"
+},
+{
+"citing": "Moseley et al. (2012)",
+"cited": "Medler et al. (2005)",
+"reason": "different paper (Binder et al., 2005, Medler as co-author)"
+},
+{
+"citing": "Chedid et al. (2019)",
+"cited": "Medler et al. (2005)",
+"reason": "different paper (Binder et al., 2005, Medler as co-author)"
+},
+{
+"citing": "Miceli et al. (2021)",
+"cited": "Medler et al. (2005)",
+"reason": "different paper (Binder et al., 2005, Medler as co-author)"
+},
+{
+"citing": "Ghio et al. (2013)",
+"cited": "Medler et al. (2005)",
+"reason": "different paper (Binder et al., 2005, Medler as co-author)"
+},
+{
+"citing": "Lee et al. (2025)",
+"cited": "Medler et al. (2005)",
+"reason": "different paper (Binder et al., 2005, Medler as co-author)"
+},
+{
+"citing": "Ghio et al. (2013)",
+"cited": "Carota et al. (2012)",
+"reason": "name appears as co-author of Moseley et al. (2012)"
+},
+{
+"citing": "Hinojosa et al. (2016)",
+"cited": "Carota et al. (2012)",
+"reason": "name appears as co-author of Moseley et al. (2012)"
+},
+{
+"citing": "Gainotti et al. (2013)",
+"cited": "Moseley et al. (2012)",
+"reason": "name appears as co-author of Carota et al. (2012)"
+},
+{
+"citing": "Paisios (2024)",
+"cited": "Moseley et al. (2012)",
+"reason": "name appears as co-author of Carota et al. (2012)"
+},
+{
+"citing": "Several citing papers",
+"cited": "Siakaluk et al. (2008)",
+"reason": "name appears as co-author of Tillotson et al. (2008) or Bennett et al. (2011), or a different Siakaluk 2008 paper (2008b)"
+},
+{
+"citing": "Mochizuki and Ota (2026)",
+"cited": "Paisios (2024)",
+"reason": "cites the journal article Paisios et al. (2023), based on the same BOI data, not the thesis"
+},
+{
+"citing": "Muraki et al. (2025)",
+"cited": "Paisios (2024)",
+"reason": "cites the journal article Paisios et al. (2023), based on the same BOI data, not the thesis"
+},
+{
+"citing": "Speed et al. (2025)",
+"cited": "Kiefer et al. (2008)",
+"reason": "reference is Trumpp et al. (2013) \"Losing the sound of concepts\", not Kiefer et al. (2008)"
+},
+{
+"citing": "Wu et al. (2013)",
+"cited": "Yang et al. (2011)",
+"reason": "reference is Yang and Shu (2011, Neuroscience Letters), not Yang et al. (2011, Brain and Language)"
+},
+{
+"citing": "Vanhoutte et al. (2015)",
+"cited": "Moseley et al. (2014)",
+"reason": "reference is Moseley et al. (2013, Scientific Reports), not the paper behind the Moseley et al. (2014) row"
+}
+]

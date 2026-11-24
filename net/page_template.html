@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Citation network of sensorimotor norm datasets</title>
+<style>
+.viz-root{color-scheme:light;--surface-1:#fcfcfb;--surface-2:#f3f2ef;--text-primary:#0b0b0b;--text-secondary:#52514e;--text-muted:#8a8984;--line:#d9d8d3;--edge:rgba(40,40,38,.10);--edge-hi:#0b0b0b;--edge-in:#2a78d6;
+--c1:#2a78d6;--c2:#eb6834;--c3:#1baf7a;--c4:#eda100;--c5:#e87ba4;--c6:#008300;--c7:#6250d6}
+@media (prefers-color-scheme:dark){:root:where(:not([data-theme="light"])) .viz-root{color-scheme:dark;--surface-1:#1a1a19;--surface-2:#242423;--text-primary:#f0efec;--text-secondary:#c3c2b7;--text-muted:#8f8e88;--line:#3a3a38;--edge:rgba(240,239,236,.10);--edge-hi:#f0efec;--edge-in:#3987e5;
+--c1:#3987e5;--c2:#d95926;--c3:#199e70;--c4:#c98500;--c5:#d55181;--c6:#0ca30c;--c7:#9085e9}}
+:root[data-theme="dark"] .viz-root{color-scheme:dark;--surface-1:#1a1a19;--surface-2:#242423;--text-primary:#f0efec;--text-secondary:#c3c2b7;--text-muted:#8f8e88;--line:#3a3a38;--edge:rgba(240,239,236,.10);--edge-hi:#f0efec;--edge-in:#3987e5;
+--c1:#3987e5;--c2:#d95926;--c3:#199e70;--c4:#c98500;--c5:#d55181;--c6:#0ca30c;--c7:#9085e9}
+html,body{margin:0;background:var(--surface-1)}
+.viz-root{font:14px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--text-primary);background:var(--surface-1);max-width:1280px;margin:0 auto;padding:20px 20px 40px}
+h1{font-size:20px;margin:0 0 4px}h2{font-size:16px;margin:28px 0 8px}
+.sub{color:var(--text-secondary);margin:0 0 14px;max-width:900px}
+.controls{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;margin:8px 0 10px}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.seg button{border:0;background:transparent;color:var(--text-secondary);padding:5px 10px;font:inherit;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--surface-2);color:var(--text-primary);font-weight:600}
+.lbl{color:var(--text-muted);font-size:12px;margin-right:4px}
+input[type=search]{font:inherit;padding:5px 8px;border:1px solid var(--line);border-radius:8px;background:var(--surface-1);color:var(--text-primary);width:200px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 8px}
+.chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);border-radius:999px;padding:3px 10px 3px 6px;background:transparent;color:var(--text-primary);font:inherit;font-size:12.5px;cursor:pointer}
+.chip[aria-pressed="false"]{opacity:.38}
+.chip svg{flex:none}
+.wrap{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:16px}
+@media (max-width:900px){.wrap{grid-template-columns:1fr}}
+.stage{border:1px solid var(--line);border-radius:10px;background:var(--surface-1);position:relative}
+svg#g{display:block;width:100%;height:auto}
+.panel{border:1px solid var(--line);border-radius:10px;padding:12px 14px;font-size:13px;align-self:start;max-height:760px;overflow:auto}
+.panel h3{margin:0 0 4px;font-size:14px}.panel .meta{color:var(--text-secondary);margin-bottom:8px}
+.panel ul{margin:4px 0 10px;padding-left:18px}.panel li{margin:1px 0}
+.muted{color:var(--text-muted)}
+.tip{position:absolute;pointer-events:none;background:var(--surface-1);border:1px solid var(--line);border-radius:8px;padding:6px 9px;font-size:12.5px;box-shadow:0 2px 10px rgba(0,0,0,.12);display:none;max-width:280px;z-index:5}
+.tip b{display:block}
+.nlabel{font-size:10.5px;fill:var(--text-secondary);paint-order:stroke;stroke:var(--surface-1);stroke-width:3px;pointer-events:none}
+.axis text{font-size:11px;fill:var(--text-muted)}.axis line{stroke:var(--line)}
+table{border-collapse:collapse;width:100%;font-size:12.5px}th,td{border-bottom:1px solid var(--line);padding:4px 6px;text-align:left;vertical-align:top}
+th{cursor:pointer;color:var(--text-secondary);font-weight:600;position:sticky;top:0;background:var(--surface-1)}td.n{text-align:right;font-variant-numeric:tabular-nums}
+.tablewrap{max-height:520px;overflow:auto;border:1px solid var(--line);border-radius:10px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin:8px 0}
+.card{border:1px solid var(--line);border-radius:10px;padding:10px 12px}.card .v{font-size:22px;font-weight:600}.card .k{color:var(--text-secondary);font-size:12.5px}
+p,li{max-width:900px}
+details{margin:6px 0}summary{cursor:pointer;color:var(--text-secondary)}
+</style></head>
+<body><div class="viz-root">
+<h1>Who cites whom: sensorimotor norm datasets</h1>
+<p class="sub">Each node is one paper from the overview table; each line is one citation found in a reference list. Node size shows how many later papers in the table cite it. Color and shape show the construct cluster (or, if switched, the citation community). Hover a node to highlight its links; click it to pin the details.</p>
+<div class="controls">
+ <span><span class="lbl">Layout</span><span class="seg" id="layoutSeg"><button aria-pressed="true" data-v="net">Network</button><button aria-pressed="false" data-v="time">By year</button></span></span>
+ <span><span class="lbl">Color</span><span class="seg" id="colorSeg"><button aria-pressed="true" data-v="cluster">Construct cluster</button><button aria-pressed="false" data-v="community">Citation community</button></span></span>
+ <span><span class="lbl">Labels</span><span class="seg" id="labelSeg"><button aria-pressed="true" data-v="top">Most cited</button><button aria-pressed="false" data-v="all">All</button><button aria-pressed="false" data-v="none">None</button></span></span>
+ <input type="search" id="q" placeholder="Find a paper (e.g., Lynott)">
+</div>
+<div class="chips" id="chips"></div>
+<div class="wrap">
+ <div class="stage" id="stage"><svg id="g" viewBox="0 0 1000 720" role="img" aria-label="Citation network of 92 sensorimotor norm papers"></svg><div class="tip" id="tip"></div></div>
+ <aside class="panel" id="panel"><h3>Details</h3><p class="muted">Click a node to see which table papers it cites and which cite it. Click empty space to clear.</p><div id="legendNote"></div></aside>
+</div>
+<h2>What the network shows</h2>
+<div class="cards" id="cards"></div>
+<div id="findings"></div>
+<h2>Table view</h2>
+<div class="tablewrap"><table id="tbl"><thead></thead><tbody></tbody></table></div>
+<h2>Method</h2>
+<div id="method"></div>
+</div>
+<script>
+const DATA=__DATA__;
+const CL=['Modality-based strength (Lancaster line)','Body interaction & affordances','Effector & action relatedness','Global sensory experience (SER)','Feature relevance','Computational (LLM / embeddings)','Fine-grained attributes'];
+const SHAPES=['circle','square','diamond','triangle','tdown','hex','star'];
+const N=DATA.nodes, E=DATA.edges, R=DATA.res, byId={};N.forEach(n=>byId[n.id]=n);
+const out={},inn={};N.forEach(n=>{out[n.id]=[];inn[n.id]=[]});E.forEach(([a,b])=>{out[a].push(b);inn[b].push(a)});
+const COMMS=[...new Set(N.map(n=>n.community).filter(Boolean))].sort((a,b)=>a-b);
+let st={layout:'net',color:'cluster',labels:'top',active:new Set(CL),pin:null,hover:null,q:''};
+const W=1000,H=720,M={l:40,r:40,t:30,b:70};
+const svg=document.getElementById('g'),NS='http://www.w3.org/2000/svg';
+function el(t,a,p){const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);(p||svg).appendChild(e);return e}
+function short(id){return id.replace(/ et al\. \((\d{4})\)/,' et al. $1').replace(/ and (.+?) \((\d{4})\)/,' & $1 $2').replace(/ \((\d{4})\)/,' $1')}
+function colorOf(n){if(st.color==='cluster')return `var(--c${CL.indexOf(n.cluster)+1})`;return n.community?`var(--c${COMMS.indexOf(n.community)+1})`:'var(--text-muted)'}
+function rad(n){return 4+1.55*Math.sqrt(n.cited_by)}
+function shapePath(s,r){const k=r;switch(s){
+ case 'square':{const a=k*0.9;return `M${-a},${-a}h${2*a}v${2*a}h${-2*a}z`}
+ case 'diamond':return `M0,${-k*1.25}L${k*1.25},0L0,${k*1.25}L${-k*1.25},0z`
+ case 'triangle':return `M0,${-k*1.3}L${k*1.2},${k*0.8}L${-k*1.2},${k*0.8}z`
+ case 'tdown':return `M0,${k*1.3}L${k*1.2},${-k*0.8}L${-k*1.2},${-k*0.8}z`
+ case 'hex':{let p='';for(let i=0;i<6;i++){const a=Math.PI/3*i;p+=(i?'L':'M')+(k*1.1*Math.cos(a)).toFixed(2)+','+(k*1.1*Math.sin(a)).toFixed(2)}return p+'z'}
+ case 'star':{let p='';for(let i=0;i<10;i++){const rr=i%2?k*0.6:k*1.35,a=-Math.PI/2+Math.PI/5*i;p+=(i?'L':'M')+(rr*Math.cos(a)).toFixed(2)+','+(rr*Math.sin(a)).toFixed(2)}return p+'z'}
+ default:return `M${-k},0a${k},${k} 0 1,0 ${2*k},0a${k},${k} 0 1,0 ${-2*k},0`}}
+const years=N.map(n=>n.year),Y0=Math.min(...years)-0.5,Y1=Math.max(...years)+0.5;
+function P(n){if(st.layout==='net')return [M.l+n.x*(W-M.l-M.r),M.t+n.y*(H-M.t-M.b)];
+ return [M.l+80+(n.year-Y0)/(Y1-Y0)*(W-M.l-M.r-80),M.t+n.ty*(H-M.t-M.b)]}
+const gAxis=el('g',{class:'axis'}),gE=el('g',{}),gEH=el('g',{}),gN=el('g',{}),gL=el('g',{});
+el('defs',{}).innerHTML='<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0L10,5L0,10z" fill="currentColor"/></marker>';
+const edgeEls=E.map(([a,b])=>el('line',{stroke:'var(--edge)','stroke-width':0.8},gE));
+const nodeEls=N.map(n=>{const g=el('g',{tabindex:0,role:'button','aria-label':n.id},gN);g.style.cursor='pointer';
+ const hit=el('circle',{r:rad(n)+6,fill:'transparent'},g);
+ const p=el('path',{d:shapePath(SHAPES[CL.indexOf(n.cluster)],rad(n)),'stroke-width':n.has_reference_list?1.5:2},g);
+ g.addEventListener('mouseenter',ev=>{st.hover=n.id;render();showTip(n,ev)});g.addEventListener('mousemove',ev=>showTip(n,ev));
+ g.addEventListener('mouseleave',()=>{st.hover=null;render();tip.style.display='none'});
+ g.addEventListener('click',ev=>{ev.stopPropagation();st.pin=st.pin===n.id?null:n.id;render();panel()});
+ g.addEventListener('keydown',ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();st.pin=st.pin===n.id?null:n.id;render();panel()}});
+ return {g,p}});
+const labEls=N.map(n=>el('text',{class:'nlabel','text-anchor':'middle'},gL));
+svg.addEventListener('click',()=>{st.pin=null;render();panel()});
+const tip=document.getElementById('tip'),stage=document.getElementById('stage');
+function showTip(n,ev){const r=stage.getBoundingClientRect();tip.innerHTML=`<b>${n.id}</b>${n.language} · ${n.cluster}${n.community?` · community ${n.community}`:''}<br>Cited by ${n.cited_by} of ${n.potential_citers} later table papers · cites ${n.cites}${n.has_reference_list?'':'<br><span class="muted">No reference list available (hollow node)</span>'}`;
+ tip.style.display='block';let x=ev.clientX-r.left+14,y=ev.clientY-r.top+14;if(x>r.width-290)x-=300;tip.style.left=x+'px';tip.style.top=y+'px'}
+function visible(n){return st.active.has(n.cluster)&&(!st.q||n.id.toLowerCase().includes(st.q))}
+function render(){
+ const focus=st.hover||st.pin, nb=new Set(focus?[focus,...out[focus],...inn[focus]]:[]);
+ gAxis.innerHTML='';
+ if(st.layout==='time'){for(let y=Math.ceil(Y0);y<=Y1;y++){if(y%2)continue;const x=P({year:y,ty:0})[0];el('line',{x1:x,x2:x,y1:M.t-10,y2:H-M.b+8},gAxis);const t=el('text',{x,y:H-M.b+24,'text-anchor':'middle'},gAxis);t.textContent=y}
+  CL.forEach((c,i)=>{const t=el('text',{x:M.l-30,y:M.t+(i+0.5)/CL.length*(H-M.t-M.b)+4},gAxis);t.textContent=c.split(' (')[0].replace('Global sensory experience','SER').replace('Body interaction & affordances','Body/affordances').replace('Effector & action relatedness','Effector/action').replace('Modality-based strength','Modality-based').replace('Feature relevance','Feature relev.').replace('Computational','Computational').replace('Fine-grained attributes','Fine-grained')})}
+ else{const t=el('text',{x:M.l,y:H-M.b+40},gAxis);t.textContent='Papers without any citation link to the table (bottom row)'}
+ gEH.innerHTML='';
+ E.forEach(([a,b],i)=>{const A=byId[a],B=byId[b],e=edgeEls[i];const [x1,y1]=P(A),[x2,y2]=P(B);e.setAttribute('x1',x1);e.setAttribute('y1',y1);e.setAttribute('x2',x2);e.setAttribute('y2',y2);
+  const vis=visible(A)&&visible(B);e.style.display=vis?'':'none';e.setAttribute('stroke-opacity',focus?0.25:1);
+  if(focus&&(a===focus||b===focus)&&vis){const dx=x2-x1,dy=y2-y1,L=Math.hypot(dx,dy)||1,rr=rad(B)+3;
+   const h=el('line',{x1,y1,x2:x2-dx/L*rr,y2:y2-dy/L*rr,stroke:a===focus?'var(--edge-hi)':'var(--edge-in)','stroke-width':1.6,'vector-effect':'non-scaling-stroke','marker-end':'url(#ah)'},gEH);h.style.color=a===focus?'var(--edge-hi)':'var(--edge-in)'}});
+ N.forEach((n,i)=>{const {g,p}=nodeEls[i];const [x,y]=P(n);g.setAttribute('transform',`translate(${x},${y})`);
+  const c=colorOf(n);p.setAttribute('fill',n.has_reference_list?c:'var(--surface-1)');p.setAttribute('stroke',n.has_reference_list?'var(--surface-1)':c);
+  const vis=visible(n);g.style.display=vis?'':'none';g.style.opacity=focus&&!nb.has(n.id)?0.18:1;
+  const l=labEls[i];const show=vis&&(st.labels==='all'||(st.labels==='top'&&n.cited_by>=8)||nb.has(n.id)||(st.q&&n.id.toLowerCase().includes(st.q)));
+  l.style.display=show&&(!focus||nb.has(n.id))?'':'none';l.setAttribute('x',x);l.setAttribute('y',y-rad(n)-5);l.textContent=short(n.id)});
+ // greedy collision pass: bigger nodes first
+ const placed=[];N.map((n,i)=>i).sort((a,b)=>N[b].cited_by-N[a].cited_by).forEach(i=>{const l=labEls[i];if(l.style.display==='none')return;const bb=l.getBBox();
+  const hit=b=>placed.some(p=>b.x<p.x+p.width&&b.x+b.width>p.x&&b.y<p.y+p.height&&b.y+b.height>p.y);
+  if(hit(bb)&&st.labels!=='all'){const [x,y]=P(N[i]);l.setAttribute('y',y+rad(N[i])+12);const b2=l.getBBox();if(hit(b2)&&!(focus&&N[i].id===focus)){l.style.display='none';return}placed.push(b2);return}placed.push(bb)});
+ chips();}
+function chips(){const box=document.getElementById('chips');box.innerHTML='';
+ if(st.color==='cluster'){CL.forEach((c,i)=>{const cnt=N.filter(n=>n.cluster===c).length;const b=document.createElement('button');b.className='chip';b.setAttribute('aria-pressed',st.active.has(c));
+  b.innerHTML=`<svg width="16" height="16" viewBox="-8 -8 16 16"><path d="${shapePath(SHAPES[i],5)}" fill="var(--c${i+1})"/></svg>${c} (${cnt})`;
+  b.onclick=()=>{st.active.has(c)?st.active.delete(c):st.active.add(c);if(!st.active.size)CL.forEach(x=>st.active.add(x));render()};box.appendChild(b)})}
+ else{COMMS.forEach((k,i)=>{const b=document.createElement('span');b.className='chip';b.innerHTML=`<svg width="16" height="16" viewBox="-8 -8 16 16"><circle r="5" fill="var(--c${i+1})"/></svg>Community ${k} (${N.filter(n=>n.community===k).length})`;box.appendChild(b)});
+  const s=document.createElement('span');s.className='chip';s.innerHTML='<svg width="16" height="16" viewBox="-8 -8 16 16"><circle r="5" fill="var(--text-muted)"/></svg>Not assigned (no reference list, no links, or community of fewer than 3 papers)';box.appendChild(s);
+  const t=document.createElement('span');t.className='muted';t.style.fontSize='12px';t.textContent='Shape still shows the construct cluster.';box.appendChild(t)}}
+function list(ids){return ids.length?'<ul>'+ids.slice().sort((a,b)=>byId[a].year-byId[b].year).map(i=>`<li>${i} <span class="muted">${byId[i].language}</span></li>`).join('')+'</ul>':'<p class="muted">none</p>'}
+function panel(){const p=document.getElementById('panel');if(!st.pin){p.innerHTML='<h3>Details</h3><p class="muted">Click a node to see which table papers it cites and which cite it. Click empty space to clear.</p><p class="muted">Black arrows: the selected paper cites; blue arrows: cited by. Hollow nodes have no reference list available (no PDF, a web page or a dataset description), so they can only receive citations.</p>';return}
+ const n=byId[st.pin];p.innerHTML=`<h3>${n.id}</h3><div class="meta">${n.language} · ${n.cluster}${n.community?` · citation community ${n.community}`:''}</div>${n.link&&/^https?:/.test(n.link)?`<p><a href="${n.link}">Paper link</a></p>`:''}
+ <b>Cited by ${n.cited_by}</b> <span class="muted">of ${n.potential_citers} table papers that could cite it (same year or later, or citing a preprint)</span>${list(inn[n.id])}<b>Cites ${n.cites} table papers</b>${n.has_reference_list?'':' <span class="muted">(no reference list available)</span>'}${list(out[n.id])}`}
+function seg(id,key){document.querySelectorAll(`#${id} button`).forEach(b=>b.onclick=()=>{st[key]=b.dataset.v;document.querySelectorAll(`#${id} button`).forEach(x=>x.setAttribute('aria-pressed',x===b));render()})}
+seg('layoutSeg','layout');seg('colorSeg','color');seg('labelSeg','labels');
+document.getElementById('q').oninput=e=>{st.q=e.target.value.trim().toLowerCase();render()};
+// cards & findings
+const cards=[[R.n_nodes_graph,'papers (MSc theses excluded)'],[R.n_edges,'citation links between them'],[R.n_communities,'citation communities (Louvain)'],[R.NMI_vs_cluster.toFixed(2)+' vs '+R.NMI_vs_language.toFixed(2),'agreement (NMI) of communities with construct cluster vs. language']];
+document.getElementById('cards').innerHTML=cards.map(([v,k])=>`<div class="card"><div class="v">${v}</div><div class="k">${k}</div></div>`).join('');
+document.getElementById('findings').innerHTML=__FINDINGS__;
+document.getElementById('method').innerHTML=__METHOD__;
+// table
+const cols=[['id','Paper'],['year','Year'],['language','Language'],['cluster','Construct cluster'],['community','Community'],['cited_by','Cited by'],['potential_citers','Could cite it'],['cites','Cites']];
+let sortK='cited_by',sortD=-1;
+function table(){const th=document.querySelector('#tbl thead'),tb=document.querySelector('#tbl tbody');th.innerHTML='<tr>'+cols.map(([k,l])=>`<th data-k="${k}">${l}${k===sortK?(sortD<0?' ▾':' ▴'):''}</th>`).join('')+'</tr>';
+ th.querySelectorAll('th').forEach(h=>h.onclick=()=>{const k=h.dataset.k;sortD=k===sortK?-sortD:(typeof N[0][k]==='number'?-1:1);sortK=k;table()});
+ const rows=N.slice().sort((a,b)=>{const x=a[sortK]??-1,y=b[sortK]??-1;return (x>y?1:x<y?-1:0)*sortD});
+ tb.innerHTML=rows.map(n=>`<tr><td>${n.id}${n.has_reference_list?'':' <span class="muted">(no ref. list)</span>'}</td><td class="n">${n.year}</td><td>${n.language}</td><td>${n.cluster}</td><td class="n">${n.community??'–'}</td><td class="n">${n.cited_by}</td><td class="n">${n.potential_citers}</td><td class="n">${n.cites}</td></tr>`).join('')}
+table();render();panel();
+</script></body></html>

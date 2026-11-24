@@ -1,0 +1,59 @@
+# Rebuilds everything from the source data, runs the consistency checks and the browser tests,
+# and fails if the committed outputs (docs/, data/, figures/) are not what the source data produce.
+name: Build and check
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install Python packages (pinned)
+        run: pip install -r requirements.txt
+
+      - name: Install R with igraph 1.6.0 (Ubuntu 24.04 packages)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends r-base-core r-cran-igraph r-cran-jsonlite
+          Rscript -e 'v <- as.character(packageVersion("igraph")); cat("R", R.version.string, "- igraph", v, "\n"); if (v != "1.6.0") stop("igraph ", v, " is not the version used for the published communities (1.6.0)")'
+
+      - name: Rebuild everything from the source data
+        run: python update_all.py
+
+      - name: Consistency checks
+        run: |
+          cat out/check_report.txt
+          grep -q "^ERRORS (0)" out/check_report.txt
+
+      - name: Committed outputs match the source data
+        # text outputs are compared exactly; the workbooks by cell values (their bytes depend on the zlib build);
+        # PNG and PDF are not compared (they follow from the SVG, which is compared)
+        run: |
+          changed=$(git status --porcelain -- data/*.csv data/*.md data/*.bib data/*.ris figures/*.svg)
+          if [ -n "$changed" ]; then echo "Outputs differ from a fresh build (run update_all.py and commit):"; echo "$changed"; git diff --stat; exit 1; fi
+          for f in data/sensorimotor_norms_table.xlsx data/citation_network.xlsx; do
+            git show HEAD:$f > /tmp/committed.xlsx
+            python tests/same_cells.py /tmp/committed.xlsx $f
+          done
+          norm() { sed -E 's#^<p>[0-9]{4}-[0-9]{2}-[0-9]{2}, [0-9]{2}:[0-9]{2} \((CET|CEST)\)</p>$#<p>TIMESTAMP</p>#'; }
+          diff <(git show HEAD:docs/index.html | norm) <(norm < docs/index.html) > /dev/null || { echo "docs/index.html differs from a fresh build: run update_all.py and commit"; exit 1; }
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Browser tests of the web page
+        run: |
+          cd tests
+          npm install --no-save playwright@1.63.0
+          npx playwright install --with-deps chromium
+          bash run_all.sh

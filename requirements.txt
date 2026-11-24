@@ -1,0 +1,8 @@
+# Python packages used by the build (versions the published outputs were made with; Python 3.13)
+matplotlib==3.11.2
+networkx==3.7
+numpy==2.5.3
+openpyxl==3.1.5
+scipy==1.18.1
+# only needed for the citation matching scripts (net/match.py, net/pass2.py, net/pass3.py), which need the full texts
+rapidfuzz==3.14.6

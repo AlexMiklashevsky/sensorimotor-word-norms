@@ -1,0 +1,5030 @@
+[
+ {
+  "key": "Wu et al. (2013)|Chinese",
+  "lang": "",
+  "scale": "arm relatedness",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Wu et al. (2013)|Chinese",
+  "lang": "",
+  "scale": "leg relatedness",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Wu et al. (2013)|Chinese",
+  "lang": "",
+  "scale": "face/mouth relatedness",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Wu et al. (2013)|Chinese",
+  "lang": "",
+  "scale": "action association",
+  "R": "R2a",
+  "cat4": "core"
+ },
+ {
+  "key": "Wu et al. (2013)|Chinese",
+  "lang": "",
+  "scale": "visual association",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Song and Li (2021)|Chinese",
+  "lang": "",
+  "scale": "SER",
+  "R": "R1",
+  "cat1": "core"
+ },
+ {
+  "key": "Zhong et al. (2022)|Chinese",
+  "lang": "",
+  "scale": "vision",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Zhong et al. (2022)|Chinese",
+  "lang": "",
+  "scale": "hearing",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Zhong et al. (2022)|Chinese",
+  "lang": "",
+  "scale": "taste",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Zhong et al. (2022)|Chinese",
+  "lang": "",
+  "scale": "smell",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Zhong et al. (2022)|Chinese",
+  "lang": "",
+  "scale": "touch",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Zhong et al. (2022)|Chinese",
+  "lang": "",
+  "scale": "interoception",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Zhong et al. (2022)|Chinese",
+  "lang": "",
+  "scale": "foot/leg",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Zhong et al. (2022)|Chinese",
+  "lang": "",
+  "scale": "hand/arm",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Zhong et al. (2022)|Chinese",
+  "lang": "",
+  "scale": "mouth/throat",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Zhong et al. (2022)|Chinese",
+  "lang": "",
+  "scale": "head",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Zhong et al. (2022)|Chinese",
+  "lang": "",
+  "scale": "torso",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Xu and Liu (2024a)|Chinese",
+  "lang": "",
+  "scale": "BOI",
+  "R": "R3",
+  "cat6": "core"
+ },
+ {
+  "key": "Wang et al. (2023)|Chinese",
+  "lang": "",
+  "scale": "vision",
+  "R": "R5",
+  "status": "excluded (imagery instruction)"
+ },
+ {
+  "key": "Wang et al. (2023)|Chinese",
+  "lang": "",
+  "scale": "motor",
+  "R": "R5",
+  "status": "excluded (imagery instruction)"
+ },
+ {
+  "key": "Britton (2024)|Chinese",
+  "lang": "",
+  "scale": "verb embodiment",
+  "R": "R2a",
+  "cat4": "core"
+ },
+ {
+  "key": "Britton (2024)|Chinese",
+  "lang": "",
+  "scale": "sense selection (sight, hearing, touch, taste, smell, none)",
+  "R": "R6",
+  "cat2": "core"
+ },
+ {
+  "key": "Wu and Mu (2024)|Chinese",
+  "lang": "",
+  "scale": "SER",
+  "R": "R1",
+  "cat1": "core"
+ },
+ {
+  "key": "Yi et al. (2025)|Chinese",
+  "lang": "",
+  "scale": "SER",
+  "R": "R1",
+  "cat1": "core"
+ },
+ {
+  "key": "Shao et al. (2026)|Chinese",
+  "lang": "",
+  "scale": "vision",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Shao et al. (2026)|Chinese",
+  "lang": "",
+  "scale": "hearing",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Shao et al. (2026)|Chinese",
+  "lang": "",
+  "scale": "taste",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Shao et al. (2026)|Chinese",
+  "lang": "",
+  "scale": "smell",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Shao et al. (2026)|Chinese",
+  "lang": "",
+  "scale": "touch",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Shao et al. (2026)|Chinese",
+  "lang": "",
+  "scale": "interoception",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Shao et al. (2026)|Chinese",
+  "lang": "",
+  "scale": "foot/leg",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Shao et al. (2026)|Chinese",
+  "lang": "",
+  "scale": "hand/arm",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Shao et al. (2026)|Chinese",
+  "lang": "",
+  "scale": "mouth/throat",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Shao et al. (2026)|Chinese",
+  "lang": "",
+  "scale": "head",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Shao et al. (2026)|Chinese",
+  "lang": "",
+  "scale": "torso",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Chen et al. (2026)|Chinese",
+  "lang": "",
+  "scale": "vision",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Chen et al. (2026)|Chinese",
+  "lang": "",
+  "scale": "hearing",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Chen et al. (2026)|Chinese",
+  "lang": "",
+  "scale": "taste",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Chen et al. (2026)|Chinese",
+  "lang": "",
+  "scale": "smell",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Chen et al. (2026)|Chinese",
+  "lang": "",
+  "scale": "touch",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Chen et al. (2026)|Chinese",
+  "lang": "",
+  "scale": "interoception",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Chen et al. (2026)|Chinese",
+  "lang": "",
+  "scale": "foot/leg",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Chen et al. (2026)|Chinese",
+  "lang": "",
+  "scale": "hand/arm",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Chen et al. (2026)|Chinese",
+  "lang": "",
+  "scale": "mouth/throat",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Chen et al. (2026)|Chinese",
+  "lang": "",
+  "scale": "head",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Chen et al. (2026)|Chinese",
+  "lang": "",
+  "scale": "torso",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Chen et al. (2026)|Chinese",
+  "lang": "",
+  "scale": "embodiment",
+  "R": "R1",
+  "cat1": "not",
+  "cat4": "core"
+ },
+ {
+  "key": "Lu and Yang (2025)|Chinese",
+  "lang": "",
+  "scale": "degree of effector involvement",
+  "R": "R2a",
+  "cat4": "core",
+  "cat5": "not",
+  "note": "no body part named in the scale; verbs pre-sorted by authors into mouth/hand/foot"
+ },
+ {
+  "key": "Lu and Yang (2025)|English",
+  "lang": "",
+  "scale": "degree of effector involvement",
+  "R": "R2a",
+  "cat4": "core",
+  "cat5": "not",
+  "note": "no body part named in the scale; verbs pre-sorted by authors into mouth/hand/foot"
+ },
+ {
+  "key": "Chen et al. (2019)|Chinese",
+  "lang": "",
+  "scale": "visual",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Chen et al. (2019)|Chinese",
+  "lang": "",
+  "scale": "auditory",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Chen et al. (2019)|Chinese",
+  "lang": "",
+  "scale": "tactile",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Chen et al. (2019)|Chinese",
+  "lang": "",
+  "scale": "gustatory",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Chen et al. (2019)|Chinese",
+  "lang": "",
+  "scale": "olfactory",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Lynott et al. (2020)|English",
+  "lang": "",
+  "scale": "vision (By seeing)",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Lynott et al. (2020)|English",
+  "lang": "",
+  "scale": "hearing (By hearing)",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Lynott et al. (2020)|English",
+  "lang": "",
+  "scale": "taste (By tasting)",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Lynott et al. (2020)|English",
+  "lang": "",
+  "scale": "smell (By smelling)",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Lynott et al. (2020)|English",
+  "lang": "",
+  "scale": "touch (By feeling through touch)",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Lynott et al. (2020)|English",
+  "lang": "",
+  "scale": "interoception (By sensations inside your body)",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Lynott et al. (2020)|English",
+  "lang": "",
+  "scale": "foot/leg (Foot/leg)",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Lynott et al. (2020)|English",
+  "lang": "",
+  "scale": "hand/arm (Hand/arm)",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Lynott et al. (2020)|English",
+  "lang": "",
+  "scale": "head (Head excluding mouth)",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Lynott et al. (2020)|English",
+  "lang": "",
+  "scale": "mouth/throat (Mouth/throat)",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Lynott et al. (2020)|English",
+  "lang": "",
+  "scale": "torso (Torso)",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Trott and Bergen (2026)|English",
+  "lang": "",
+  "scale": "vision",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Trott and Bergen (2026)|English",
+  "lang": "",
+  "scale": "hearing",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Trott and Bergen (2026)|English",
+  "lang": "",
+  "scale": "taste",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Trott and Bergen (2026)|English",
+  "lang": "",
+  "scale": "smell",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Trott and Bergen (2026)|English",
+  "lang": "",
+  "scale": "touch",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Trott and Bergen (2026)|English",
+  "lang": "",
+  "scale": "interoception",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Trott and Bergen (2026)|English",
+  "lang": "",
+  "scale": "foot/leg",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Trott and Bergen (2026)|English",
+  "lang": "",
+  "scale": "hand/arm",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Trott and Bergen (2026)|English",
+  "lang": "",
+  "scale": "head",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Trott and Bergen (2026)|English",
+  "lang": "",
+  "scale": "mouth/throat",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Trott and Bergen (2026)|English",
+  "lang": "",
+  "scale": "torso",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Trott (2024)|English",
+  "lang": "",
+  "scale": "vision",
+  "R": "R1 [LLM]",
+  "cat2": "core"
+ },
+ {
+  "key": "Trott (2024)|English",
+  "lang": "",
+  "scale": "hearing",
+  "R": "R1 [LLM]",
+  "cat2": "core"
+ },
+ {
+  "key": "Trott (2024)|English",
+  "lang": "",
+  "scale": "taste",
+  "R": "R1 [LLM]",
+  "cat2": "core"
+ },
+ {
+  "key": "Trott (2024)|English",
+  "lang": "",
+  "scale": "smell",
+  "R": "R1 [LLM]",
+  "cat2": "core"
+ },
+ {
+  "key": "Trott (2024)|English",
+  "lang": "",
+  "scale": "touch",
+  "R": "R1 [LLM]",
+  "cat2": "core"
+ },
+ {
+  "key": "Trott (2024)|English",
+  "lang": "",
+  "scale": "interoception",
+  "R": "R1 [LLM]",
+  "cat2": "core"
+ },
+ {
+  "key": "Trott (2024)|English",
+  "lang": "",
+  "scale": "foot/leg",
+  "R": "R1 [LLM]",
+  "cat5": "core"
+ },
+ {
+  "key": "Trott (2024)|English",
+  "lang": "",
+  "scale": "hand/arm",
+  "R": "R1 [LLM]",
+  "cat5": "core"
+ },
+ {
+  "key": "Trott (2024)|English",
+  "lang": "",
+  "scale": "head",
+  "R": "R1 [LLM]",
+  "cat5": "core"
+ },
+ {
+  "key": "Trott (2024)|English",
+  "lang": "",
+  "scale": "mouth/throat",
+  "R": "R1 [LLM]",
+  "cat5": "core"
+ },
+ {
+  "key": "Trott (2024)|English",
+  "lang": "",
+  "scale": "torso",
+  "R": "R1 [LLM]",
+  "cat5": "core"
+ },
+ {
+  "key": "Xu et al. (2025)|English",
+  "lang": "",
+  "scale": "vision",
+  "R": "R1 [LLM]",
+  "cat2": "core"
+ },
+ {
+  "key": "Xu et al. (2025)|English",
+  "lang": "",
+  "scale": "hearing",
+  "R": "R1 [LLM]",
+  "cat2": "core"
+ },
+ {
+  "key": "Xu et al. (2025)|English",
+  "lang": "",
+  "scale": "taste",
+  "R": "R1 [LLM]",
+  "cat2": "core"
+ },
+ {
+  "key": "Xu et al. (2025)|English",
+  "lang": "",
+  "scale": "smell",
+  "R": "R1 [LLM]",
+  "cat2": "core"
+ },
+ {
+  "key": "Xu et al. (2025)|English",
+  "lang": "",
+  "scale": "touch",
+  "R": "R1 [LLM]",
+  "cat2": "core"
+ },
+ {
+  "key": "Xu et al. (2025)|English",
+  "lang": "",
+  "scale": "interoception",
+  "R": "R1 [LLM]",
+  "cat2": "core"
+ },
+ {
+  "key": "Xu et al. (2025)|English",
+  "lang": "",
+  "scale": "foot/leg",
+  "R": "R1 [LLM]",
+  "cat5": "core"
+ },
+ {
+  "key": "Xu et al. (2025)|English",
+  "lang": "",
+  "scale": "hand/arm",
+  "R": "R1 [LLM]",
+  "cat5": "core"
+ },
+ {
+  "key": "Xu et al. (2025)|English",
+  "lang": "",
+  "scale": "head",
+  "R": "R1 [LLM]",
+  "cat5": "core"
+ },
+ {
+  "key": "Xu et al. (2025)|English",
+  "lang": "",
+  "scale": "mouth/throat",
+  "R": "R1 [LLM]",
+  "cat5": "core"
+ },
+ {
+  "key": "Xu et al. (2025)|English",
+  "lang": "",
+  "scale": "torso",
+  "R": "R1 [LLM]",
+  "cat5": "core"
+ },
+ {
+  "key": "Lee et al. (2025)|English",
+  "lang": "",
+  "scale": "vision (By seeing)",
+  "R": "R1 [LLM]",
+  "cat2": "core"
+ },
+ {
+  "key": "Lee et al. (2025)|English",
+  "lang": "",
+  "scale": "hearing (By hearing)",
+  "R": "R1 [LLM]",
+  "cat2": "core"
+ },
+ {
+  "key": "Lee et al. (2025)|English",
+  "lang": "",
+  "scale": "taste (By tasting)",
+  "R": "R1 [LLM]",
+  "cat2": "core"
+ },
+ {
+  "key": "Lee et al. (2025)|English",
+  "lang": "",
+  "scale": "smell (By smelling)",
+  "R": "R1 [LLM]",
+  "cat2": "core"
+ },
+ {
+  "key": "Lee et al. (2025)|English",
+  "lang": "",
+  "scale": "touch (By feeling through touch)",
+  "R": "R1 [LLM]",
+  "cat2": "core"
+ },
+ {
+  "key": "Lee et al. (2025)|English",
+  "lang": "",
+  "scale": "interoception (By sensations inside your body)",
+  "R": "R1 [LLM]",
+  "cat2": "core"
+ },
+ {
+  "key": "Conde et al. (2025)|English",
+  "lang": "",
+  "scale": "vision",
+  "R": "R1 [LLM]",
+  "cat2": "core"
+ },
+ {
+  "key": "Conde et al. (2025)|English",
+  "lang": "",
+  "scale": "hearing",
+  "R": "R1 [LLM]",
+  "cat2": "core"
+ },
+ {
+  "key": "Conde et al. (2025)|English",
+  "lang": "",
+  "scale": "taste",
+  "R": "R1 [LLM]",
+  "cat2": "core"
+ },
+ {
+  "key": "Conde et al. (2025)|English",
+  "lang": "",
+  "scale": "smell",
+  "R": "R1 [LLM]",
+  "cat2": "core"
+ },
+ {
+  "key": "Conde et al. (2025)|English",
+  "lang": "",
+  "scale": "touch",
+  "R": "R1 [LLM]",
+  "cat2": "core"
+ },
+ {
+  "key": "Conde et al. (2025)|English",
+  "lang": "",
+  "scale": "interoception",
+  "R": "R1 [LLM]",
+  "cat2": "core"
+ },
+ {
+  "key": "Chersoni et al. (2020)|English",
+  "lang": "",
+  "scale": "modality ratings (taste, sight, sound, smell, touch)",
+  "R": "R1 [model]",
+  "cat2": "core",
+  "note": "model predictions of per-sense norms (Lynott and Connell 2009/2013 -> Italian, Dutch, Chinese); category 2 by construct, rater type = model predictions (decision 2026-11-23)",
+  "status": "excluded (no new ratings)"
+ },
+ {
+  "key": "Popović Stijačić et al. (2023)|Croatian",
+  "lang": "",
+  "scale": "vision (actual and possible)",
+  "R": "R1p",
+  "cat2": "core"
+ },
+ {
+  "key": "Popović Stijačić et al. (2023)|Croatian",
+  "lang": "",
+  "scale": "hearing (actual and possible)",
+  "R": "R1p",
+  "cat2": "core"
+ },
+ {
+  "key": "Popović Stijačić et al. (2023)|Croatian",
+  "lang": "",
+  "scale": "smell (actual and possible)",
+  "R": "R1p",
+  "cat2": "core"
+ },
+ {
+  "key": "Popović Stijačić et al. (2023)|Croatian",
+  "lang": "",
+  "scale": "taste (actual and possible)",
+  "R": "R1p",
+  "cat2": "core"
+ },
+ {
+  "key": "Popović Stijačić et al. (2023)|Croatian",
+  "lang": "",
+  "scale": "touch (actual and possible)",
+  "R": "R1p",
+  "cat2": "core"
+ },
+ {
+  "key": "Popović Stijačić et al. (2023)|Croatian",
+  "lang": "",
+  "scale": "interoception (actual and possible)",
+  "R": "R1p",
+  "cat2": "core"
+ },
+ {
+  "key": "Rueschemeyer et al. (2010)|Dutch",
+  "lang": "",
+  "scale": "action association",
+  "R": "R2a",
+  "cat6": "core",
+  "cat4": "not",
+  "note": "object nouns: action association counts as BOI"
+ },
+ {
+  "key": "Rueschemeyer et al. (2010)|Dutch",
+  "lang": "",
+  "scale": "holdability",
+  "R": "R3",
+  "cat5": "core"
+ },
+ {
+  "key": "Speed and Majid (2017)|Dutch",
+  "lang": "",
+  "scale": "touch",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Speed and Majid (2017)|Dutch",
+  "lang": "",
+  "scale": "hearing",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Speed and Majid (2017)|Dutch",
+  "lang": "",
+  "scale": "vision",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Speed and Majid (2017)|Dutch",
+  "lang": "",
+  "scale": "smell",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Speed and Majid (2017)|Dutch",
+  "lang": "",
+  "scale": "taste",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Speed and Brysbaert (2022)|Dutch",
+  "lang": "",
+  "scale": "touch (door aanraking)",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Speed and Brysbaert (2022)|Dutch",
+  "lang": "",
+  "scale": "hearing (door horen)",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Speed and Brysbaert (2022)|Dutch",
+  "lang": "",
+  "scale": "vision (door zien)",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Speed and Brysbaert (2022)|Dutch",
+  "lang": "",
+  "scale": "smell (door ruiken)",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Speed and Brysbaert (2022)|Dutch",
+  "lang": "",
+  "scale": "taste (door proeven)",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Speed and Brysbaert (2022)|Dutch",
+  "lang": "",
+  "scale": "interoception (door sensaties binnen in het lichaam)",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Gijssels and Casasanto (2020)|Dutch",
+  "lang": "Dutch",
+  "scale": "body part used",
+  "R": "R6",
+  "cat5": "core"
+ },
+ {
+  "key": "Gijssels and Casasanto (2020)|Dutch",
+  "lang": "Dutch",
+  "scale": "one vs. two hands",
+  "R": "R6",
+  "status": "excluded (laterality; revisit for the paper)"
+ },
+ {
+  "key": "Gijssels and Casasanto (2020)|Dutch",
+  "lang": "Dutch",
+  "scale": "hand dominance (one hand)",
+  "R": "R6",
+  "status": "excluded (laterality; revisit for the paper)"
+ },
+ {
+  "key": "Gijssels and Casasanto (2020)|Dutch",
+  "lang": "Dutch",
+  "scale": "hand dominance (two hands)",
+  "R": "R6",
+  "status": "excluded (laterality; revisit for the paper)"
+ },
+ {
+  "key": "Gijssels and Casasanto (2020)|Dutch",
+  "lang": "Dutch",
+  "scale": "implicit hand use (pantomime)",
+  "R": "R7 behavior (pantomime coded)",
+  "status": "excluded (laterality; revisit for the paper)"
+ },
+ {
+  "key": "Gijssels and Casasanto (2020)|English",
+  "lang": "English",
+  "scale": "body part used",
+  "R": "R6",
+  "cat5": "core"
+ },
+ {
+  "key": "Gijssels and Casasanto (2020)|English",
+  "lang": "English",
+  "scale": "one vs. two hands",
+  "R": "R6",
+  "status": "excluded (laterality; revisit for the paper)"
+ },
+ {
+  "key": "Gijssels and Casasanto (2020)|English",
+  "lang": "English",
+  "scale": "hand dominance (one hand)",
+  "R": "R6",
+  "status": "excluded (laterality; revisit for the paper)"
+ },
+ {
+  "key": "Gijssels and Casasanto (2020)|English",
+  "lang": "English",
+  "scale": "hand dominance (two hands)",
+  "R": "R6",
+  "status": "excluded (laterality; revisit for the paper)"
+ },
+ {
+  "key": "Gijssels and Casasanto (2020)|English",
+  "lang": "English",
+  "scale": "implicit hand use (pantomime)",
+  "R": "R7 behavior (pantomime coded)",
+  "status": "excluded (laterality; revisit for the paper)"
+ },
+ {
+  "key": "Medler et al. (2005)|English",
+  "lang": "",
+  "scale": "sound",
+  "R": "R2b",
+  "cat3": "not",
+  "status": "",
+  "cat2": "core"
+ },
+ {
+  "key": "Medler et al. (2005)|English",
+  "lang": "",
+  "scale": "color",
+  "R": "R2b",
+  "cat3": "core"
+ },
+ {
+  "key": "Medler et al. (2005)|English",
+  "lang": "",
+  "scale": "manipulation",
+  "R": "R2b",
+  "cat6": "core"
+ },
+ {
+  "key": "Medler et al. (2005)|English",
+  "lang": "",
+  "scale": "motion",
+  "R": "R2b",
+  "cat3": "core"
+ },
+ {
+  "key": "Siakaluk et al. (2008)|English",
+  "lang": "",
+  "scale": "BOI",
+  "R": "R3",
+  "cat6": "core"
+ },
+ {
+  "key": "Tillotson et al. (2008)|English",
+  "lang": "",
+  "scale": "BOI",
+  "R": "R3",
+  "cat6": "core"
+ },
+ {
+  "key": "Bennett et al. (2011)|English",
+  "lang": "",
+  "scale": "BOI",
+  "R": "R3",
+  "cat6": "core"
+ },
+ {
+  "key": "Juhasz et al. (2011)|English",
+  "lang": "",
+  "scale": "SER",
+  "R": "R1",
+  "cat1": "core"
+ },
+ {
+  "key": "Lynott and Connell (2009)|English",
+  "lang": "",
+  "scale": "touch (by feeling through touch)",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Lynott and Connell (2009)|English",
+  "lang": "",
+  "scale": "hearing (by hearing)",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Lynott and Connell (2009)|English",
+  "lang": "",
+  "scale": "vision (by seeing)",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Lynott and Connell (2009)|English",
+  "lang": "",
+  "scale": "smell (by smelling)",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Lynott and Connell (2009)|English",
+  "lang": "",
+  "scale": "taste (by tasting)",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Lynott and Connell (2013)|English",
+  "lang": "",
+  "scale": "touch (by feeling through touch)",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Lynott and Connell (2013)|English",
+  "lang": "",
+  "scale": "hearing (by hearing)",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Lynott and Connell (2013)|English",
+  "lang": "",
+  "scale": "vision (by seeing)",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Lynott and Connell (2013)|English",
+  "lang": "",
+  "scale": "smell (by smelling)",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Lynott and Connell (2013)|English",
+  "lang": "",
+  "scale": "taste (by tasting)",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "van Dantzig et al. (2011)|English",
+  "lang": "",
+  "scale": "touch (by feeling through touch)",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "van Dantzig et al. (2011)|English",
+  "lang": "",
+  "scale": "hearing (by hearing)",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "van Dantzig et al. (2011)|English",
+  "lang": "",
+  "scale": "vision (by seeing)",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "van Dantzig et al. (2011)|English",
+  "lang": "",
+  "scale": "smell (by smelling)",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "van Dantzig et al. (2011)|English",
+  "lang": "",
+  "scale": "taste (by tasting)",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Amsel et al. (2012)|English",
+  "lang": "",
+  "scale": "color",
+  "R": "R4",
+  "cat3": "core"
+ },
+ {
+  "key": "Amsel et al. (2012)|English",
+  "lang": "",
+  "scale": "visual motion",
+  "R": "R4",
+  "cat3": "core"
+ },
+ {
+  "key": "Amsel et al. (2012)|English",
+  "lang": "",
+  "scale": "graspability",
+  "R": "R4",
+  "cat5": "core"
+ },
+ {
+  "key": "Amsel et al. (2012)|English",
+  "lang": "",
+  "scale": "pain",
+  "R": "R4",
+  "cat3": "core",
+  "note": "likelihood of pain = property question (cat. 3 border), not BOI",
+  "cat6": "not"
+ },
+ {
+  "key": "Amsel et al. (2012)|English",
+  "lang": "",
+  "scale": "sound",
+  "R": "R4",
+  "cat2": "core",
+  "cat3": "not"
+ },
+ {
+  "key": "Amsel et al. (2012)|English",
+  "lang": "",
+  "scale": "taste",
+  "R": "R4",
+  "cat2": "core",
+  "cat3": "not",
+  "status": "excluded (pleasantness, not relevant)"
+ },
+ {
+  "key": "Amsel et al. (2012)|English",
+  "lang": "",
+  "scale": "smell",
+  "R": "R4",
+  "cat2": "core",
+  "cat3": "not"
+ },
+ {
+  "key": "Hoffman and Lambon Ralph (2013)|English",
+  "lang": "",
+  "scale": "colour",
+  "R": "R2b",
+  "cat3": "core"
+ },
+ {
+  "key": "Hoffman and Lambon Ralph (2013)|English",
+  "lang": "",
+  "scale": "visual form",
+  "R": "R2b",
+  "cat3": "core"
+ },
+ {
+  "key": "Hoffman and Lambon Ralph (2013)|English",
+  "lang": "",
+  "scale": "observed motion",
+  "R": "R2b",
+  "cat3": "core"
+ },
+ {
+  "key": "Hoffman and Lambon Ralph (2013)|English",
+  "lang": "",
+  "scale": "sound",
+  "R": "R2b",
+  "cat3": "not",
+  "cat2": "core"
+ },
+ {
+  "key": "Hoffman and Lambon Ralph (2013)|English",
+  "lang": "",
+  "scale": "taste",
+  "R": "R2b",
+  "cat3": "not",
+  "cat2": "core"
+ },
+ {
+  "key": "Hoffman and Lambon Ralph (2013)|English",
+  "lang": "",
+  "scale": "smell",
+  "R": "R2b",
+  "cat3": "not",
+  "cat2": "core"
+ },
+ {
+  "key": "Hoffman and Lambon Ralph (2013)|English",
+  "lang": "",
+  "scale": "tactile sensation",
+  "R": "R2b",
+  "cat3": "not",
+  "cat2": "core"
+ },
+ {
+  "key": "Hoffman and Lambon Ralph (2013)|English",
+  "lang": "",
+  "scale": "performed action",
+  "R": "R2b",
+  "cat6": "core",
+  "cat4": "not",
+  "note": "object nouns: action association counts as BOI"
+ },
+ {
+  "key": "Moseley et al. (2012)|English",
+  "lang": "",
+  "scale": "arm-relatedness",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Moseley et al. (2012)|English",
+  "lang": "",
+  "scale": "face-relatedness",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Moseley et al. (2012)|English",
+  "lang": "",
+  "scale": "action-relatedness",
+  "R": "R2a",
+  "cat4": "core"
+ },
+ {
+  "key": "Carota et al. (2012)|English",
+  "lang": "",
+  "scale": "relatedness to actions generally",
+  "R": "R2a",
+  "cat4": "not",
+  "cat6": "core",
+  "note": "object nouns; instruction via cited source Pulvermüller et al. (1999)"
+ },
+ {
+  "key": "Carota et al. (2012)|English",
+  "lang": "",
+  "scale": "face/mouth action-relatedness",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Carota et al. (2012)|English",
+  "lang": "",
+  "scale": "arm/hand action-relatedness",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Carota et al. (2012)|English",
+  "lang": "",
+  "scale": "relatedness to bodily sensations",
+  "R": "R2a",
+  "cat2": "not",
+  "note": "decision 2026-11-23: global sensory experience restricted to the body",
+  "cat1": "core"
+ },
+ {
+  "key": "Juhasz and Yap (2013)|English",
+  "lang": "",
+  "scale": "SER",
+  "R": "R1",
+  "cat1": "core"
+ },
+ {
+  "key": "Juhasz et al. (2015)|English",
+  "lang": "",
+  "scale": "SER",
+  "R": "R1",
+  "cat1": "core"
+ },
+ {
+  "key": "Sidhu et al. (2014)|English",
+  "lang": "",
+  "scale": "relative embodiment",
+  "R": "R2a",
+  "cat4": "core"
+ },
+ {
+  "key": "Winter (2016)|English",
+  "lang": "",
+  "scale": "vision",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Winter (2016)|English",
+  "lang": "",
+  "scale": "hearing",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Winter (2016)|English",
+  "lang": "",
+  "scale": "touch",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Winter (2016)|English",
+  "lang": "",
+  "scale": "taste",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Winter (2016)|English",
+  "lang": "",
+  "scale": "smell",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Binder et al. (2016)|English",
+  "lang": "",
+  "scale": "Vision (something that you can easily see)",
+  "R": "R4b",
+  "cat2": "core",
+  "note": "only modality-level scales (1 Binder scale = 1 modality = 1 Lancaster scale)",
+  "cat3": "not"
+ },
+ {
+  "key": "Binder et al. (2016)|English",
+  "lang": "",
+  "scale": "Bright (visually light or bright)",
+  "R": "R4b",
+  "cat3": "core"
+ },
+ {
+  "key": "Binder et al. (2016)|English",
+  "lang": "",
+  "scale": "Dark (visually dark)",
+  "R": "R4b",
+  "cat3": "core"
+ },
+ {
+  "key": "Binder et al. (2016)|English",
+  "lang": "",
+  "scale": "Colour (having a characteristic or defining colour)",
+  "R": "R4b",
+  "cat3": "core"
+ },
+ {
+  "key": "Binder et al. (2016)|English",
+  "lang": "",
+  "scale": "Pattern (having a characteristic or defining visual texture or surface pattern)",
+  "R": "R4b",
+  "cat3": "core"
+ },
+ {
+  "key": "Binder et al. (2016)|English",
+  "lang": "",
+  "scale": "Large (large in size)",
+  "R": "R4b",
+  "cat3": "core"
+ },
+ {
+  "key": "Binder et al. (2016)|English",
+  "lang": "",
+  "scale": "Small (small in size)",
+  "R": "R4b",
+  "cat3": "core"
+ },
+ {
+  "key": "Binder et al. (2016)|English",
+  "lang": "",
+  "scale": "Motion (showing a lot of visually observable movement)",
+  "R": "R4b",
+  "cat3": "core"
+ },
+ {
+  "key": "Binder et al. (2016)|English",
+  "lang": "",
+  "scale": "Biomotion (showing movement like that of a living thing)",
+  "R": "R4b",
+  "cat3": "core"
+ },
+ {
+  "key": "Binder et al. (2016)|English",
+  "lang": "",
+  "scale": "Fast (showing visible movement that is fast)",
+  "R": "R4b",
+  "cat3": "core"
+ },
+ {
+  "key": "Binder et al. (2016)|English",
+  "lang": "",
+  "scale": "Slow (showing visible movement that is slow)",
+  "R": "R4b",
+  "cat3": "core"
+ },
+ {
+  "key": "Binder et al. (2016)|English",
+  "lang": "",
+  "scale": "Shape (having a characteristic or defining visual shape or form)",
+  "R": "R4b",
+  "cat3": "core"
+ },
+ {
+  "key": "Binder et al. (2016)|English",
+  "lang": "",
+  "scale": "Complexity (visually complex)",
+  "R": "R4b",
+  "cat3": "core"
+ },
+ {
+  "key": "Binder et al. (2016)|English",
+  "lang": "",
+  "scale": "Face (having a human or human-like face)",
+  "R": "R4b",
+  "cat3": "core"
+ },
+ {
+  "key": "Binder et al. (2016)|English",
+  "lang": "",
+  "scale": "Body (having human or human-like body parts)",
+  "R": "R4b",
+  "cat3": "core"
+ },
+ {
+  "key": "Binder et al. (2016)|English",
+  "lang": "",
+  "scale": "Touch (something that you could easily recognize by touch)",
+  "R": "R4b",
+  "cat2": "core",
+  "note": "only modality-level scales (1 Binder scale = 1 modality = 1 Lancaster scale)",
+  "cat3": "not"
+ },
+ {
+  "key": "Binder et al. (2016)|English",
+  "lang": "",
+  "scale": "Temperature (hot or cold to the touch)",
+  "R": "R4b",
+  "cat3": "core"
+ },
+ {
+  "key": "Binder et al. (2016)|English",
+  "lang": "",
+  "scale": "Texture (having a smooth or rough texture to the touch)",
+  "R": "R4b",
+  "cat3": "core"
+ },
+ {
+  "key": "Binder et al. (2016)|English",
+  "lang": "",
+  "scale": "Weight (light or heavy in weight)",
+  "R": "R4b",
+  "cat3": "core"
+ },
+ {
+  "key": "Binder et al. (2016)|English",
+  "lang": "",
+  "scale": "Pain (associated with pain or physical discomfort)",
+  "R": "R4b",
+  "cat3": "core"
+ },
+ {
+  "key": "Binder et al. (2016)|English",
+  "lang": "",
+  "scale": "Audition (something that you can easily hear)",
+  "R": "R4b",
+  "cat2": "core",
+  "note": "only modality-level scales (1 Binder scale = 1 modality = 1 Lancaster scale)",
+  "cat3": "not"
+ },
+ {
+  "key": "Binder et al. (2016)|English",
+  "lang": "",
+  "scale": "Loud (making a loud sound)",
+  "R": "R4b",
+  "cat3": "core"
+ },
+ {
+  "key": "Binder et al. (2016)|English",
+  "lang": "",
+  "scale": "Low (having a low-pitched sound)",
+  "R": "R4b",
+  "cat3": "core"
+ },
+ {
+  "key": "Binder et al. (2016)|English",
+  "lang": "",
+  "scale": "High (having a high-pitched sound)",
+  "R": "R4b",
+  "cat3": "core"
+ },
+ {
+  "key": "Binder et al. (2016)|English",
+  "lang": "",
+  "scale": "Sound (having a characteristic or recognizable sound or sounds)",
+  "R": "R4b",
+  "cat3": "core"
+ },
+ {
+  "key": "Binder et al. (2016)|English",
+  "lang": "",
+  "scale": "Music (making a musical sound)",
+  "R": "R4b",
+  "cat3": "core"
+ },
+ {
+  "key": "Binder et al. (2016)|English",
+  "lang": "",
+  "scale": "Speech (someone or something that talks)",
+  "R": "R4b",
+  "cat3": "core"
+ },
+ {
+  "key": "Binder et al. (2016)|English",
+  "lang": "",
+  "scale": "Taste (having a characteristic or defining taste)",
+  "R": "R4b",
+  "cat2": "core",
+  "note": "only modality-level scales (1 Binder scale = 1 modality = 1 Lancaster scale)",
+  "cat3": "not"
+ },
+ {
+  "key": "Binder et al. (2016)|English",
+  "lang": "",
+  "scale": "Smell (having a characteristic or defining smell or smells)",
+  "R": "R4b",
+  "cat2": "core",
+  "note": "only modality-level scales (1 Binder scale = 1 modality = 1 Lancaster scale)",
+  "cat3": "not"
+ },
+ {
+  "key": "Binder et al. (2016)|English",
+  "lang": "",
+  "scale": "Head (associated with actions using the face, mouth, or tongue)",
+  "R": "R4b",
+  "cat5": "core"
+ },
+ {
+  "key": "Binder et al. (2016)|English",
+  "lang": "",
+  "scale": "UpperLimb (associated with actions using the arm, hand, or fingers)",
+  "R": "R4b",
+  "cat5": "core"
+ },
+ {
+  "key": "Binder et al. (2016)|English",
+  "lang": "",
+  "scale": "LowerLimb (associated with actions using the leg or foot)",
+  "R": "R4b",
+  "cat5": "core"
+ },
+ {
+  "key": "Binder et al. (2016)|English",
+  "lang": "",
+  "scale": "Practice (a physical object YOU have personal experience using)",
+  "R": "R4b",
+  "cat6": "core"
+ },
+ {
+  "key": "Inkster et al. (2016)|English",
+  "lang": "",
+  "scale": "child BOI",
+  "R": "R3",
+  "cat6": "core"
+ },
+ {
+  "key": "Shebani and Pulvermüller (2013)|English",
+  "lang": "",
+  "scale": "arm-relatedness",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Shebani and Pulvermüller (2013)|English",
+  "lang": "",
+  "scale": "leg-relatedness",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Shebani and Pulvermüller (2013)|English",
+  "lang": "",
+  "scale": "body-relatedness",
+  "R": "R2a",
+  "cat4": "core",
+  "note": "probably same item as Carota \"bodily sensation\" (inference); keep undecided"
+ },
+ {
+  "key": "Shebani and Pulvermüller (2013)|English",
+  "lang": "",
+  "scale": "action-relatedness",
+  "R": "R2a",
+  "cat4": "core",
+  "note": "verbs; instruction via Pulvermüller et al. (1999) (indirect)"
+ },
+ {
+  "key": "Shebani and Pulvermüller (2013)|English",
+  "lang": "",
+  "scale": "visual relatedness",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Pexman et al. (2019)|English",
+  "lang": "",
+  "scale": "BOI",
+  "R": "R3",
+  "cat6": "core"
+ },
+ {
+  "key": "Heard et al. (2019)|English",
+  "lang": "",
+  "scale": "graspability",
+  "R": "R3",
+  "cat5": "core"
+ },
+ {
+  "key": "Heard et al. (2019)|English",
+  "lang": "",
+  "scale": "ease of pantomime",
+  "R": "R3",
+  "status": "excluded"
+ },
+ {
+  "key": "Heard et al. (2019)|English",
+  "lang": "",
+  "scale": "number of actions",
+  "R": "R6",
+  "status": "",
+  "cat6": "core"
+ },
+ {
+  "key": "Muraki et al. (2022)|English",
+  "lang": "",
+  "scale": "child BOI",
+  "R": "R3",
+  "cat6": "core"
+ },
+ {
+  "key": "Muraki et al. (2025)|English",
+  "lang": "",
+  "scale": "graspability",
+  "R": "R3",
+  "cat5": "core"
+ },
+ {
+  "key": "Bonin et al. (2015)|French",
+  "lang": "",
+  "scale": "SER",
+  "R": "R1",
+  "cat1": "core"
+ },
+ {
+  "key": "Chedid et al. (2019)|French",
+  "lang": "",
+  "scale": "visual",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Chedid et al. (2019)|French",
+  "lang": "",
+  "scale": "auditory",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Miceli et al. (2021)|French",
+  "lang": "",
+  "scale": "visual",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Miceli et al. (2021)|French",
+  "lang": "",
+  "scale": "auditory",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Miceli et al. (2021)|French",
+  "lang": "",
+  "scale": "haptic",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Miceli et al. (2021)|French",
+  "lang": "",
+  "scale": "gustatory",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Miceli et al. (2021)|French",
+  "lang": "",
+  "scale": "olfactory",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Miceli et al. (2021)|French",
+  "lang": "",
+  "scale": "interoception",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Bonin et al. (2022)|French",
+  "lang": "",
+  "scale": "SER",
+  "R": "R1",
+  "cat1": "core"
+ },
+ {
+  "key": "Miceli et al. (2022)|French",
+  "lang": "",
+  "scale": "visual",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Miceli et al. (2022)|French",
+  "lang": "",
+  "scale": "auditory",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Miceli et al. (2022)|French",
+  "lang": "",
+  "scale": "haptic",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Miceli et al. (2022)|French",
+  "lang": "",
+  "scale": "gustatory",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Miceli et al. (2022)|French",
+  "lang": "",
+  "scale": "olfactory",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Miceli et al. (2022)|French",
+  "lang": "",
+  "scale": "BOI",
+  "R": "R3",
+  "cat6": "core"
+ },
+ {
+  "key": "Paisios (2024)|French",
+  "lang": "",
+  "scale": "BOI",
+  "R": "R3",
+  "cat6": "core"
+ },
+ {
+  "key": "Paisios (2024)|French",
+  "lang": "",
+  "scale": "graspability",
+  "R": "R3",
+  "cat5": "core"
+ },
+ {
+  "key": "Paisios (2024)|French",
+  "lang": "",
+  "scale": "action association",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Paisios (2024)|French",
+  "lang": "",
+  "scale": "usability (can be used with the hands)",
+  "R": "R6",
+  "cat5": "core"
+ },
+ {
+  "key": "Paisios (2024)|French",
+  "lang": "",
+  "scale": "number of manual actions",
+  "R": "R6",
+  "cat5": "core"
+ },
+ {
+  "key": "Paisios (2024)|French",
+  "lang": "",
+  "scale": "posture difference (use vs. grasp)",
+  "R": "R3",
+  "status": "excluded"
+ },
+ {
+  "key": "Paisios (2024)|French",
+  "lang": "",
+  "scale": "ease of pantomime (recognisability)",
+  "R": "R3",
+  "status": "excluded"
+ },
+ {
+  "key": "Lalancette et al. (2024)|French",
+  "lang": "",
+  "scale": "BOI",
+  "R": "R3",
+  "cat6": "core"
+ },
+ {
+  "key": "Kiefer et al. (2008)|German",
+  "lang": "",
+  "scale": "acoustic features",
+  "R": "R2b",
+  "cat2": "core",
+  "cat3": "not"
+ },
+ {
+  "key": "Kiefer et al. (2008)|German",
+  "lang": "",
+  "scale": "visual features",
+  "R": "R2b",
+  "cat2": "core",
+  "cat3": "not"
+ },
+ {
+  "key": "Kiefer et al. (2008)|German",
+  "lang": "",
+  "scale": "motor (action) features",
+  "R": "R2b",
+  "cat6": "core",
+  "cat4": "not",
+  "note": "object nouns: action association counts as BOI"
+ },
+ {
+  "key": "Kiefer et al. (2012)|German",
+  "lang": "",
+  "scale": "action",
+  "R": "R2b",
+  "cat6": "core",
+  "cat4": "not",
+  "note": "object nouns: action association counts as BOI"
+ },
+ {
+  "key": "Kiefer et al. (2012)|German",
+  "lang": "",
+  "scale": "acoustic",
+  "R": "R2b",
+  "cat2": "core",
+  "cat3": "not"
+ },
+ {
+  "key": "Kiefer et al. (2012)|German",
+  "lang": "",
+  "scale": "visual",
+  "R": "R2b",
+  "cat2": "core",
+  "cat3": "not"
+ },
+ {
+  "key": "Niccolai et al. (2014)|German",
+  "lang": "",
+  "scale": "body part used",
+  "R": "R6",
+  "cat5": "core"
+ },
+ {
+  "key": "Suggate and Stoeger (2014)|German",
+  "lang": "",
+  "scale": "BOI",
+  "R": "R3",
+  "cat6": "core"
+ },
+ {
+  "key": "Suggate and Stoeger (2014)|German",
+  "lang": "",
+  "scale": "manipulability (hands)",
+  "R": "R3",
+  "cat5": "core"
+ },
+ {
+  "key": "Dreyer et al. (2015)|German",
+  "lang": "",
+  "scale": "hand/arm actions",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Dreyer et al. (2015)|German",
+  "lang": "",
+  "scale": "face/mouth actions",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Dreyer et al. (2015)|German",
+  "lang": "",
+  "scale": "leg/foot actions",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Dreyer et al. (2015)|German",
+  "lang": "",
+  "scale": "visual perception",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Dreyer et al. (2015)|German",
+  "lang": "",
+  "scale": "olfactory perception",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Dreyer et al. (2015)|German",
+  "lang": "",
+  "scale": "gustatory perception",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Dreyer et al. (2015)|German",
+  "lang": "",
+  "scale": "haptic/tactile perception",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Popp et al. (2016)|German",
+  "lang": "",
+  "scale": "visual features",
+  "R": "R2b",
+  "cat2": "core",
+  "cat3": "not",
+  "note": "verbs: action = body involvement (cat. 5); visual/sound = cat. 1; emotions out of scope"
+ },
+ {
+  "key": "Popp et al. (2016)|German",
+  "lang": "",
+  "scale": "action features",
+  "R": "R2b",
+  "cat4": "core",
+  "note": "verbs: action = body involvement (cat. 5); visual/sound = cat. 1; emotions out of scope"
+ },
+ {
+  "key": "Popp et al. (2016)|German",
+  "lang": "",
+  "scale": "sound features",
+  "R": "R2b",
+  "cat2": "core",
+  "cat3": "not",
+  "note": "verbs: action = body involvement (cat. 5); visual/sound = cat. 1; emotions out of scope"
+ },
+ {
+  "key": "Heck and Mohr (2017)|German",
+  "lang": "",
+  "scale": "foot-relatedness",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Heck and Mohr (2017)|German",
+  "lang": "",
+  "scale": "hand-relatedness",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Heck and Mohr (2017)|German",
+  "lang": "",
+  "scale": "typical hand",
+  "R": "R6",
+  "status": "excluded (laterality; revisit for the paper)"
+ },
+ {
+  "key": "Heck and Mohr (2017)|German",
+  "lang": "",
+  "scale": "uni- vs. bimanual",
+  "R": "R6",
+  "status": "excluded (laterality; revisit for the paper)"
+ },
+ {
+  "key": "Ciaccio et al. (2025)|German",
+  "lang": "",
+  "scale": "action relatedness (words)",
+  "R": "R2a",
+  "cat4": "not",
+  "cat6": "core",
+  "note": "object nouns (animals, tools): action relatedness counts as BOI"
+ },
+ {
+  "key": "Ghio et al. (2013)|Italian",
+  "lang": "",
+  "scale": "mouth involvement",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Ghio et al. (2013)|Italian",
+  "lang": "",
+  "scale": "hand involvement",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Ghio et al. (2013)|Italian",
+  "lang": "",
+  "scale": "leg involvement",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Gainotti et al. (2013)|Italian",
+  "lang": "",
+  "scale": "visual shape",
+  "R": "R2b",
+  "cat3": "core"
+ },
+ {
+  "key": "Gainotti et al. (2013)|Italian",
+  "lang": "",
+  "scale": "visual colour",
+  "R": "R2b",
+  "cat3": "core"
+ },
+ {
+  "key": "Gainotti et al. (2013)|Italian",
+  "lang": "",
+  "scale": "auditory",
+  "R": "R2b",
+  "cat2": "core",
+  "cat3": "not"
+ },
+ {
+  "key": "Gainotti et al. (2013)|Italian",
+  "lang": "",
+  "scale": "olfactory",
+  "R": "R2b",
+  "cat2": "core",
+  "cat3": "not"
+ },
+ {
+  "key": "Gainotti et al. (2013)|Italian",
+  "lang": "",
+  "scale": "gustatory",
+  "R": "R2b",
+  "cat2": "core",
+  "cat3": "not"
+ },
+ {
+  "key": "Gainotti et al. (2013)|Italian",
+  "lang": "",
+  "scale": "tactile",
+  "R": "R2b",
+  "cat2": "core",
+  "cat3": "not"
+ },
+ {
+  "key": "Gainotti et al. (2013)|Italian",
+  "lang": "",
+  "scale": "action/movement",
+  "R": "R2b",
+  "cat4": "core"
+ },
+ {
+  "key": "Morucci et al. (2019)|Italian",
+  "lang": "",
+  "scale": "touch",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Morucci et al. (2019)|Italian",
+  "lang": "",
+  "scale": "audition",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Morucci et al. (2019)|Italian",
+  "lang": "",
+  "scale": "vision",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Morucci et al. (2019)|Italian",
+  "lang": "",
+  "scale": "smell",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Morucci et al. (2019)|Italian",
+  "lang": "",
+  "scale": "taste",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Villani et al. (2019)|Italian",
+  "lang": "",
+  "scale": "BOI",
+  "R": "R3",
+  "cat6": "core"
+ },
+ {
+  "key": "Villani et al. (2019)|Italian",
+  "lang": "",
+  "scale": "vision",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Villani et al. (2019)|Italian",
+  "lang": "",
+  "scale": "touch",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Villani et al. (2019)|Italian",
+  "lang": "",
+  "scale": "hearing",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Villani et al. (2019)|Italian",
+  "lang": "",
+  "scale": "smell",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Villani et al. (2019)|Italian",
+  "lang": "",
+  "scale": "taste",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Villani et al. (2019)|Italian",
+  "lang": "",
+  "scale": "interoception",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Villani et al. (2019)|Italian",
+  "lang": "",
+  "scale": "mouth involvement",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Villani et al. (2019)|Italian",
+  "lang": "",
+  "scale": "hand involvement",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Vergallito et al. (2020)|Italian",
+  "lang": "",
+  "scale": "hearing (by hearing)",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Vergallito et al. (2020)|Italian",
+  "lang": "",
+  "scale": "taste (by tasting)",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Vergallito et al. (2020)|Italian",
+  "lang": "",
+  "scale": "touch (by feeling through touch)",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Vergallito et al. (2020)|Italian",
+  "lang": "",
+  "scale": "smell (by smelling)",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Vergallito et al. (2020)|Italian",
+  "lang": "",
+  "scale": "vision (by seeing)",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Repetto et al. (2023)|Italian",
+  "lang": "",
+  "scale": "vision",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Repetto et al. (2023)|Italian",
+  "lang": "",
+  "scale": "hearing",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Repetto et al. (2023)|Italian",
+  "lang": "",
+  "scale": "taste",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Repetto et al. (2023)|Italian",
+  "lang": "",
+  "scale": "smell",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Repetto et al. (2023)|Italian",
+  "lang": "",
+  "scale": "touch",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Repetto et al. (2023)|Italian",
+  "lang": "",
+  "scale": "interoception",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Repetto et al. (2023)|Italian",
+  "lang": "",
+  "scale": "mouth/throat",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Repetto et al. (2023)|Italian",
+  "lang": "",
+  "scale": "hand/arm",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Repetto et al. (2023)|Italian",
+  "lang": "",
+  "scale": "foot/leg",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Repetto et al. (2023)|Italian",
+  "lang": "",
+  "scale": "head (excluding mouth/throat)",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Repetto et al. (2023)|Italian",
+  "lang": "",
+  "scale": "torso",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Falcinelli et al. (2024)|Italian",
+  "lang": "",
+  "scale": "BOI",
+  "R": "R3",
+  "cat6": "core"
+ },
+ {
+  "key": "Falcinelli et al. (2024)|Italian",
+  "lang": "",
+  "scale": "vision",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Falcinelli et al. (2024)|Italian",
+  "lang": "",
+  "scale": "touch",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Falcinelli et al. (2024)|Italian",
+  "lang": "",
+  "scale": "hearing",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Falcinelli et al. (2024)|Italian",
+  "lang": "",
+  "scale": "taste",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Falcinelli et al. (2024)|Italian",
+  "lang": "",
+  "scale": "smell",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Falcinelli et al. (2024)|Italian",
+  "lang": "",
+  "scale": "interoception",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Falcinelli et al. (2024)|Italian",
+  "lang": "",
+  "scale": "hands/arms",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Falcinelli et al. (2024)|Italian",
+  "lang": "",
+  "scale": "feet/legs",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Falcinelli et al. (2024)|Italian",
+  "lang": "",
+  "scale": "mouth/throat",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Falcinelli et al. (2024)|Italian",
+  "lang": "",
+  "scale": "torso",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Frau et al. (2025)|Italian",
+  "lang": "",
+  "scale": "relative embodiment",
+  "R": "R2a",
+  "cat4": "core"
+ },
+ {
+  "key": "Ghandhari et al. (2020)|Italian / Persian",
+  "lang": "",
+  "scale": "BOI",
+  "R": "R?",
+  "cat6": "core",
+  "note": "instruction via cited source (Villani et al., 2019 OSF)"
+ },
+ {
+  "key": "Ghandhari et al. (2020)|Italian / Persian",
+  "lang": "",
+  "scale": "quantity of motion",
+  "R": "R?",
+  "cat4": "undecided",
+  "note": "may be motion of the object itself (perceptual), not motor"
+ },
+ {
+  "key": "Ghandhari et al. (2020)|Italian / Persian",
+  "lang": "",
+  "scale": "perceptual strength",
+  "R": "R?",
+  "cat1": "not",
+  "cat2": "core",
+  "note": "instruction via cited source (Villani et al., 2019 OSF)"
+ },
+ {
+  "key": "Mochizuki and Ota (2020)|Japanese",
+  "lang": "",
+  "scale": "relative embodiment",
+  "R": "R2a",
+  "cat4": "core"
+ },
+ {
+  "key": "Iida and Akita (2023)|Japanese",
+  "lang": "",
+  "scale": "touch",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Iida and Akita (2023)|Japanese",
+  "lang": "",
+  "scale": "hearing",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Iida and Akita (2023)|Japanese",
+  "lang": "",
+  "scale": "smell",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Iida and Akita (2023)|Japanese",
+  "lang": "",
+  "scale": "taste",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Iida and Akita (2023)|Japanese",
+  "lang": "",
+  "scale": "vision",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Iida and Akita (2023)|Japanese",
+  "lang": "",
+  "scale": "senses inside the body (interoception)",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Mochizuki and Ota (2026)|Japanese",
+  "lang": "",
+  "scale": "BOI",
+  "R": "R3",
+  "cat6": "core"
+ },
+ {
+  "key": "McLean et al. (2026)|Japanese",
+  "lang": "",
+  "scale": "sound (oto)",
+  "R": "R5",
+  "status": "excluded (imagery instruction)"
+ },
+ {
+  "key": "McLean et al. (2026)|Japanese",
+  "lang": "",
+  "scale": "movement (dōsa)",
+  "R": "R5",
+  "status": "excluded (imagery instruction)"
+ },
+ {
+  "key": "McLean et al. (2026)|Japanese",
+  "lang": "",
+  "scale": "shape (katachi)",
+  "R": "R5",
+  "status": "excluded (imagery instruction)"
+ },
+ {
+  "key": "McLean et al. (2026)|Japanese",
+  "lang": "",
+  "scale": "pattern (moyō)",
+  "R": "R5",
+  "status": "excluded (imagery instruction)"
+ },
+ {
+  "key": "McLean et al. (2026)|Japanese",
+  "lang": "",
+  "scale": "light (hikari)",
+  "R": "R5",
+  "status": "excluded (imagery instruction)"
+ },
+ {
+  "key": "McLean et al. (2026)|Japanese",
+  "lang": "",
+  "scale": "appearance (yōsu)",
+  "R": "R5",
+  "status": "excluded (imagery instruction)"
+ },
+ {
+  "key": "McLean et al. (2026)|Japanese",
+  "lang": "",
+  "scale": "touch [or feel] (kanshoku)",
+  "R": "R5",
+  "status": "excluded (imagery instruction)"
+ },
+ {
+  "key": "McLean et al. (2026)|Japanese",
+  "lang": "",
+  "scale": "color (iro)",
+  "R": "R5",
+  "status": "excluded (imagery instruction)"
+ },
+ {
+  "key": "McLean et al. (2026)|Japanese",
+  "lang": "",
+  "scale": "pain (itami)",
+  "R": "R5",
+  "status": "excluded (imagery instruction)"
+ },
+ {
+  "key": "McLean et al. (2026)|Japanese",
+  "lang": "",
+  "scale": "mood [or feeling] (kibun)",
+  "R": "R5",
+  "status": "excluded (imagery instruction)"
+ },
+ {
+  "key": "McLean et al. (2026)|Japanese",
+  "lang": "",
+  "scale": "emotion (kanjō)",
+  "R": "R5",
+  "status": "excluded (imagery instruction)"
+ },
+ {
+  "key": "McLean et al. (2026)|Japanese",
+  "lang": "",
+  "scale": "taste (aji)",
+  "R": "R5",
+  "status": "excluded (imagery instruction)"
+ },
+ {
+  "key": "McLean et al. (2026)|Japanese",
+  "lang": "",
+  "scale": "smell (nioi)",
+  "R": "R5",
+  "status": "excluded (imagery instruction)"
+ },
+ {
+  "key": "Lee and Shin (2023)|Korean",
+  "lang": "",
+  "scale": "visual",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Lee and Shin (2023)|Korean",
+  "lang": "",
+  "scale": "auditory",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Lee and Shin (2023)|Korean",
+  "lang": "",
+  "scale": "haptic",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Lee and Shin (2023)|Korean",
+  "lang": "",
+  "scale": "gustatory",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Lee and Shin (2023)|Korean",
+  "lang": "",
+  "scale": "olfactory",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Lee and Shin (2023)|Korean",
+  "lang": "",
+  "scale": "interoceptive",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Bonin et al. (2013)|Russian",
+  "lang": "",
+  "scale": "BOI",
+  "R": "R3",
+  "cat6": "core"
+ },
+ {
+  "key": "Miklashevsky (2018)|Russian",
+  "lang": "",
+  "scale": "visual",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Miklashevsky (2018)|Russian",
+  "lang": "",
+  "scale": "auditory",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Miklashevsky (2018)|Russian",
+  "lang": "",
+  "scale": "tactile (haptic)",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Miklashevsky (2018)|Russian",
+  "lang": "",
+  "scale": "olfactory",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Miklashevsky (2018)|Russian",
+  "lang": "",
+  "scale": "gustatory",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Miklashevsky (2018)|Russian",
+  "lang": "",
+  "scale": "manipulability",
+  "R": "R3",
+  "cat5": "core"
+ },
+ {
+  "key": "Miklashevsky (2018)|Russian",
+  "lang": "",
+  "scale": "vertical spatial localization",
+  "R": "R4",
+  "status": "excluded (spatial; revisit later)"
+ },
+ {
+  "key": "Filipović Đurđević et al. (2016)|Serbian",
+  "lang": "",
+  "scale": "visual (possible experience)",
+  "R": "R1p",
+  "cat2": "core"
+ },
+ {
+  "key": "Filipović Đurđević et al. (2016)|Serbian",
+  "lang": "",
+  "scale": "visual (actual experience)",
+  "R": "R1p",
+  "cat2": "core"
+ },
+ {
+  "key": "Filipović Đurđević et al. (2016)|Serbian",
+  "lang": "",
+  "scale": "auditory (possible experience)",
+  "R": "R1p",
+  "cat2": "core"
+ },
+ {
+  "key": "Filipović Đurđević et al. (2016)|Serbian",
+  "lang": "",
+  "scale": "auditory (actual experience)",
+  "R": "R1p",
+  "cat2": "core"
+ },
+ {
+  "key": "Filipović Đurđević et al. (2016)|Serbian",
+  "lang": "",
+  "scale": "olfactory (possible experience)",
+  "R": "R1p",
+  "cat2": "core"
+ },
+ {
+  "key": "Filipović Đurđević et al. (2016)|Serbian",
+  "lang": "",
+  "scale": "olfactory (actual experience)",
+  "R": "R1p",
+  "cat2": "core"
+ },
+ {
+  "key": "Filipović Đurđević et al. (2016)|Serbian",
+  "lang": "",
+  "scale": "gustatory (possible experience)",
+  "R": "R1p",
+  "cat2": "core"
+ },
+ {
+  "key": "Filipović Đurđević et al. (2016)|Serbian",
+  "lang": "",
+  "scale": "gustatory (actual experience)",
+  "R": "R1p",
+  "cat2": "core"
+ },
+ {
+  "key": "Filipović Đurđević et al. (2016)|Serbian",
+  "lang": "",
+  "scale": "tactile (possible experience)",
+  "R": "R1p",
+  "cat2": "core"
+ },
+ {
+  "key": "Filipović Đurđević et al. (2016)|Serbian",
+  "lang": "",
+  "scale": "tactile (actual experience)",
+  "R": "R1p",
+  "cat2": "core"
+ },
+ {
+  "key": "Popović Stijačić and Filipović Đurđević (2025)|Serbian",
+  "lang": "",
+  "scale": "vision (possible experience)",
+  "R": "R1p",
+  "cat2": "core"
+ },
+ {
+  "key": "Popović Stijačić and Filipović Đurđević (2025)|Serbian",
+  "lang": "",
+  "scale": "vision (actual experience)",
+  "R": "R1p",
+  "cat2": "core"
+ },
+ {
+  "key": "Popović Stijačić and Filipović Đurđević (2025)|Serbian",
+  "lang": "",
+  "scale": "touch (possible experience)",
+  "R": "R1p",
+  "cat2": "core"
+ },
+ {
+  "key": "Popović Stijačić and Filipović Đurđević (2025)|Serbian",
+  "lang": "",
+  "scale": "touch (actual experience)",
+  "R": "R1p",
+  "cat2": "core"
+ },
+ {
+  "key": "Popović Stijačić and Filipović Đurđević (2025)|Serbian",
+  "lang": "",
+  "scale": "smell (possible experience)",
+  "R": "R1p",
+  "cat2": "core"
+ },
+ {
+  "key": "Popović Stijačić and Filipović Đurđević (2025)|Serbian",
+  "lang": "",
+  "scale": "smell (actual experience)",
+  "R": "R1p",
+  "cat2": "core"
+ },
+ {
+  "key": "Popović Stijačić and Filipović Đurđević (2025)|Serbian",
+  "lang": "",
+  "scale": "taste (possible experience)",
+  "R": "R1p",
+  "cat2": "core"
+ },
+ {
+  "key": "Popović Stijačić and Filipović Đurđević (2025)|Serbian",
+  "lang": "",
+  "scale": "taste (actual experience)",
+  "R": "R1p",
+  "cat2": "core"
+ },
+ {
+  "key": "Popović Stijačić and Filipović Đurđević (2025)|Serbian",
+  "lang": "",
+  "scale": "hearing (possible experience)",
+  "R": "R1p",
+  "cat2": "core"
+ },
+ {
+  "key": "Popović Stijačić and Filipović Đurđević (2025)|Serbian",
+  "lang": "",
+  "scale": "hearing (actual experience)",
+  "R": "R1p",
+  "cat2": "core"
+ },
+ {
+  "key": "Moreno-Martínez et al. (2014)|Spanish",
+  "lang": "",
+  "scale": "manipulability",
+  "R": "R3",
+  "cat5": "core"
+ },
+ {
+  "key": "Hinojosa et al. (2016)|Spanish",
+  "lang": "",
+  "scale": "SER",
+  "R": "R1",
+  "cat1": "core"
+ },
+ {
+  "key": "Díez-Álamo et al. (2018)|Spanish",
+  "lang": "",
+  "scale": "color",
+  "R": "R4",
+  "cat3": "core"
+ },
+ {
+  "key": "Díez-Álamo et al. (2018)|Spanish",
+  "lang": "",
+  "scale": "motion",
+  "R": "R4",
+  "cat3": "core"
+ },
+ {
+  "key": "Díez-Álamo et al. (2018)|Spanish",
+  "lang": "",
+  "scale": "graspability",
+  "R": "R4",
+  "cat5": "core"
+ },
+ {
+  "key": "Díez-Álamo et al. (2018)|Spanish",
+  "lang": "",
+  "scale": "pain",
+  "R": "R4",
+  "cat3": "core",
+  "note": "likelihood of pain = property question (cat. 3 border), not BOI",
+  "cat6": "not"
+ },
+ {
+  "key": "Díez-Álamo et al. (2018)|Spanish",
+  "lang": "",
+  "scale": "sound",
+  "R": "R4",
+  "cat2": "core",
+  "cat3": "not"
+ },
+ {
+  "key": "Díez-Álamo et al. (2018)|Spanish",
+  "lang": "",
+  "scale": "taste",
+  "R": "R4",
+  "cat2": "core",
+  "cat3": "not",
+  "status": "excluded (pleasantness, not relevant)"
+ },
+ {
+  "key": "Díez-Álamo et al. (2018)|Spanish",
+  "lang": "",
+  "scale": "smell",
+  "R": "R4",
+  "cat2": "core",
+  "cat3": "not"
+ },
+ {
+  "key": "Alonso et al. (2018)|Spanish",
+  "lang": "",
+  "scale": "BOI",
+  "R": "R3",
+  "cat6": "core"
+ },
+ {
+  "key": "Díez-Álamo et al. (2019)|Spanish",
+  "lang": "",
+  "scale": "SER",
+  "R": "R1",
+  "cat1": "core"
+ },
+ {
+  "key": "San Miguel Abella and González-Nosti (2020)|Spanish",
+  "lang": "",
+  "scale": "motor content",
+  "R": "R2a",
+  "cat4": "core"
+ },
+ {
+  "key": "Díez-Álamo et al. (2025)|Spanish",
+  "lang": "",
+  "scale": "touch",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Díez-Álamo et al. (2025)|Spanish",
+  "lang": "",
+  "scale": "hearing",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Díez-Álamo et al. (2025)|Spanish",
+  "lang": "",
+  "scale": "sight",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Díez-Álamo et al. (2025)|Spanish",
+  "lang": "",
+  "scale": "smell",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Díez-Álamo et al. (2025)|Spanish",
+  "lang": "",
+  "scale": "taste",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Van Havermaet (2013)|English",
+  "lang": "",
+  "scale": "BOI",
+  "R": "R3",
+  "cat6": "core",
+  "note": "dataset = dissertation; 2014 paper = related publication",
+  "status": ""
+ },
+ {
+  "key": "Mochizuki et al. (2014)|Japanese",
+  "lang": "",
+  "scale": "BOI",
+  "R": "R3",
+  "cat6": "core",
+  "note": "unverified (paper not available); kept and flagged; category from title/abstract"
+ },
+ {
+  "key": "Kumcu and Yağlı (2021)|Turkish",
+  "lang": "",
+  "scale": "six perceptual modalities",
+  "R": "R?",
+  "cat2": "core",
+  "note": "unverified (paper not available); kept and flagged; category from title/abstract"
+ },
+ {
+  "key": "Popović Stijačić et al. (2023)|Croatian",
+  "lang": "",
+  "scale": "head without mouth (actual and possible)",
+  "R": "R1p",
+  "cat5": "core"
+ },
+ {
+  "key": "Popović Stijačić et al. (2023)|Croatian",
+  "lang": "",
+  "scale": "hand and arm (actual and possible)",
+  "R": "R1p",
+  "cat5": "core"
+ },
+ {
+  "key": "Popović Stijačić et al. (2023)|Croatian",
+  "lang": "",
+  "scale": "foot/torso (actual and possible)",
+  "R": "R1p",
+  "cat5": "core"
+ },
+ {
+  "key": "Popović Stijačić et al. (2023)|Croatian",
+  "lang": "",
+  "scale": "mouth/throat (actual and possible)",
+  "R": "R1p",
+  "cat5": "core"
+ },
+ {
+  "key": "Platonova and Miklashevsky (2025)|German",
+  "lang": "German",
+  "scale": "vision",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Platonova and Miklashevsky (2025)|German",
+  "lang": "German",
+  "scale": "hearing",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Platonova and Miklashevsky (2025)|German",
+  "lang": "German",
+  "scale": "touch",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Platonova and Miklashevsky (2025)|German",
+  "lang": "German",
+  "scale": "taste",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Platonova and Miklashevsky (2025)|German",
+  "lang": "German",
+  "scale": "smell",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Kolbeneva and Alexandrov (2010)|Russian",
+  "lang": "Russian",
+  "scale": "vision",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Kolbeneva and Alexandrov (2010)|Russian",
+  "lang": "Russian",
+  "scale": "hearing",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Kolbeneva and Alexandrov (2010)|Russian",
+  "lang": "Russian",
+  "scale": "touch",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Kolbeneva and Alexandrov (2010)|Russian",
+  "lang": "Russian",
+  "scale": "smell",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Kolbeneva and Alexandrov (2010)|Russian",
+  "lang": "Russian",
+  "scale": "taste",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Pulvermüller et al. (1999)|German",
+  "lang": "German",
+  "scale": "visual associations",
+  "R": "R2a",
+  "note": "stimulus rating",
+  "cat2": "core"
+ },
+ {
+  "key": "Pulvermüller et al. (1999)|German",
+  "lang": "German",
+  "scale": "action associations",
+  "R": "R2a",
+  "note": "stimulus rating",
+  "cat4": "core"
+ },
+ {
+  "key": "González et al. (2006)|Spanish",
+  "lang": "Spanish",
+  "scale": "olfactory associations",
+  "R": "R2a",
+  "note": "stimulus rating",
+  "cat2": "core"
+ },
+ {
+  "key": "Barrós-Loscertales et al. (2012)|Spanish",
+  "lang": "Spanish",
+  "scale": "gustatory (pre-norming)",
+  "R": "R2a",
+  "note": "stimulus rating",
+  "cat2": "core"
+ },
+ {
+  "key": "Barrós-Loscertales et al. (2012)|Spanish",
+  "lang": "Spanish",
+  "scale": "gustation",
+  "R": "R2a",
+  "note": "stimulus rating",
+  "cat2": "core"
+ },
+ {
+  "key": "Barrós-Loscertales et al. (2012)|Spanish",
+  "lang": "Spanish",
+  "scale": "olfaction",
+  "R": "R2a",
+  "note": "stimulus rating",
+  "cat2": "core"
+ },
+ {
+  "key": "Barrós-Loscertales et al. (2012)|Spanish",
+  "lang": "Spanish",
+  "scale": "action",
+  "R": "R2a",
+  "note": "stimulus rating",
+  "cat4": "core"
+ },
+ {
+  "key": "Barrós-Loscertales et al. (2012)|Spanish",
+  "lang": "Spanish",
+  "scale": "vision",
+  "R": "R2a",
+  "note": "stimulus rating",
+  "cat2": "core"
+ },
+ {
+  "key": "Hauk and Pulvermüller (2004)|English",
+  "lang": "English",
+  "scale": "arm/leg/face movements",
+  "R": "R2a",
+  "note": "stimulus rating",
+  "cat5": "core"
+ },
+ {
+  "key": "Yaguchi (2011)|Japanese",
+  "lang": "Japanese",
+  "scale": "five senses",
+  "R": "R2a",
+  "note": "stimulus rating",
+  "cat2": "core"
+ },
+ {
+  "key": "Barca et al. (2026)|Italian",
+  "lang": "Italian",
+  "scale": "BOI",
+  "R": "R3",
+  "note": "stimulus rating",
+  "cat6": "core"
+ },
+ {
+  "key": "Barca et al. (2026)|Italian",
+  "lang": "Italian",
+  "scale": "interoception",
+  "R": "R?",
+  "note": "stimulus rating",
+  "cat2": "core"
+ },
+ {
+  "key": "Striedl et al. (2024)|German",
+  "lang": "",
+  "scale": "touch",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Striedl et al. (2024)|English",
+  "lang": "",
+  "scale": "touch",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Striedl et al. (2024)|French",
+  "lang": "",
+  "scale": "touch",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Striedl et al. (2024)|German",
+  "lang": "",
+  "scale": "taste",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Striedl et al. (2024)|English",
+  "lang": "",
+  "scale": "taste",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Striedl et al. (2024)|French",
+  "lang": "",
+  "scale": "taste",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Striedl et al. (2024)|German",
+  "lang": "",
+  "scale": "smell",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Striedl et al. (2024)|English",
+  "lang": "",
+  "scale": "smell",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Striedl et al. (2024)|French",
+  "lang": "",
+  "scale": "smell",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Striedl et al. (2024)|German",
+  "lang": "",
+  "scale": "interoception",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Striedl et al. (2024)|English",
+  "lang": "",
+  "scale": "interoception",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Striedl et al. (2024)|French",
+  "lang": "",
+  "scale": "interoception",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Striedl et al. (2024)|German",
+  "lang": "",
+  "scale": "hearing",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Striedl et al. (2024)|English",
+  "lang": "",
+  "scale": "hearing",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Striedl et al. (2024)|French",
+  "lang": "",
+  "scale": "hearing",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Striedl et al. (2024)|German",
+  "lang": "",
+  "scale": "vision",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Striedl et al. (2024)|English",
+  "lang": "",
+  "scale": "vision",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Striedl et al. (2024)|French",
+  "lang": "",
+  "scale": "vision",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Striedl et al. (2024)|German",
+  "lang": "",
+  "scale": "head",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Striedl et al. (2024)|English",
+  "lang": "",
+  "scale": "head",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Striedl et al. (2024)|French",
+  "lang": "",
+  "scale": "head",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Striedl et al. (2024)|German",
+  "lang": "",
+  "scale": "foot/leg",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Striedl et al. (2024)|English",
+  "lang": "",
+  "scale": "foot/leg",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Striedl et al. (2024)|French",
+  "lang": "",
+  "scale": "foot/leg",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Striedl et al. (2024)|German",
+  "lang": "",
+  "scale": "hand/arm",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Striedl et al. (2024)|English",
+  "lang": "",
+  "scale": "hand/arm",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Striedl et al. (2024)|French",
+  "lang": "",
+  "scale": "hand/arm",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Striedl et al. (2024)|German",
+  "lang": "",
+  "scale": "mouth/throat",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Striedl et al. (2024)|English",
+  "lang": "",
+  "scale": "mouth/throat",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Striedl et al. (2024)|French",
+  "lang": "",
+  "scale": "mouth/throat",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Striedl et al. (2024)|German",
+  "lang": "",
+  "scale": "torso",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Striedl et al. (2024)|English",
+  "lang": "",
+  "scale": "torso",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Striedl et al. (2024)|French",
+  "lang": "",
+  "scale": "torso",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "de Zubicaray et al. (2013)|English",
+  "lang": "English",
+  "scale": "hand-action relatedness",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Amenta et al. (2024)|Italian",
+  "lang": "Italian",
+  "scale": "vision",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Amenta et al. (2024)|Italian",
+  "lang": "Italian",
+  "scale": "hearing",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Amenta et al. (2024)|Italian",
+  "lang": "Italian",
+  "scale": "touch",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Amenta et al. (2024)|Italian",
+  "lang": "Italian",
+  "scale": "taste",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Amenta et al. (2024)|Italian",
+  "lang": "Italian",
+  "scale": "smell",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Speed et al. (2025)|Dutch",
+  "lang": "Dutch",
+  "scale": "vision",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Speed et al. (2025)|Dutch",
+  "lang": "Dutch",
+  "scale": "hearing",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Speed et al. (2025)|Dutch",
+  "lang": "Dutch",
+  "scale": "touch",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Speed et al. (2025)|Dutch",
+  "lang": "Dutch",
+  "scale": "taste",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Speed et al. (2025)|Dutch",
+  "lang": "Dutch",
+  "scale": "smell",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Speed et al. (2025)|Dutch",
+  "lang": "Dutch",
+  "scale": "interoception",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Corciulo et al. (2025)|English",
+  "lang": "English",
+  "scale": "vision",
+  "R": "",
+  "cat2": "core"
+ },
+ {
+  "key": "Corciulo et al. (2025)|English",
+  "lang": "English",
+  "scale": "hearing",
+  "R": "",
+  "cat2": "core"
+ },
+ {
+  "key": "Corciulo et al. (2025)|English",
+  "lang": "English",
+  "scale": "touch",
+  "R": "",
+  "cat2": "core"
+ },
+ {
+  "key": "Corciulo et al. (2025)|English",
+  "lang": "English",
+  "scale": "taste",
+  "R": "",
+  "cat2": "core"
+ },
+ {
+  "key": "Corciulo et al. (2025)|English",
+  "lang": "English",
+  "scale": "smell",
+  "R": "",
+  "cat2": "core"
+ },
+ {
+  "key": "Zarzeczna et al. (2026)|English",
+  "lang": "English",
+  "scale": "vision",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Zarzeczna et al. (2026)|English",
+  "lang": "English",
+  "scale": "hearing",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Zarzeczna et al. (2026)|English",
+  "lang": "English",
+  "scale": "touch",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Zarzeczna et al. (2026)|English",
+  "lang": "English",
+  "scale": "taste",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Zarzeczna et al. (2026)|English",
+  "lang": "English",
+  "scale": "smell",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Zarzeczna et al. (2026)|English",
+  "lang": "English",
+  "scale": "interoception",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Zarzeczna et al. (2026)|English",
+  "lang": "English",
+  "scale": "hand/arm",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Zarzeczna et al. (2026)|English",
+  "lang": "English",
+  "scale": "foot/leg",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Zarzeczna et al. (2026)|English",
+  "lang": "English",
+  "scale": "torso",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Zarzeczna et al. (2026)|English",
+  "lang": "English",
+  "scale": "mouth/throat",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Zarzeczna et al. (2026)|English",
+  "lang": "English",
+  "scale": "head",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Deng et al. (2023)|Chinese",
+  "lang": "Chinese",
+  "scale": "body parts needed",
+  "R": "R6",
+  "cat5": "core"
+ },
+ {
+  "key": "Deng et al. (2023)|Chinese",
+  "lang": "Chinese",
+  "scale": "feeling types involved",
+  "R": "R6",
+  "cat2": "core",
+  "cat3": "core"
+ },
+ {
+  "key": "Dickinson and Yates (2026)|English",
+  "lang": "English",
+  "scale": "potential physical interactions",
+  "R": "R6",
+  "cat6": "core"
+ },
+ {
+  "key": "Gentili et al. (2026)|Italian",
+  "lang": "Italian",
+  "scale": "vision",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Gentili et al. (2026)|Italian",
+  "lang": "Italian",
+  "scale": "hearing",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Gentili et al. (2026)|Italian",
+  "lang": "Italian",
+  "scale": "touch",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Gentili et al. (2026)|Italian",
+  "lang": "Italian",
+  "scale": "taste",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Gentili et al. (2026)|Italian",
+  "lang": "Italian",
+  "scale": "smell",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Gentili et al. (2026)|Italian",
+  "lang": "Italian",
+  "scale": "interoception",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Gentili et al. (2026)|Italian",
+  "lang": "Italian",
+  "scale": "enactment of action",
+  "R": "R2a",
+  "cat4": "core"
+ },
+ {
+  "key": "Xu and Liu (2024b)|Chinese",
+  "lang": "Chinese",
+  "scale": "BOI",
+  "R": "R3",
+  "cat6": "core"
+ },
+ {
+  "key": "Van Hoey et al. (2024)|Chinese",
+  "lang": "Chinese",
+  "scale": "SER",
+  "R": "R1",
+  "cat1": "core"
+ },
+ {
+  "key": "Filipović Đurđević et al. (2025)|Croatian",
+  "lang": "Croatian",
+  "scale": "vision",
+  "R": "R1p",
+  "cat2": "core"
+ },
+ {
+  "key": "Filipović Đurđević et al. (2025)|Croatian",
+  "lang": "Croatian",
+  "scale": "hearing",
+  "R": "R1p",
+  "cat2": "core"
+ },
+ {
+  "key": "Filipović Đurđević et al. (2025)|Croatian",
+  "lang": "Croatian",
+  "scale": "touch",
+  "R": "R1p",
+  "cat2": "core"
+ },
+ {
+  "key": "Filipović Đurđević et al. (2025)|Croatian",
+  "lang": "Croatian",
+  "scale": "taste",
+  "R": "R1p",
+  "cat2": "core"
+ },
+ {
+  "key": "Filipović Đurđević et al. (2025)|Croatian",
+  "lang": "Croatian",
+  "scale": "smell",
+  "R": "R1p",
+  "cat2": "core"
+ },
+ {
+  "key": "Bernabeu (2020)|Dutch",
+  "lang": "Dutch",
+  "scale": "touch",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Bernabeu (2020)|Dutch",
+  "lang": "Dutch",
+  "scale": "hearing",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Bernabeu (2020)|Dutch",
+  "lang": "Dutch",
+  "scale": "vision",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Wu and Tan (2026)|Chinese",
+  "lang": "Chinese",
+  "scale": "vision",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Wu and Tan (2026)|Chinese",
+  "lang": "Chinese",
+  "scale": "hearing",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Wu and Tan (2026)|Chinese",
+  "lang": "Chinese",
+  "scale": "touch",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Wu and Tan (2026)|Chinese",
+  "lang": "Chinese",
+  "scale": "taste",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Wu and Tan (2026)|Chinese",
+  "lang": "Chinese",
+  "scale": "smell",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Wu and Tan (2026)|Chinese",
+  "lang": "Chinese",
+  "scale": "interoception",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Wu and Tan (2026)|English",
+  "lang": "English",
+  "scale": "vision",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Wu and Tan (2026)|English",
+  "lang": "English",
+  "scale": "hearing",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Wu and Tan (2026)|English",
+  "lang": "English",
+  "scale": "touch",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Wu and Tan (2026)|English",
+  "lang": "English",
+  "scale": "taste",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Wu and Tan (2026)|English",
+  "lang": "English",
+  "scale": "smell",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Wu and Tan (2026)|English",
+  "lang": "English",
+  "scale": "interoception",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Muraki and Pexman (2025)|English",
+  "lang": "English",
+  "scale": "embodiment",
+  "R": "R2a",
+  "cat4": "core"
+ },
+ {
+  "key": "Xue et al. (2024)|Chinese",
+  "lang": "Chinese",
+  "scale": "vision",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Xue et al. (2024)|Chinese",
+  "lang": "Chinese",
+  "scale": "hearing",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Xue et al. (2024)|Chinese",
+  "lang": "Chinese",
+  "scale": "touch",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Xue et al. (2024)|Chinese",
+  "lang": "Chinese",
+  "scale": "taste",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Xue et al. (2024)|Chinese",
+  "lang": "Chinese",
+  "scale": "smell",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Xue et al. (2024)|Chinese",
+  "lang": "Chinese",
+  "scale": "interoception",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Xue et al. (2024)|Chinese",
+  "lang": "Chinese",
+  "scale": "hand/arm",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Xue et al. (2024)|Chinese",
+  "lang": "Chinese",
+  "scale": "foot/leg",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Xue et al. (2024)|Chinese",
+  "lang": "Chinese",
+  "scale": "mouth/throat",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Xue et al. (2024)|Chinese",
+  "lang": "Chinese",
+  "scale": "head",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Xue et al. (2024)|Chinese",
+  "lang": "Chinese",
+  "scale": "torso",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Xue et al. (2024)|English",
+  "lang": "English",
+  "scale": "vision",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Xue et al. (2024)|English",
+  "lang": "English",
+  "scale": "hearing",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Xue et al. (2024)|English",
+  "lang": "English",
+  "scale": "touch",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Xue et al. (2024)|English",
+  "lang": "English",
+  "scale": "taste",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Xue et al. (2024)|English",
+  "lang": "English",
+  "scale": "smell",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Xue et al. (2024)|English",
+  "lang": "English",
+  "scale": "interoception",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Xue et al. (2024)|English",
+  "lang": "English",
+  "scale": "hand/arm",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Xue et al. (2024)|English",
+  "lang": "English",
+  "scale": "foot/leg",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Xue et al. (2024)|English",
+  "lang": "English",
+  "scale": "mouth/throat",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Xue et al. (2024)|English",
+  "lang": "English",
+  "scale": "head",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Xue et al. (2024)|English",
+  "lang": "English",
+  "scale": "torso",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Shao et al. (2025b)|Chinese",
+  "lang": "Chinese",
+  "scale": "vision",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Shao et al. (2025b)|Chinese",
+  "lang": "Chinese",
+  "scale": "hearing",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Shao et al. (2025b)|Chinese",
+  "lang": "Chinese",
+  "scale": "touch",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Shao et al. (2025b)|Chinese",
+  "lang": "Chinese",
+  "scale": "taste",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Shao et al. (2025b)|Chinese",
+  "lang": "Chinese",
+  "scale": "smell",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Speed et al. (2023)|English",
+  "lang": "English",
+  "scale": "vision",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Speed et al. (2023)|English",
+  "lang": "English",
+  "scale": "hearing",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Speed et al. (2023)|English",
+  "lang": "English",
+  "scale": "touch",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Speed et al. (2023)|English",
+  "lang": "English",
+  "scale": "taste",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Speed et al. (2023)|English",
+  "lang": "English",
+  "scale": "smell",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Speed et al. (2023)|English",
+  "lang": "English",
+  "scale": "interoception",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Rezanova et al. (2020)|Russian",
+  "lang": "Russian",
+  "scale": "vision",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Rezanova et al. (2020)|Russian",
+  "lang": "Russian",
+  "scale": "hearing",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Rezanova et al. (2020)|Russian",
+  "lang": "Russian",
+  "scale": "touch",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Rezanova et al. (2020)|Russian",
+  "lang": "Russian",
+  "scale": "taste",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Rezanova et al. (2020)|Russian",
+  "lang": "Russian",
+  "scale": "smell",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Rezanova et al. (2022)|Tatar",
+  "lang": "Tatar",
+  "scale": "vision",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Rezanova et al. (2022)|Tatar",
+  "lang": "Tatar",
+  "scale": "hearing",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Rezanova et al. (2022)|Tatar",
+  "lang": "Tatar",
+  "scale": "touch",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Rezanova et al. (2022)|Tatar",
+  "lang": "Tatar",
+  "scale": "taste",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Rezanova et al. (2022)|Tatar",
+  "lang": "Tatar",
+  "scale": "smell",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Rezanova et al. (2022)|Khakas",
+  "lang": "Khakas",
+  "scale": "vision",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Rezanova et al. (2022)|Khakas",
+  "lang": "Khakas",
+  "scale": "hearing",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Rezanova et al. (2022)|Khakas",
+  "lang": "Khakas",
+  "scale": "touch",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Rezanova et al. (2022)|Khakas",
+  "lang": "Khakas",
+  "scale": "taste",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Rezanova et al. (2022)|Khakas",
+  "lang": "Khakas",
+  "scale": "smell",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Rezanova and Korshunova (2025)|Uzbek",
+  "lang": "Uzbek",
+  "scale": "vision",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Rezanova and Korshunova (2025)|Uzbek",
+  "lang": "Uzbek",
+  "scale": "hearing",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Rezanova and Korshunova (2025)|Uzbek",
+  "lang": "Uzbek",
+  "scale": "touch",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Rezanova and Korshunova (2025)|Uzbek",
+  "lang": "Uzbek",
+  "scale": "taste",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Rezanova and Korshunova (2025)|Uzbek",
+  "lang": "Uzbek",
+  "scale": "smell",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Rezanova and Korshunova (2025)|Russian",
+  "lang": "Russian",
+  "scale": "vision",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Rezanova and Korshunova (2025)|Russian",
+  "lang": "Russian",
+  "scale": "hearing",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Rezanova and Korshunova (2025)|Russian",
+  "lang": "Russian",
+  "scale": "touch",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Rezanova and Korshunova (2025)|Russian",
+  "lang": "Russian",
+  "scale": "taste",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Rezanova and Korshunova (2025)|Russian",
+  "lang": "Russian",
+  "scale": "smell",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Vladimirova et al. (2023)|Russian",
+  "lang": "Russian",
+  "scale": "manipulability",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Vladimirova et al. (2023)|Russian",
+  "lang": "Russian",
+  "scale": "temperature",
+  "R": "R2a",
+  "cat3": "core"
+ },
+ {
+  "key": "Vladimirova et al. (2023)|Tatar",
+  "lang": "Tatar",
+  "scale": "manipulability",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Vladimirova et al. (2023)|Tatar",
+  "lang": "Tatar",
+  "scale": "temperature",
+  "R": "R2a",
+  "cat3": "core"
+ },
+ {
+  "key": "Vladimirova et al. (2023)|Khakas",
+  "lang": "Khakas",
+  "scale": "manipulability",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Vladimirova et al. (2023)|Khakas",
+  "lang": "Khakas",
+  "scale": "temperature",
+  "R": "R2a",
+  "cat3": "core"
+ },
+ {
+  "key": "Mazzuca et al. (2022)|Italian",
+  "lang": "Italian",
+  "scale": "BOI",
+  "R": "R3",
+  "cat6": "core"
+ },
+ {
+  "key": "Mazzuca et al. (2022)|Italian",
+  "lang": "Italian",
+  "scale": "interoception",
+  "R": "R?",
+  "cat2": "core"
+ },
+ {
+  "key": "Marson (2023)|Italian",
+  "lang": "Italian",
+  "scale": "vision",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Marson (2023)|Italian",
+  "lang": "Italian",
+  "scale": "hearing",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Marson (2023)|Italian",
+  "lang": "Italian",
+  "scale": "touch",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Marson (2023)|Italian",
+  "lang": "Italian",
+  "scale": "taste",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Marson (2023)|Italian",
+  "lang": "Italian",
+  "scale": "smell",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Marson (2023)|Italian",
+  "lang": "Italian",
+  "scale": "interoception",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Marson (2023)|Hebrew",
+  "lang": "Hebrew",
+  "scale": "vision",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Marson (2023)|Hebrew",
+  "lang": "Hebrew",
+  "scale": "hearing",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Marson (2023)|Hebrew",
+  "lang": "Hebrew",
+  "scale": "touch",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Marson (2023)|Hebrew",
+  "lang": "Hebrew",
+  "scale": "taste",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Marson (2023)|Hebrew",
+  "lang": "Hebrew",
+  "scale": "smell",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Marson (2023)|Hebrew",
+  "lang": "Hebrew",
+  "scale": "interoception",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Marson (2023)|English",
+  "lang": "English",
+  "scale": "vision",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Marson (2023)|English",
+  "lang": "English",
+  "scale": "hearing",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Marson (2023)|English",
+  "lang": "English",
+  "scale": "touch",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Marson (2023)|English",
+  "lang": "English",
+  "scale": "taste",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Marson (2023)|English",
+  "lang": "English",
+  "scale": "smell",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Marson (2023)|English",
+  "lang": "English",
+  "scale": "interoception",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Falcinelli et al. (2026)|Italian",
+  "lang": "Italian",
+  "scale": "vision",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Falcinelli et al. (2026)|Italian",
+  "lang": "Italian",
+  "scale": "hearing",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Falcinelli et al. (2026)|Italian",
+  "lang": "Italian",
+  "scale": "touch",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Falcinelli et al. (2026)|Italian",
+  "lang": "Italian",
+  "scale": "taste",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Falcinelli et al. (2026)|Italian",
+  "lang": "Italian",
+  "scale": "smell",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Falcinelli et al. (2026)|Italian",
+  "lang": "Italian",
+  "scale": "interoception",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Falcinelli et al. (2026)|Italian",
+  "lang": "Italian",
+  "scale": "hands/arms",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Falcinelli et al. (2026)|Italian",
+  "lang": "Italian",
+  "scale": "feet/legs",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Falcinelli et al. (2026)|Italian",
+  "lang": "Italian",
+  "scale": "mouth/throat",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Falcinelli et al. (2026)|Italian",
+  "lang": "Italian",
+  "scale": "torso",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Falcinelli et al. (2026)|Italian",
+  "lang": "Italian",
+  "scale": "BOI",
+  "R": "R3",
+  "cat6": "core"
+ },
+ {
+  "key": "Suzuki et al. (2006)|Japanese",
+  "lang": "Japanese",
+  "scale": "vision",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Suzuki et al. (2006)|Japanese",
+  "lang": "Japanese",
+  "scale": "hearing",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Suzuki et al. (2006)|Japanese",
+  "lang": "Japanese",
+  "scale": "touch",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Suzuki et al. (2006)|Japanese",
+  "lang": "Japanese",
+  "scale": "taste",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Suzuki et al. (2006)|Japanese",
+  "lang": "Japanese",
+  "scale": "smell",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Suzuki et al. (2006)|Japanese",
+  "lang": "Japanese",
+  "scale": "warmth",
+  "R": "R2a",
+  "cat3": "core"
+ },
+ {
+  "key": "Suzuki et al. (2006)|Japanese",
+  "lang": "Japanese",
+  "scale": "cold",
+  "R": "R2a",
+  "cat3": "core"
+ },
+ {
+  "key": "Suzuki et al. (2006)|Japanese",
+  "lang": "Japanese",
+  "scale": "pain",
+  "R": "R2a",
+  "cat3": "core"
+ },
+ {
+  "key": "Suzuki et al. (2006)|Japanese",
+  "lang": "Japanese",
+  "scale": "balance",
+  "R": "R2a",
+  "cat3": "core"
+ },
+ {
+  "key": "Suzuki et al. (2006)|Japanese",
+  "lang": "Japanese",
+  "scale": "kinesthesis",
+  "R": "R2a",
+  "cat3": "core"
+ },
+ {
+  "key": "Busch et al. (2022)|German",
+  "lang": "German",
+  "scale": "motor content of the word",
+  "R": "R2a",
+  "cat4": "core"
+ },
+ {
+  "key": "Hoenig et al. (2008)|German",
+  "lang": "German",
+  "scale": "visual features",
+  "R": "R2b",
+  "cat2": "core"
+ },
+ {
+  "key": "Hoenig et al. (2008)|German",
+  "lang": "German",
+  "scale": "action-related features",
+  "R": "R2b",
+  "cat6": "core"
+ },
+ {
+  "key": "Willems et al. (2010)|Dutch",
+  "lang": "Dutch",
+  "scale": "hand association",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Pulvermüller et al. (2001)|German",
+  "lang": "German",
+  "scale": "face/articulators",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Pulvermüller et al. (2001)|German",
+  "lang": "German",
+  "scale": "hands/arms",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Pulvermüller et al. (2001)|German",
+  "lang": "German",
+  "scale": "feet/legs",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Pulvermüller and Hauk (2006)|English",
+  "lang": "English",
+  "scale": "visual object",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Pulvermüller and Hauk (2006)|English",
+  "lang": "English",
+  "scale": "shape/form",
+  "R": "R2a",
+  "cat3": "core"
+ },
+ {
+  "key": "Pulvermüller and Hauk (2006)|English",
+  "lang": "English",
+  "scale": "color",
+  "R": "R2a",
+  "cat3": "core"
+ },
+ {
+  "key": "Postle et al. (2008)|English",
+  "lang": "English",
+  "scale": "body-part association",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Dreyer and Pulvermüller (2018)|German",
+  "lang": "German",
+  "scale": "hand/arm",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Dreyer and Pulvermüller (2018)|German",
+  "lang": "German",
+  "scale": "face/mouth",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Dreyer and Pulvermüller (2018)|German",
+  "lang": "German",
+  "scale": "leg/foot",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Dreyer and Pulvermüller (2018)|German",
+  "lang": "German",
+  "scale": "visual",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Dreyer and Pulvermüller (2018)|German",
+  "lang": "German",
+  "scale": "olfactory",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Dreyer and Pulvermüller (2018)|German",
+  "lang": "German",
+  "scale": "gustatory",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Dreyer and Pulvermüller (2018)|German",
+  "lang": "German",
+  "scale": "haptic/tactile",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Yang et al. (2011)|Chinese",
+  "lang": "Chinese",
+  "scale": "hand action",
+  "R": "R6",
+  "cat5": "core"
+ },
+ {
+  "key": "Yang et al. (2011)|Chinese",
+  "lang": "Chinese",
+  "scale": "hand reminder",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Raposo et al. (2009)|English",
+  "lang": "English",
+  "scale": "arms/hands",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Raposo et al. (2009)|English",
+  "lang": "English",
+  "scale": "legs/feet",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Monaco et al. (2023)|German",
+  "lang": "German",
+  "scale": "body involvement",
+  "R": "R2a",
+  "cat4": "core"
+ },
+ {
+  "key": "Monaco et al. (2023)|German",
+  "lang": "German",
+  "scale": "movement",
+  "R": "R6",
+  "cat4": "core"
+ },
+ {
+  "key": "Monaco et al. (2023)|German",
+  "lang": "German",
+  "scale": "body part",
+  "R": "R6",
+  "cat5": "core"
+ },
+ {
+  "key": "Monaco et al. (2023)|French",
+  "lang": "French",
+  "scale": "body involvement",
+  "R": "R2a",
+  "cat4": "core"
+ },
+ {
+  "key": "Monaco et al. (2023)|French",
+  "lang": "French",
+  "scale": "movement",
+  "R": "R6",
+  "cat4": "core"
+ },
+ {
+  "key": "Monaco et al. (2023)|French",
+  "lang": "French",
+  "scale": "body part",
+  "R": "R6",
+  "cat5": "core"
+ },
+ {
+  "key": "Vukovic and Shtyrov (2014)|English",
+  "lang": "English",
+  "scale": "arm relatedness",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Vukovic and Shtyrov (2014)|English",
+  "lang": "English",
+  "scale": "leg relatedness",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Vukovic and Shtyrov (2014)|English",
+  "lang": "English",
+  "scale": "face relatedness",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Vukovic and Shtyrov (2014)|German",
+  "lang": "German",
+  "scale": "arm relatedness",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Vukovic and Shtyrov (2014)|German",
+  "lang": "German",
+  "scale": "leg relatedness",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Vukovic and Shtyrov (2014)|German",
+  "lang": "German",
+  "scale": "face relatedness",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Khader et al. (2010)|German",
+  "lang": "German",
+  "scale": "visual associations",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Khader et al. (2010)|German",
+  "lang": "German",
+  "scale": "motor associations",
+  "R": "R2a",
+  "cat4": "core"
+ },
+ {
+  "key": "Tomasino et al. (2007)|German",
+  "lang": "German",
+  "scale": "movement",
+  "R": "R6",
+  "cat4": "core"
+ },
+ {
+  "key": "Bechtold et al. (2019)|German",
+  "lang": "German",
+  "scale": "action/manipulation association",
+  "R": "R2a",
+  "cat6": "core"
+ },
+ {
+  "key": "Montero-Melis et al. (2022)|Swedish",
+  "lang": "Swedish",
+  "scale": "arm relatedness",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Montero-Melis et al. (2022)|Swedish",
+  "lang": "Swedish",
+  "scale": "leg relatedness",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Vanhoutte et al. (2015)|Dutch",
+  "lang": "Dutch",
+  "scale": "head",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Vanhoutte et al. (2015)|Dutch",
+  "lang": "Dutch",
+  "scale": "arms",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Vanhoutte et al. (2015)|Dutch",
+  "lang": "Dutch",
+  "scale": "legs",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "De Grauwe et al. (2014)|Dutch",
+  "lang": "Dutch",
+  "scale": "motor-relatedness",
+  "R": "R2a",
+  "cat4": "core"
+ },
+ {
+  "key": "De Grauwe et al. (2014)|Dutch",
+  "lang": "Dutch",
+  "scale": "body part involved",
+  "R": "R6",
+  "cat5": "core"
+ },
+ {
+  "key": "Repetto et al. (2013)|Italian",
+  "lang": "Italian",
+  "scale": "body part required",
+  "R": "R6",
+  "cat5": "core"
+ },
+ {
+  "key": "Hauk and Pulvermüller (2011)|English",
+  "lang": "English",
+  "scale": "action relatedness",
+  "R": "R2a",
+  "cat4": "core"
+ },
+ {
+  "key": "Moseley et al. (2014)|English",
+  "lang": "English",
+  "scale": "action relatedness",
+  "R": "R2a",
+  "cat4": "core"
+ },
+ {
+  "key": "Lee and Shin (2023)|English",
+  "lang": "English",
+  "scale": "visual",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Lee and Shin (2023)|English",
+  "lang": "English",
+  "scale": "auditory",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Lee and Shin (2023)|English",
+  "lang": "English",
+  "scale": "haptic",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Lee and Shin (2023)|English",
+  "lang": "English",
+  "scale": "gustatory",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Lee and Shin (2023)|English",
+  "lang": "English",
+  "scale": "olfactory",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Lee and Shin (2023)|English",
+  "lang": "English",
+  "scale": "interoceptive",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Shao et al. (2025a)|Chinese",
+  "lang": "",
+  "scale": "vision",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Shao et al. (2025a)|Chinese",
+  "lang": "",
+  "scale": "hearing",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Shao et al. (2025a)|Chinese",
+  "lang": "",
+  "scale": "taste",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Shao et al. (2025a)|Chinese",
+  "lang": "",
+  "scale": "smell",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Shao et al. (2025a)|Chinese",
+  "lang": "",
+  "scale": "touch",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Shao et al. (2025a)|Chinese",
+  "lang": "",
+  "scale": "interoception",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Shao et al. (2025a)|Chinese",
+  "lang": "",
+  "scale": "foot/leg",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Shao et al. (2025a)|Chinese",
+  "lang": "",
+  "scale": "hand/arm",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Shao et al. (2025a)|Chinese",
+  "lang": "",
+  "scale": "mouth/throat",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Shao et al. (2025a)|Chinese",
+  "lang": "",
+  "scale": "head",
+  "R": "R1",
+  "cat5": "core"
+ },
+ {
+  "key": "Shao et al. (2025a)|Chinese",
+  "lang": "",
+  "scale": "torso",
+  "R": "R1",
+  "cat5": "core"
+ }
+]

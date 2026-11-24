@@ -1,0 +1,35 @@
+{
+  "title": "Sensorimotor word norms: An overview",
+  "upload_type": "dataset",
+  "description": "<p>Overview of published sensorimotor rating norms for words across languages (perceptual strength, sensory experience, perceptual features, bodily involvement, effector relatedness, manipulability and body-object interaction). One row per paper and language; one row per rating scale with its coding into six categories; citation links between the papers with a network analysis (R, igraph); reference list (APA, BibTeX, RIS); codebook; the interactive web page; and the code that builds everything from the source data.</p><p>Data and documentation: CC BY 4.0. Code: MIT License.</p>",
+  "creators": [
+    {
+      "name": "Miklashevsky, Alex",
+      "orcid": "0000-0002-2693-5344",
+      "affiliation": "University of Potsdam"
+    },
+    {
+      "name": "Ulianova, Taisiia"
+    },
+    {
+      "name": "Platonova, Olesia"
+    }
+  ],
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "sensorimotor norms",
+    "perceptual strength",
+    "body-object interaction",
+    "embodied cognition",
+    "psycholinguistics",
+    "rating norms"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://alexmiklashevsky.github.io/sensorimotor-word-norms/",
+      "relation": "isDocumentedBy"
+    }
+  ],
+  "language": "eng"
+}

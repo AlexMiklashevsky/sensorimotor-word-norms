@@ -1,0 +1,25 @@
+# full texts are copyrighted: never commit them
+txt/
+# versioned copies for the Drive and the check report
+out/
+# intermediate files, rebuilt by update_all.py
+net/nodes.json
+net/edges.json
+net/results.json
+net/graphdata.json
+net/rows.json
+net/analysis/nodes.csv
+net/analysis/edges.csv
+net/analysis/node_metrics.csv
+net/citation_network_v2.*
+refs/references.json
+refs/bib_meta.json
+# citation matching intermediates (need the full texts)
+net/raw_edges.json
+net/pass2.json
+net/pass3.json
+# test screenshots, Python and Node caches
+tests/*.png
+__pycache__/
+*.pyc
+node_modules/

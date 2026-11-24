@@ -1,0 +1,32 @@
+{
+ "_help": "One table row per paper and language. Copy this object (without _help) to the end of work/records.json and fill it from the documentation sheet. Values in <...> are explanations.",
+ "Language": "<language of the rated words, e.g., German; one row per language>",
+ "Year": 2027,
+ "Authors": "<label = 'First author et al. (Year)' / 'A and B (Year)'; year = official publication year; add a/b if the same label exists>",
+ "Publication type": "<e.g., Journal article (Behavior Research Methods, 52(3), 1-20); Preprint (PsyArXiv); PhD thesis (University)>",
+ "Sensorimotor variables": "<what was rated, e.g., Six perceptual modalities (...) and five action effectors (...)>",
+ "Number of items": 1000,
+ "Item type": "Single words",
+ "Parts of speech": "<e.g., Nouns; Nouns, verbs>",
+ "Rating scale": "<e.g., 0-5; yes/no; select all that apply>",
+ "Raters / ratings per item": "<e.g., 300 raters; 20 ratings per word>",
+ "Rater population": "<e.g., Adults (Prolific, Germany, 18-40 years)>",
+ "Data level": "<e.g., Item means and SDs; trial-level data on OSF>",
+ "Other variables": "<other ratings collected, e.g., familiarity, AoA>",
+ "Paper link": "<https://doi.org/... (a DOI is used for the reference list)>",
+ "Data link": "<https://osf.io/... or Not published>",
+ "Comments": "",
+ "_key": "<Authors|Language, e.g., Doe et al. (2027)|German>",
+ "_v3": {
+  "Study type": "<norming study | stimulus ratings in experimental study | thesis | model-generated | database>",
+  "Rater type": "<human | LLM>",
+  "Rater group": "<general adults | L2 bilinguals | older adults | children | n/a (for LLM) | other group name; several separated by '; '>",
+  "Perspective": "<own | typical person | child | possible vs. actual | not specified; empty if the exact wording is not available>",
+  "POS group": "<Nouns | Verbs | Adjectives | Mixed | Other | Not reported>",
+  "Items (category)": "<30-99 | 100-299 | 300-999 | 1,000-2,999 | 3,000-9,999 | 10,000+; empty if no number>",
+  "Items (details)": "<breakdown or selected subsets, optional>",
+  "Ratings per item": "<e.g., 20>",
+  "Item sampling": "<how the words were selected>",
+  "Collection mode": "<online (Prolific) | lab | paper questionnaire | Not reported>"
+ }
+}

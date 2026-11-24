@@ -1,0 +1,9 @@
+{
+ "_help": "One entry per rating scale (e.g., one per sense). Add to work/scales/all2.json AND add the matching coding entry (below) to facets/coded2.json.",
+ "scale_entry": {"key": "<same as _key of the record>", "scale": "<scale name, e.g., vision>", "construct": "<e.g., perceptual strength>",
+   "wording": "<exact instruction wording if printed; otherwise a summary>", "anchors": "<e.g., 0-5; 0 = not experienced at all, 5 = experienced greatly>",
+   "dk": "<yes (\"Don't know the meaning of this word\" box) | not stated>", "lang": "<language of the wording>", "where": "<where in the paper>", "ft": "paper",
+   "notes": "", "wtype": "<verbatim (printed in paper) | verbatim (translation printed in paper) | paraphrase / summary (exact wording not printed or not checked)>", "instructions_status": "<verbatim | summary>"},
+ "coding_entry": {"key": "<same key>", "lang": "", "scale": "<same scale name>", "R": "<R code, see Code key sheet of the table>", "cat2": "core",
+   "_help": "set catN to core (or border) for each category 1-6 the scale belongs to: 1 global sensory experience, 2 experience per sense, 3 perceptual features, 4 bodily involvement (no body part named), 5 specific body part / effector, 6 body-object interaction"}
+}

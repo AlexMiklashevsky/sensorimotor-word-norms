@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use these data or this overview, please cite it as below."
+type: dataset
+title: "Sensorimotor word norms: An overview"
+authors:
+  - family-names: Miklashevsky
+    given-names: Alex
+    orcid: "https://orcid.org/0000-0002-2693-5344"
+    affiliation: University of Potsdam
+  - family-names: Ulianova
+    given-names: Taisiia
+  - family-names: Platonova
+    given-names: Olesia
+license: CC-BY-4.0
+repository-code: "https://github.com/AlexMiklashevsky/sensorimotor-word-norms"
+url: "https://alexmiklashevsky.github.io/sensorimotor-word-norms/"
+keywords:
+  - sensorimotor norms
+  - perceptual strength
+  - body-object interaction
+  - embodied cognition
+  - psycholinguistics
+  - rating norms
