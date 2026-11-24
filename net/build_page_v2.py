@@ -44,7 +44,7 @@ PIE=[
  "Each node is a pie with one equal slice per category that the paper's scales belong to; if switched, color shows the citation community. Ring-shaped nodes have no reference list available."),
 (" const p=el('path',{d:shapePath(SHAPES[CL.indexOf(n.cluster)],rad(n)),'stroke-width':n.has_reference_list?1.5:2},g);"," const p=el('g',{},g);"),
 ("const c=colorOf(n);p.setAttribute('fill',n.has_reference_list?c:'var(--surface-1)');p.setAttribute('stroke',n.has_reference_list?'var(--surface-1)':c);","drawNode(n,p);"),
-("function visible(n){return st.active.has(n.cluster)&&","function visible(n){return (n.pie&&n.pie.length?n.pie.some(([k])=>st.active.has(CL[k-1])):st.active.has(n.cluster))&&"),
+("function visible(n){return st.active.has(n.cluster)&&","function visible(n){return (st.color==='community'?st.activeC.has(n.community||'na'):(n.pie&&n.pie.length?n.pie.some(([k])=>st.active.has(CL[k-1])):st.active.has(n.cluster)))&&"),
 ("const cnt=N.filter(n=>n.cluster===c).length;","const cnt=N.filter(n=>(n.pie||[]).some(([k])=>k===i+1)||(!(n.pie||[]).length&&n.cluster===c)).length;"),
 ('<path d="${shapePath(SHAPES[i],5)}" fill="var(--c${i+1})"/>','<circle r="5" fill="var(--c${i+1})"/>'),
 ("t.textContent='Shape still shows the main category.';","t.textContent='Pies return in the \"Main category\" view.';"),

@@ -71,7 +71,7 @@ const SHAPES=['circle','square','diamond','triangle','tdown','hex','star'];
 const N=DATA.nodes, E=DATA.edges, R=DATA.res, byId={};N.forEach(n=>byId[n.id]=n);
 const out={},inn={};N.forEach(n=>{out[n.id]=[];inn[n.id]=[]});E.forEach(([a,b])=>{out[a].push(b);inn[b].push(a)});
 const COMMS=[...new Set(N.map(n=>n.community).filter(Boolean))].sort((a,b)=>a-b);
-let st={layout:'net',color:'cluster',labels:'top',active:new Set(CL),pin:null,hover:null,q:''};
+let st={layout:'net',color:'cluster',labels:'top',active:new Set(CL),activeC:new Set([...COMMS,'na']),pin:null,hover:null,q:''};
 const W=1000,H=720,M={l:40,r:40,t:30,b:70};
 const svg=document.getElementById('g'),NS='http://www.w3.org/2000/svg';
 function el(t,a,p){const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);(p||svg).appendChild(e);return e}
@@ -131,8 +131,10 @@ function chips(){const box=document.getElementById('chips');box.innerHTML='';
  if(st.color==='cluster'){CL.forEach((c,i)=>{const cnt=N.filter(n=>n.cluster===c).length;const b=document.createElement('button');b.className='chip';b.setAttribute('aria-pressed',st.active.has(c));
   b.innerHTML=`<svg width="16" height="16" viewBox="-8 -8 16 16"><path d="${shapePath(SHAPES[i],5)}" fill="var(--c${i+1})"/></svg>${c} (${cnt})`;
   b.onclick=()=>{st.active.has(c)?st.active.delete(c):st.active.add(c);if(!st.active.size)CL.forEach(x=>st.active.add(x));render()};box.appendChild(b)})}
- else{COMMS.forEach((k,i)=>{const b=document.createElement('span');b.className='chip';b.innerHTML=`<svg width="16" height="16" viewBox="-8 -8 16 16"><circle r="5" fill="var(--c${i+1})"/></svg>Community ${k} (${N.filter(n=>n.community===k).length})`;box.appendChild(b)});
-  const s=document.createElement('span');s.className='chip';s.innerHTML='<svg width="16" height="16" viewBox="-8 -8 16 16"><circle r="5" fill="var(--text-muted)"/></svg>Not assigned (no reference list, no links, or community of fewer than 3 papers)';box.appendChild(s);
+ else{const ALLC=[...COMMS,'na'];
+  ALLC.forEach((k,i)=>{const b=document.createElement('button');b.className='chip';b.setAttribute('aria-pressed',st.activeC.has(k));
+   b.innerHTML=k==='na'?`<svg width="16" height="16" viewBox="-8 -8 16 16"><circle r="5" fill="var(--text-muted)"/></svg>Not assigned (no reference list, no links, or community of fewer than 3 papers) (${N.filter(n=>!n.community).length})`:`<svg width="16" height="16" viewBox="-8 -8 16 16"><circle r="5" fill="var(--c${i+1})"/></svg>Community ${k} (${N.filter(n=>n.community===k).length})`;
+   b.onclick=()=>{st.activeC.has(k)?st.activeC.delete(k):st.activeC.add(k);if(!st.activeC.size)ALLC.forEach(x=>st.activeC.add(x));render()};box.appendChild(b)});
   const t=document.createElement('span');t.className='muted';t.style.fontSize='12px';t.textContent='Shape still shows the construct cluster.';box.appendChild(t)}}
 function list(ids){return ids.length?'<ul>'+ids.slice().sort((a,b)=>byId[a].year-byId[b].year).map(i=>`<li>${i} <span class="muted">${byId[i].language}</span></li>`).join('')+'</ul>':'<p class="muted">none</p>'}
 function panel(){const p=document.getElementById('panel');if(!st.pin){p.innerHTML='<h3>Details</h3><p class="muted">Click a node to see which table papers it cites and which cite it. Click empty space to clear.</p><p class="muted">Black arrows: the selected paper cites; blue arrows: cited by. Hollow nodes have no reference list available (no PDF, a web page or a dataset description), so they can only receive citations.</p>';return}
