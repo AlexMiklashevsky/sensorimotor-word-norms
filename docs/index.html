@@ -61,6 +61,7 @@ h1{font-size:20px;margin:0 0 4px}h2{font-size:16px;margin:28px 0 8px}
 .plist{font-size:13px;margin:0 0 12px}
 .plist .pi{padding:5px 0;border-top:1px solid var(--line)}
 .plist .pi:first-child{border-top:none}
+.pexbox{max-height:420px;overflow:auto;margin-bottom:0}
 .plist .pk{font-size:12px;font-weight:600;color:var(--text-secondary);margin:8px 0 2px}
 .ptag{font-size:12px;color:var(--text-secondary)}
 #p_sheet{width:100%;box-sizing:border-box;font:12px/1.4 ui-monospace,Menlo,Consolas,monospace;padding:8px;border:1px solid var(--line);border-radius:8px;background:var(--surface-1);color:var(--text-primary)}
@@ -140,7 +141,7 @@ details{margin:6px 0}summary{cursor:pointer;color:var(--text-secondary)}
 <div class="tablewrap"><table id="tbl"><thead></thead><tbody></tbody></table></div>
 </section>
 <section class="tabp" id="tab-planning" role="tabpanel" hidden>
-<p class="sub">Click through the choices for a new rating study. The panel next to the steps (below them on small screens) shows existing datasets ranked by how close they are to your choices, and how similar studies worded their instructions. At the end you get a documentation sheet with the fields used in our overview table; it is also what we need to add a finished dataset to the network (see Contact). Nothing you enter leaves your browser.</p>
+<p class="sub">Click through the choices for a new rating study. The panel next to the steps (below them on small screens) shows existing datasets ranked by how close they are to your choices; step 8 shows how similar studies worded their instructions. At the end you get a documentation sheet with the fields used in our overview table; it is also what we need to add a finished dataset to the network (see Contact). Nothing you enter leaves your browser.</p>
 <div class="plan">
 <div class="psteps">
 <div class="pstep"><h4>1 Language of the words</h4><select id="p_lang"></select> <input id="p_lang_other" type="text" placeholder="Please specify the language" hidden></div>
@@ -154,11 +155,11 @@ details{margin:6px 0}summary{cursor:pointer;color:var(--text-secondary)}
 <ul><li>a 0 point meaning "not at all", so raters can say that a word has no link to the dimension rather than a weak one;</li><li>a "don't know the word" option, so unknown words are not rated by guessing and word knowledge can be reported.</li></ul>
 <span class="muted">General good practice: label at least the endpoints of the scale.</span></div>
 <div id="p_sc" class="pchecks"></div><input id="p_sc_other" class="pother" type="text" placeholder="Please specify the scale, e.g., 1-10 slider" hidden><label class="pinl psep">Anchors <input id="p_anch" type="text" placeholder="e.g., 0 = not experienced at all, 5 = experienced greatly"></label><label class="pinl psep"><input id="p_dk" type="checkbox" checked> Include a "don't know the word" option</label></div>
-<div class="pstep"><h4>8 Study details (optional)</h4><label class="pinl">Authors <input id="p_auth" type="text"></label><label class="pinl">Title or working title <input id="p_title" type="text"></label><label class="pinl">Rater population (country, recruitment, age) <input id="p_pop" type="text"></label><label class="pinl">Exact instruction wording <textarea id="p_instr" rows="3"></textarea></label><label class="pinl">Paper or preprint link <input id="p_plink" type="text"></label><label class="pinl">Data link <input id="p_dlink" type="text"></label></div>
+<div class="pstep"><h4>8 Instruction wording</h4><p class="muted pnote">How similar studies worded their instructions: up to 3 examples per category, closest to your choices first (verbatim where the paper prints it).</p><div id="p_ex" class="plist pexbox"></div><label class="pinl psep">Your planned instruction wording (per scale) <textarea id="p_instr" rows="4"></textarea></label></div>
+<div class="pstep"><h4>9 Study details (optional)</h4><label class="pinl">Authors <input id="p_auth" type="text"></label><label class="pinl">Title or working title <input id="p_title" type="text"></label><label class="pinl">Rater population (country, recruitment, age) <input id="p_pop" type="text"></label><label class="pinl">Paper or preprint link <input id="p_plink" type="text"></label><label class="pinl">Data link <input id="p_dlink" type="text"></label></div>
 </div>
 <div class="pside">
 <h4>Similar datasets</h4><p id="p_note" class="muted"></p><div id="p_list" class="plist"></div>
-<h4>How similar studies worded the instructions</h4><div id="p_ex" class="plist"></div>
 </div>
 </div>
 <h3 class="fh">Documentation sheet</h3>
@@ -180,7 +181,7 @@ details{margin:6px 0}summary{cursor:pointer;color:var(--text-secondary)}
 <h3 class="fh">License</h3>
 <p>Data (overview table, citation network, codings and references): <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>, please cite as above. Code: <a href="https://opensource.org/license/mit" target="_blank" rel="noopener">MIT License</a>.</p>
 <h3 class="fh">Last update</h3>
-<p>2026-11-24, 20:33 (CET)</p>
+<p>2026-11-24, 20:37 (CET)</p>
 </section>
 </div>
 <script>
