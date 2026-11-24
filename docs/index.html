@@ -32,6 +32,8 @@ h1{font-size:20px;margin:0 0 4px}h2{font-size:16px;margin:28px 0 8px}
 .tabs button:hover{background:#e4e2dc}
 .tabs button[aria-selected="true"]{background:var(--surface-1,#fcfcfb);font-weight:600;border-bottom:1px solid var(--surface-1,#fcfcfb)}
 .tabs button:focus-visible{outline:2px solid var(--text-primary);outline-offset:2px}
+@media (prefers-color-scheme:dark){:root:where(:not([data-theme="light"])) .tabs button{background:#2c2c2a;border-color:#4a4a46}:root:where(:not([data-theme="light"])) .tabs button:hover{background:#363633}:root:where(:not([data-theme="light"])) .tabs button[aria-selected="true"]{background:var(--surface-1);border-bottom-color:var(--surface-1)}}
+:root[data-theme="dark"] .tabs button{background:#2c2c2a;border-color:#4a4a46}:root[data-theme="dark"] .tabs button:hover{background:#363633}:root[data-theme="dark"] .tabs button[aria-selected="true"]{background:var(--surface-1);border-bottom-color:var(--surface-1)}
 .tabp[hidden]{display:none}
 .refs .ref{margin:0 0 8px;padding-left:2em;text-indent:-2em;max-width:980px}
 .refs a{overflow-wrap:anywhere}
@@ -178,7 +180,7 @@ details{margin:6px 0}summary{cursor:pointer;color:var(--text-secondary)}
 <h3 class="fh">License</h3>
 <p>Data (overview table, citation network, codings and references): <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>, please cite as above. Code: <a href="https://opensource.org/license/mit" target="_blank" rel="noopener">MIT License</a>.</p>
 <h3 class="fh">Last update</h3>
-<p>2026-11-24, 20:19 (CET)</p>
+<p>2026-11-24, 20:33 (CET)</p>
 </section>
 </div>
 <script>

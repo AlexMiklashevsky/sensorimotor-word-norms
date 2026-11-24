@@ -56,6 +56,8 @@ t=t.replace('.lbl{','''.tabs{display:flex;flex-wrap:wrap;gap:4px;border-bottom:1
 .tabs button:hover{background:#e4e2dc}
 .tabs button[aria-selected="true"]{background:var(--surface-1,#fcfcfb);font-weight:600;border-bottom:1px solid var(--surface-1,#fcfcfb)}
 .tabs button:focus-visible{outline:2px solid var(--text-primary);outline-offset:2px}
+@media (prefers-color-scheme:dark){:root:where(:not([data-theme="light"])) .tabs button{background:#2c2c2a;border-color:#4a4a46}:root:where(:not([data-theme="light"])) .tabs button:hover{background:#363633}:root:where(:not([data-theme="light"])) .tabs button[aria-selected="true"]{background:var(--surface-1);border-bottom-color:var(--surface-1)}}
+:root[data-theme="dark"] .tabs button{background:#2c2c2a;border-color:#4a4a46}:root[data-theme="dark"] .tabs button:hover{background:#363633}:root[data-theme="dark"] .tabs button[aria-selected="true"]{background:var(--surface-1);border-bottom-color:var(--surface-1)}
 .tabp[hidden]{display:none}
 .refs .ref{margin:0 0 8px;padding-left:2em;text-indent:-2em;max-width:980px}
 .refs a{overflow-wrap:anywhere}
