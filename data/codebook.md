@@ -83,7 +83,7 @@ One row per rating scale of each paper and language, with its coding. 712 rows.
 
 ## citation_links.csv
 
-Citation links between the papers of the overview, found in the reference lists of the papers. 844 rows.
+Citation links between the papers of the overview, found in the reference lists of the papers. 845 rows.
 
 | Column | Description |
 |---|---|

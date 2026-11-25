@@ -357,5 +357,11 @@
 "cited": "Mochizuki and Ota (2020)",
 "ctx": "reference entry verified by hand",
 "manual": true
+},
+{
+"citing": "Ota and Kitagami (2025)",
+"cited": "Tillotson et al. (2008)",
+"ctx": "reference entry verified by hand",
+"manual": true
 }
 ]

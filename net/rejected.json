@@ -233,5 +233,55 @@
 "citing": "Vanhoutte et al. (2015)",
 "cited": "Moseley et al. (2014)",
 "reason": "reference is Moseley et al. (2013, Scientific Reports), not the paper behind the Moseley et al. (2014) row"
+},
+{
+"citing": "Paisios (2024)",
+"cited": "Xu (2024)",
+"reason": "in-text match is a different Xu"
+},
+{
+"citing": "Mochizuki and Ota (2026)",
+"cited": "Xu (2024)",
+"reason": "in-text match is a different Xu"
+},
+{
+"citing": "Mochizuki and Ota (2026)",
+"cited": "Ota and Kitagami (2025)",
+"reason": "cites Ota, Mochizuki and Kitagami (2025, NAJP) and Kitagami and Ota (2024), not this paper"
+},
+{
+"citing": "Wu and Tan (2026)",
+"cited": "Xu (2024)",
+"reason": "in-text match is a different Xu"
+},
+{
+"citing": "Shao et al. (2025b)",
+"cited": "Xu (2024)",
+"reason": "match is Peng, Xu and Bao (2024) / Yi, Xu and Man (2025)"
+},
+{
+"citing": "Mongush (2026a)",
+"cited": "Mongush (2026b)",
+"reason": "own citation line, not a reference"
+},
+{
+"citing": "Mongush (2026a)",
+"cited": "Rezanova et al. (2020)",
+"reason": "reference is Rezanova and Stepanenko (2020, Vestnik TSU 455), not the 450 paper behind the row"
+},
+{
+"citing": "Mongush (2026a)",
+"cited": "Vladimirova et al. (2023)",
+"reason": "reference is Rezanova and Vladimirova (2023, Vestnik TSU 487), not the RuTurkPsychLing paper"
+},
+{
+"citing": "Mongush (2026b)",
+"cited": "Kiefer et al. (2012)",
+"reason": "reference is Kiefer and Pulvermüller (2012, Cortex)"
+},
+{
+"citing": "Mongush (2026b)",
+"cited": "Hauk and Pulvermüller (2004)",
+"reason": "reference is Hauk, Johnsrude and Pulvermüller (2004, Neuron)"
 }
 ]

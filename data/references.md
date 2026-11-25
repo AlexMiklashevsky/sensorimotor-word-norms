@@ -148,7 +148,7 @@ Monaco, E., Mouthon, M., Britz, J., Sato, S., Stefanos-Yakoub, I., Annoni, J. M.
 
 Mongush, N. O. (2026a). The influence of bilingualism factors and its variants on the assessment of the perceptual experience contribution to word semantics [In Russian]. *Vestnik Tomskogo gosudarstvennogo universiteta*, 525, 29-35. https://doi.org/10.17223/15617793/525/3
 
-Mongush, N. O. (2026b). The influence of Tuvan-Russian bilingualism on the perception of perceptual semantics of attributive words in the Russian language [In Russian]. *Rusin*, 84, 241-256. https://doi.org/10.17223/18572685/84/12
+Mongush, N. O. (2026b). The influence of Tuvan-Russian bilingualism on the perception of perceptual semantics of attributive words in the Russian language [In Russian]. *Rusin*, 84, 241-256. https://cyberleninka.ru/article/n/vliyanie-tuvinsko-russkogo-bilingvizma-na-vospriyatie-pertseptivnoy-semantiki-priznachnyh-slov-russkogo-yazyka
 
 Montero-Melis, G., van Paridon, J., Ostarek, M., & Bylund, E. (2022). No evidence for embodiment: The motor system is not needed to keep action verbs in working memory. *Cortex, 150*, 108-125. https://doi.org/10.1016/j.cortex.2022.02.006
 
