@@ -1,5 +1,5 @@
 // Browser test of the web page (docs/index.html); prints what it checks and fails if the page reports errors.
-const {chromium}=require('playwright');
+const {chromium}=require('playwright');require('./offline');
 (async()=>{const b=await chromium.launch();const p=await b.newPage({viewport:{width:1400,height:1100}});const errs=[];p.on('pageerror',e=>errs.push(e.message));
 await p.goto('file://'+require('path').resolve(__dirname,'../docs/index.html')+'#planning');await p.waitForTimeout(500);
 const note=async()=>p.$eval('#p_note',e=>e.textContent);

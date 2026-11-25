@@ -1,5 +1,5 @@
 // Browser test of the web page (docs/index.html); prints what it checks and fails if the page reports errors.
-const {chromium}=require('playwright');
+const {chromium}=require('playwright');require('./offline');
 (async()=>{const b=await chromium.launch();const p=await b.newPage({viewport:{width:1400,height:1000}});const errs=[];p.on('pageerror',e=>errs.push(e.message));
 await p.goto('file://'+require('path').resolve(__dirname,'../docs/index.html'));await p.waitForTimeout(500);
 await p.evaluate(()=>{st.pin='Lynott et al. (2020)';panel()});

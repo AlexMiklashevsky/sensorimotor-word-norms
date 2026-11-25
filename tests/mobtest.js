@@ -1,5 +1,5 @@
 // Browser test of the web page (docs/index.html); prints what it checks and fails if the page reports errors.
-const {chromium}=require('playwright');
+const {chromium}=require('playwright');require('./offline');
 (async()=>{const b=await chromium.launch();const errs=[];
 for(const t of ['network','details','table','planning','references','contact']){const p=await b.newPage({viewport:{width:390,height:844},deviceScaleFactor:1});p.on('pageerror',e=>errs.push(t+': '+e.message));p.on('console',m=>{if(m.type()==='error')errs.push(t+' console: '+m.text())});
  await p.goto('file://'+require('path').resolve(__dirname,'../docs/index.html')+'#'+t);await p.waitForTimeout(500);
