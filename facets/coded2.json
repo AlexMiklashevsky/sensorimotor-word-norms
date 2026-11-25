@@ -5257,5 +5257,26 @@
   "scale": "BOI",
   "R": "R3",
   "cat6": "core"
+ },
+ {
+  "key": "Stoinski et al. (2024)|English",
+  "lang": "English",
+  "scale": "ease of moving",
+  "R": "R3",
+  "cat6": "core"
+ },
+ {
+  "key": "Stoinski et al. (2024)|English",
+  "lang": "English",
+  "scale": "something that moves",
+  "R": "R4",
+  "cat3": "core"
+ },
+ {
+  "key": "Stoinski et al. (2024)|English",
+  "lang": "English",
+  "scale": "real-world size",
+  "R": "R4",
+  "cat3": "core"
  }
 ]

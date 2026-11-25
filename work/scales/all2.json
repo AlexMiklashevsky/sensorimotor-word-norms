@@ -10344,5 +10344,47 @@
   "notes": "procedure and instructions following Mochizuki et al. (2014); same participants as the matching task",
   "wtype": "paper's description (exact wording not printed)",
   "instructions_status": "description"
+ },
+ {
+  "key": "Stoinski et al. (2024)|English",
+  "scale": "ease of moving",
+  "construct": "ease of moving",
+  "wording": "How difficult/easy is it to move?",
+  "anchors": "1-7; 1 = very difficult, 7 = very easy",
+  "dk": "not stated",
+  "lang": "English",
+  "where": "Design & procedure (Object properties)",
+  "ft": "paper",
+  "notes": "object noun shown with one image; 11 properties per concept",
+  "wtype": "verbatim (printed in paper)",
+  "instructions_status": "verbatim"
+ },
+ {
+  "key": "Stoinski et al. (2024)|English",
+  "scale": "something that moves",
+  "construct": "visual motion",
+  "wording": "rate how well the property \"something that moves\" applies to the object",
+  "anchors": "1-7; 1 = strongly disagree, 7 = strongly agree",
+  "dk": "not stated",
+  "lang": "English",
+  "where": "Design & procedure (Object properties)",
+  "ft": "paper",
+  "notes": "object noun shown with one image; 11 properties per concept",
+  "wtype": "paper's description (exact wording not printed)",
+  "instructions_status": "description"
+ },
+ {
+  "key": "Stoinski et al. (2024)|English",
+  "scale": "real-world size",
+  "construct": "size",
+  "wording": "indicate the approximate size of the object on a continuous scale, then the size range it usually occupies in the real world",
+  "anchors": "continuous scale (520 units) anchored by nine reference objects (grain of sand, marble, chicken egg, grapefruit, microwave oven, washing machine, king-size bed, ambulance, aircraft carrier); second step zoomed to 160 units",
+  "dk": "yes (object unknown / object has no size)",
+  "lang": "English",
+  "where": "Design & procedure (Object size)",
+  "ft": "paper",
+  "notes": "object noun only (no image); two-step rating",
+  "wtype": "paper's description (exact wording not printed)",
+  "instructions_status": "description"
  }
 ]

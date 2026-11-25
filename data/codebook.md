@@ -62,7 +62,7 @@ The overview table: one row per paper and language. 161 rows.
 
 ## scales.csv
 
-One row per rating scale of each paper and language, with its coding. 712 rows.
+One row per rating scale of each paper and language, with its coding. 715 rows.
 
 | Column | Description |
 |---|---|
