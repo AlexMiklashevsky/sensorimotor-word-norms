@@ -44,14 +44,15 @@ _PLANHTML='''<section class="tabp" id="tab-planning" role="tabpanel" hidden>
 <div class="pstep" id="p_dims_box"><h4>3 Which dimensions?</h4><p class="muted pnote">Dimensions rated in existing datasets (number of papers).</p><div id="p_dims" class="pchecks"></div><input id="p_dims_other" type="text" placeholder="Other dimensions, e.g., hardness, sweetness"></div>
 <div class="pstep"><h4>4 Perspective: whose experience?</h4><div id="p_pp" class="pchecks"></div><input id="p_pp_other" class="pother" type="text" placeholder="Please specify: whose experience? e.g., an expert" hidden></div>
 <div class="pstep"><h4>5 Raters</h4><div id="p_rg" class="pchecks"></div><input id="p_rg_other" class="pother" type="text" placeholder="Please specify the rater group" hidden><label class="pinl psep">Rater population - further details (country, recruitment, age...) <input id="p_pop" type="text"></label><label class="pinl psep">Planned ratings per item <input id="p_rpi" type="number" min="1" step="1" placeholder="e.g., 20"></label></div>
-<div class="pstep"><h4>6 Items</h4><div id="p_pos" class="pchecks"></div><input id="p_pos_other" class="pother" type="text" placeholder="Please specify the parts of speech" hidden><label class="pinl psep">Number of items <input id="p_n" type="number" min="1" step="1" placeholder="e.g., 1000"></label> <span id="p_nbin" class="muted"></span></div>
+<div class="pstep"><h4>6 Items</h4><div id="p_pos" class="pchecks"></div><input id="p_pos_other" class="pother" type="text" placeholder="Please specify the parts of speech" hidden><label class="pinl psep">Number of items <input id="p_n" type="number" min="1" step="1" placeholder="e.g., 1000"></label> <span id="p_nbin" class="muted"></span><label class="pinl psep">Item type and selection <input id="p_itype" type="text" placeholder="e.g., concrete nouns from a frequency list"></label></div>
 <div class="pstep"><h4>7 Rating scale</h4>
 <div class="prec"><b>Our recommendation:</b> the Lancaster format (Lynott et al., 2020): a 0-5 scale with 0 = "not experienced at all" and 5 = "experienced greatly", plus a "Don't know the meaning of this word" box. In particular, we recommend
 <ul><li>a 0 point meaning "not at all", so raters can say that a word has no link to the dimension rather than a weak one;</li><li>a "don't know the word" option, so unknown words are not rated by guessing and word knowledge can be reported.</li></ul>
 <span class="muted">General good practice: label at least the endpoints of the scale.</span></div>
 <div id="p_sc" class="pchecks"></div><input id="p_sc_other" class="pother" type="text" placeholder="Please specify the scale, e.g., 1-10 slider" hidden><label class="pinl psep">Anchors <input id="p_anch" type="text" placeholder="e.g., 0 = not experienced at all, 5 = experienced greatly"></label><label class="pinl psep"><input id="p_dk" type="checkbox" checked> Include a "don't know the word" option</label></div>
 <div class="pstep"><h4>8 Instruction wording</h4><p class="muted pnote">How similar studies worded their instructions: up to 3 examples per category, closest to your choices first (verbatim where the paper prints it).</p><div id="p_ex" class="plist pexbox"></div><label class="pinl psep">Your planned instruction wording (per scale) <textarea id="p_instr" rows="4"></textarea></label></div>
-<div class="pstep"><h4>9 Study details (optional)</h4><label class="pinl">Authors <input id="p_auth" type="text"></label><label class="pinl">Title or working title <input id="p_title" type="text"></label><label class="pinl">Paper or preprint link <input id="p_plink" type="text"></label><label class="pinl">Data link <input id="p_dlink" type="text"></label></div>
+<div class="pstep"><h4>9 Study details (optional)</h4><label class="pinl">Authors <input id="p_auth" type="text"></label><label class="pinl">Title or working title <input id="p_title" type="text"></label><label class="pinl">Year / status <input id="p_year" type="text" placeholder="e.g., 2027, in preparation"></label><label class="pinl">Paper or preprint link <input id="p_plink" type="text"></label><label class="pinl">Data link <input id="p_dlink" type="text"></label></div>
+<div class="pstep"><h4>10 Data</h4><label class="pinl">Data level <input id="p_dlev" type="text" placeholder="e.g., item means and SDs, trial-level data"></label><label class="pinl">Other variables collected <input id="p_ovar" type="text"></label><label class="pinl">Comments <textarea id="p_comm" rows="3"></textarea></label></div>
 </div>
 <div class="pside">
 <h4>Similar datasets</h4><p id="p_note" class="muted"></p><div id="p_list" class="plist"></div>
@@ -126,7 +127,7 @@ const sel=()=>{const cats=[...document.querySelectorAll('#p_cats input:checked')
  const lang=$('p_lang').value==='__other'?$('p_lang_other').value.trim():$('p_lang').value;
  const n=+$('p_n').value||0;const bin=n?(NB.find(b=>n>=b[0]&&n<=b[1])||[0,0,'fewer than 30'])[2]:'';
  return {lang,cats,dims,dimo:$('p_dims_other').value.trim(),pp:g('p_pp'),ppo:$('p_pp_other').value.trim(),rg:g('p_rg'),rgo:$('p_rg_other').value.trim(),pos:g('p_pos'),poso:$('p_pos_other').value.trim(),sc:g('p_sc'),sco:$('p_sc_other').value.trim(),n,bin,rpi:$('p_rpi').value,anch:$('p_anch').value.trim(),dk:$('p_dk').checked,
-  auth:$('p_auth').value.trim(),title:$('p_title').value.trim(),pop:$('p_pop').value.trim(),instr:$('p_instr').value.trim(),plink:$('p_plink').value.trim(),dlink:$('p_dlink').value.trim()}};
+  auth:$('p_auth').value.trim(),title:$('p_title').value.trim(),pop:$('p_pop').value.trim(),instr:$('p_instr').value.trim(),plink:$('p_plink').value.trim(),dlink:$('p_dlink').value.trim(),itype:$('p_itype').value.trim(),year:$('p_year').value.trim(),dlev:$('p_dlev').value.trim(),ovar:$('p_ovar').value.trim(),comm:$('p_comm').value.trim()}};
 const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;');
 function dimsUI(s){const prev=new Set(s.dims);let h='';
  s.cats.forEach(k=>{const ds=Object.keys(dimc).filter(d=>d.startsWith(k+'|')&&!d.endsWith('|other')).sort((a,b)=>dimc[b]-dimc[a]||a.localeCompare(b));
@@ -174,12 +175,12 @@ function sheet(s){if(edited)return;const L=[];const v=x=>x||'';
  const dims=s.cats.map(k=>{const ds=s.dims.filter(d=>d.startsWith(k+'|')).map(lab);return ds.length?k+' '+CATN[k]+': '+ds.join(', '):''}).filter(Boolean).concat(s.dimo?['other: '+s.dimo]:[]).join('; ');
  const now=new Date();
  L.push('SENSORIMOTOR WORD NORMS - DOCUMENTATION SHEET','Created with "Sensorimotor word norms: an overview" on '+now.toISOString().slice(0,10),'',
- 'STUDY','Authors: '+v(s.auth),'Title / publication: '+v(s.title),'Year / status: ','Paper or preprint link: '+v(s.plink),'Data link: '+v(s.dlink),'',
- 'WORDS','Language: '+v(s.lang),'Number of items: '+(s.n||'')+(s.bin?' (size group '+s.bin+')':''),'Parts of speech: '+(s.pos==='Other'?'other: '+s.poso:v(s.pos)),'Item type and selection (e.g., concrete nouns from a frequency list): ','',
+ 'STUDY','Authors: '+v(s.auth),'Title / publication: '+v(s.title),'Year / status: '+v(s.year),'Paper or preprint link: '+v(s.plink),'Data link: '+v(s.dlink),'',
+ 'WORDS','Language: '+v(s.lang),'Number of items: '+(s.n||'')+(s.bin?' (size group '+s.bin+')':''),'Parts of speech: '+(s.pos==='Other'?'other: '+s.poso:v(s.pos)),'Item type and selection (e.g., concrete nouns from a frequency list): '+v(s.itype),'',
  'RATINGS','What raters judge (category): '+s.cats.map(k=>k+' '+CATN[k]).join('; '),'Dimensions / scales: '+dims,'Perspective (whose experience): '+(s.pp==='other'?'other: '+s.ppo:v(s.pp)),
  'Rating scale: '+(s.sc==='other'?'other: '+s.sco:(s.sc||''))+(s.anch?'; anchors: '+s.anch:''),'"Don\'t know the word" option: '+(s.dk?'yes':'no'),'Exact instruction wording (per scale):',s.instr?s.instr:'','',
  'RATERS','Rater group: '+(s.rg==='other'?'other: '+s.rgo:v(s.rg)),'Rater population (country, recruitment, age): '+v(s.pop),'Ratings per item: '+v(s.rpi),'',
- 'DATA','Data level (e.g., item means and SDs, trial-level data): ','Other variables collected: ','Comments: ');
+ 'DATA','Data level (e.g., item means and SDs, trial-level data): '+v(s.dlev),'Other variables collected: '+v(s.ovar),'Comments: '+v(s.comm));
  $('p_sheet').value=L.join('\n')}
 const tp=$('tab-planning');tp.addEventListener('input',e=>{if(e.target.id!=='p_sheet')upd()});tp.addEventListener('change',e=>{if(e.target.id!=='p_sheet')upd()});
 $('p_sheet').addEventListener('input',()=>{edited=true;$('p_msg').textContent='Edited by hand; further choices no longer update the sheet.'});
