@@ -108,8 +108,8 @@ for _a,_b in [("['n_items','N of items'],","['n_items','N of items'],['f_st','St
   ('Paper link</a></p>`:\'\'}','Paper link</a></p>`:\'\'}${(n.vars||[]).length?`<p class="muted" style="margin:4px 0"><b>Rated variables:</b> ${n.vars.map(x=>x.replace(/</g,"&lt;")).join(" | ")}</p>`:""}${(n.pop||[]).length?`<p class="muted" style="margin:4px 0"><b>Rater population:</b> ${n.pop.map(x=>x.replace(/</g,"&lt;")).join(" | ")}</p>`:""}')]:
     assert t.count(_a)==1,(_a[:60],t.count(_a)); t=t.replace(_a,_b)
 
-# v24: citation communities get their own colors (--k1..--k5), distinct from the category colors (--c1..--c6); validated: lightness, chroma, CVD, contrast
-t=t.replace('--c7:#8a8984','--c7:#8a8984;--k1:#8f6fe0;--k2:#008ca3;--k3:#b5283c;--k4:#7a8d10;--k5:#8a8984')
+# v24: citation communities get their own colors (--k1..--k5), distinct from the category colors (--c1..--c6) and from not assigned (gray); validated: lightness, chroma, CVD, contrast
+t=t.replace('--c7:#8a8984','--c7:#8a8984;--k1:#8f6fe0;--k2:#008ca3;--k3:#b5283c;--k4:#7a8d10;--k5:#1152d4')
 assert t.count('--k1:#8f6fe0')>=1
 for _a,_b in [("return n.community?`var(--c${COMMS.indexOf(n.community)+1})`","return n.community?`var(--k${Math.min(COMMS.indexOf(n.community)+1,5)})`"),
   ('<circle r="5" fill="var(--c${i+1})"/></svg>Commu','<circle r="5" fill="var(--k${Math.min(i+1,5)})"/></svg>Commu')]:
