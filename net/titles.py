@@ -69,6 +69,7 @@ T={
 "Gainotti et al. (2013)":("Gainotti","2013","the evaluation of sources of knowledge underlying different conceptual categories"),
 "Morucci et al. (2019)":("Morucci","2019","augmented modality exclusivity norms"),
 "Villani et al. (2019)":("Villani","2019","varieties of abstract concepts and their multiple dimensions"),
+"Villani et al. (2022)":("Villani","2022","is justice grounded"),
 "Vergallito et al. (2020)":("Vergallito","2020","perceptual modality norms for 1,121 italian words"),
 "Repetto et al. (2023)":("Repetto","2023","the italian sensorimotor norms"),
 "Falcinelli et al. (2024)":("Falcinelli","2024","the teco database"),

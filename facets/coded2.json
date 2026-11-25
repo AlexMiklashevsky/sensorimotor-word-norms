@@ -2229,6 +2229,69 @@
   "cat5": "core"
  },
  {
+  "key": "Villani et al. (2022)|Italian",
+  "lang": "",
+  "scale": "BOI",
+  "R": "R3",
+  "cat6": "core"
+ },
+ {
+  "key": "Villani et al. (2022)|Italian",
+  "lang": "",
+  "scale": "vision",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Villani et al. (2022)|Italian",
+  "lang": "",
+  "scale": "touch",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Villani et al. (2022)|Italian",
+  "lang": "",
+  "scale": "hearing",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Villani et al. (2022)|Italian",
+  "lang": "",
+  "scale": "smell",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Villani et al. (2022)|Italian",
+  "lang": "",
+  "scale": "taste",
+  "R": "R1",
+  "cat2": "core"
+ },
+ {
+  "key": "Villani et al. (2022)|Italian",
+  "lang": "",
+  "scale": "interoception",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Villani et al. (2022)|Italian",
+  "lang": "",
+  "scale": "mouth involvement",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
+  "key": "Villani et al. (2022)|Italian",
+  "lang": "",
+  "scale": "hand involvement",
+  "R": "R2a",
+  "cat5": "core"
+ },
+ {
   "key": "Vergallito et al. (2020)|Italian",
   "lang": "",
   "scale": "hearing (by hearing)",

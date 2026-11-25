@@ -246,6 +246,8 @@ Vanhoutte, S., Strobbe, G., van Mierlo, P., Cosyns, M., Batens, K., Corthals, P.
 
 Vergallito, A., Petilli, M. A., & Marelli, M. (2020). Perceptual modality norms for 1,121 Italian words: A comparison with concreteness and imageability scores and an analysis of their impact in word processing tasks. *Behavior Research Methods, 52*(4), 1599-1616. https://doi.org/10.3758/s13428-019-01337-8
 
+Villani, C., D'Ascenzo, S., Borghi, A. M., Roversi, C., Benassi, M., & Lugli, L. (2022). Is justice grounded? How expertise shapes conceptual representation of institutional concepts. *Psychological Research, 86*(8), 2434-2450. https://doi.org/10.1007/s00426-021-01492-8
+
 Villani, C., Lugli, L., Liuzza, M. T., & Borghi, A. M. (2019). Varieties of abstract concepts and their multiple dimensions. *Language and Cognition, 11*(3), 403-430. https://doi.org/10.1017/langcog.2019.23
 
 Vladimirova, V. E., Korshunova, I. S., & Rezanova, Z. I. (2023). RuTurkPsychLing database as a specialized lexicographic source: Norms for evaluating psychophysiological and emotional experience. *Voprosy leksikografii*, 29, 87-105. https://doi.org/10.17223/22274200/29/5
