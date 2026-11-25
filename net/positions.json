@@ -354,6 +354,16 @@
 "y": 0.2047,
 "iso": false
 },
+"Mongush (2026a)": {
+"x": 0.3778,
+"y": 0.6842,
+"iso": false
+},
+"Mongush (2026b)": {
+"x": 0.163,
+"y": 0.7335,
+"iso": false
+},
 "Montero-Melis et al. (2022)": {
 "x": 0.6548,
 "y": 0.141,
@@ -397,6 +407,11 @@
 "Niccolai et al. (2014)": {
 "x": 1.0,
 "y": 0.4726,
+"iso": false
+},
+"Ota and Kitagami (2025)": {
+"x": 0.3347,
+"y": 0.3079,
 "iso": false
 },
 "Paisios (2024)": {
@@ -544,6 +559,11 @@
 "y": 0.7964,
 "iso": false
 },
+"Stoinski et al. (2024)": {
+"x": 0.5018,
+"y": 0.3499,
+"iso": false
+},
 "Striedl et al. (2024)": {
 "x": 0.3549,
 "y": 0.7792,
@@ -642,6 +662,11 @@
 "Wu et al. (2013)": {
 "x": 0.8783,
 "y": 0.213,
+"iso": false
+},
+"Xu (2024)": {
+"x": 0.3974,
+"y": 0.5776,
 "iso": false
 },
 "Xu and Liu (2024a)": {

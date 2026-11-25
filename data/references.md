@@ -146,6 +146,10 @@ Mochizuki, M., Tamaki, K., & Naito, K. (2014). Body-object interaction rating fo
 
 Monaco, E., Mouthon, M., Britz, J., Sato, S., Stefanos-Yakoub, I., Annoni, J. M., & Jost, L. B. (2023). Embodiment of action-related language in the native and a late foreign language - an fMRI-study. *Brain and Language, 244*, 105312. https://doi.org/10.1016/j.bandl.2023.105312
 
+Mongush, N. O. (2026a). The influence of bilingualism factors and its variants on the assessment of the perceptual experience contribution to word semantics [In Russian]. *Vestnik Tomskogo gosudarstvennogo universiteta*, 525, 29-35. https://doi.org/10.17223/15617793/525/3
+
+Mongush, N. O. (2026b). The influence of Tuvan-Russian bilingualism on the perception of perceptual semantics of attributive words in the Russian language [In Russian]. *Rusin*, 84, 241-256. https://doi.org/10.17223/18572685/84/12
+
 Montero-Melis, G., van Paridon, J., Ostarek, M., & Bylund, E. (2022). No evidence for embodiment: The motor system is not needed to keep action verbs in working memory. *Cortex, 150*, 108-125. https://doi.org/10.1016/j.cortex.2022.02.006
 
 Moreno-Martínez, F. J., Montoro, P. R., & Rodríguez-Rojo, I. C. (2014). Spanish norms for age of acquisition, concept familiarity, lexical frequency, manipulability, typicality, and other variables for 820 words from 14 living/nonliving concepts. *Behavior Research Methods, 46*(4), 1088-1097. https://doi.org/10.3758/s13428-013-0435-x
@@ -163,6 +167,8 @@ Muraki, E. J., Born, S., & Pexman, P. M. (2025). Grasping variance in word norms
 Muraki, E. J., Siddiqui, I. A., & Pexman, P. M. (2022). Quantifying children's sensorimotor experience: Child body-object interaction ratings for 3359 English words. *Behavior Research Methods, 54*(6), 2864-2877. https://doi.org/10.3758/s13428-022-01798-4
 
 Niccolai, V., Klepp, A., Weissler, H., Hoogenboom, N., Schnitzler, A., & Biermann-Ruben, K. (2014). Grasping hand verbs: Oscillatory beta and alpha correlates of action-word processing. *PLOS ONE, 9*(9), e108059. https://doi.org/10.1371/journal.pone.0108059
+
+Ota, N., & Kitagami, S. (2025). Sensorimotor information moderating difficulty in understanding ideogram: The body-object interaction effect for visual symbols. *Psychologia, 67*(2), 176-189. https://doi.org/10.2117/psysoc.2024-a275
 
 Paisios, D. (2024). *De la manipulabilité à la méthodologie et vice-versa: Un regard critique sur les pratiques expérimentales dans l'étude des représentations d'objets* [From manipulability to methodology and vice versa: A critical look at experimental practices in the study of object representations] [Doctoral dissertation, Université de Toulouse]. https://dante.univ-tlse2.fr/s/fr/item/39351
 
@@ -222,6 +228,8 @@ Speed, L. J., Papies, E. K., & Majid, A. (2023). Mental simulation across sensor
 
 Speed, L. J., Poort, E. D., Duiker, T. P., Baseler, H., & Majid, A. (2025). Haptic compensation in blind people's conceptual representations. *Open Mind, 9*, 1786-1801. https://doi.org/10.1162/opmi.a.250
 
+Stoinski, L. M., Perkuhn, J., & Hebart, M. N. (2024). THINGSplus: New norms and metadata for the THINGS database of 1854 object concepts and 26,107 natural object images. *Behavior Research Methods, 56*(3), 1583-1603. https://doi.org/10.3758/s13428-023-02110-8
+
 Striedl, P., Majid, A., & Purves, R. S. (2024). Sensory, motor, and emotion associations for landscape concepts differ across neighbouring speech communities. *Landscape Research, 49*(5), 704-721. https://doi.org/10.1080/01426397.2024.2334055
 
 Suggate, S. P., & Stoeger, H. (2014). Do nimble hands make for nimble lexicons? Fine motor skills predict knowledge of embodied vocabulary items. *First Language, 34*(3), 244-261. https://doi.org/10.1177/0142723714535768
@@ -263,6 +271,8 @@ Wu, C., & Mu, X. (2024). Sensory experience ratings (SERs) for 1,130 Chinese wor
 Wu, H., Mai, X., Tang, H., Ge, Y., Luo, Y.-J., & Liu, C. (2013). Dissociable somatotopic representations of Chinese action verbs in the motor and premotor cortex. *Scientific Reports, 3*(1), 2049. https://doi.org/10.1038/srep02049
 
 Wu, Y. J., & Tan, Q. (2026). The multidimensional organisation of embodied meaning in a second language. *International Journal of Applied Linguistics*. Advance online publication. https://doi.org/10.1111/ijal.70388
+
+Xu, M. (2024). Multisensory integration in lexical processing: Predicting word recognition through cross-modal capability. *Theory and Practice in Language Studies, 14*(11), 3535-3545. https://doi.org/10.17507/tpls.1411.22
 
 Xu, Q., Peng, Y., Nastase, S. A., Chodorow, M., Wu, M., & Li, P. (2025). Large language models without grounding recover non-sensorimotor but not sensorimotor features of human concepts. *Nature Human Behaviour, 9*(9), 1871-1886. https://doi.org/10.1038/s41562-025-02203-8
 

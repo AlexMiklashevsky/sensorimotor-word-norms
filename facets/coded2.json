@@ -5089,5 +5089,173 @@
   "scale": "torso",
   "R": "R1",
   "cat5": "core"
+ },
+ {
+  "key": "Mongush (2026a)|Russian",
+  "lang": "Russian",
+  "scale": "vision",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Mongush (2026b)|Tuvan",
+  "lang": "Tuvan",
+  "scale": "vision",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Mongush (2026b)|Russian",
+  "lang": "Russian",
+  "scale": "vision",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Mongush (2026a)|Russian",
+  "lang": "Russian",
+  "scale": "hearing",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Mongush (2026b)|Tuvan",
+  "lang": "Tuvan",
+  "scale": "hearing",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Mongush (2026b)|Russian",
+  "lang": "Russian",
+  "scale": "hearing",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Mongush (2026a)|Russian",
+  "lang": "Russian",
+  "scale": "touch",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Mongush (2026b)|Tuvan",
+  "lang": "Tuvan",
+  "scale": "touch",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Mongush (2026b)|Russian",
+  "lang": "Russian",
+  "scale": "touch",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Mongush (2026a)|Russian",
+  "lang": "Russian",
+  "scale": "taste",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Mongush (2026b)|Tuvan",
+  "lang": "Tuvan",
+  "scale": "taste",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Mongush (2026b)|Russian",
+  "lang": "Russian",
+  "scale": "taste",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Mongush (2026a)|Russian",
+  "lang": "Russian",
+  "scale": "smell",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Mongush (2026b)|Tuvan",
+  "lang": "Tuvan",
+  "scale": "smell",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Mongush (2026b)|Russian",
+  "lang": "Russian",
+  "scale": "smell",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Xu (2024)|Chinese",
+  "lang": "Chinese",
+  "scale": "touch",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Xu (2024)|Chinese",
+  "lang": "Chinese",
+  "scale": "taste",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Xu (2024)|Chinese",
+  "lang": "Chinese",
+  "scale": "smell",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Xu (2024)|Chinese",
+  "lang": "Chinese",
+  "scale": "vision",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Xu (2024)|Chinese",
+  "lang": "Chinese",
+  "scale": "hearing",
+  "R": "R2a",
+  "cat2": "core"
+ },
+ {
+  "key": "Stoinski et al. (2024)|English",
+  "lang": "English",
+  "scale": "graspability",
+  "R": "R3",
+  "cat5": "core"
+ },
+ {
+  "key": "Stoinski et al. (2024)|English",
+  "lang": "English",
+  "scale": "holdability",
+  "R": "R3",
+  "cat5": "core"
+ },
+ {
+  "key": "Stoinski et al. (2024)|English",
+  "lang": "English",
+  "scale": "heaviness",
+  "R": "R4",
+  "cat3": "core"
+ },
+ {
+  "key": "Ota and Kitagami (2025)|Japanese",
+  "lang": "Japanese",
+  "scale": "BOI",
+  "R": "R3",
+  "cat6": "core"
  }
 ]

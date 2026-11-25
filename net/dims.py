@@ -11,7 +11,7 @@ R5=[('hand: graspability / manipulability (objects)',r'grasp|manipul|holdab|usab
     ('hand/arm: association',r'hand|arm|upperlimb|finger'),('foot/leg',r'foot|feet|leg|lowerlimb'),('torso',r'torso')]
 R3=[('visual: color',r'colou?r'),('visual: shape/form',r'shape|form\b|visual form'),('visual: motion',r'motion|fast|slow'),('visual: brightness',r'bright|dark'),
     ('visual: size',r'large|small'),('visual: pattern/texture',r'pattern'),('visual: complexity',r'complex'),('visual: face/body',r'^face|^body'),
-    ('several features (one question)',r'feeling types'),('touch/body: temperature',r'temperat|warm|cold'),('touch/body: texture',r'texture'),('touch/body: weight',r'weight'),('touch/body: pain',r'pain'),
+    ('several features (one question)',r'feeling types'),('touch/body: temperature',r'temperat|warm|cold'),('touch/body: texture',r'texture'),('touch/body: weight',r'weight|heav'),('touch/body: pain',r'pain'),
     ('touch/body: balance',r'balance'),('touch/body: kinesthesis',r'kinesth'),('sound: loudness',r'loud'),('sound: pitch',r'^low|^high'),
     ('sound: music',r'music'),('sound: speech',r'speech'),('sound: sound',r'^sound')]
 R4=[('relative embodiment',r'embodiment|body involvement'),('movement',r'^movement'),('motor content',r'motor content'),('effector involvement',r'effector'),

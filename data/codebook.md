@@ -18,7 +18,7 @@ Rating relation (R code): R1 experience ("to what extent do you experience ...")
 
 ## datasets.csv
 
-The overview table: one row per paper and language. 155 rows.
+The overview table: one row per paper and language. 161 rows.
 
 | Column | Description |
 |---|---|
@@ -62,7 +62,7 @@ The overview table: one row per paper and language. 155 rows.
 
 ## scales.csv
 
-One row per rating scale of each paper and language, with its coding. 688 rows.
+One row per rating scale of each paper and language, with its coding. 712 rows.
 
 | Column | Description |
 |---|---|
@@ -83,7 +83,7 @@ One row per rating scale of each paper and language, with its coding. 688 rows.
 
 ## citation_links.csv
 
-Citation links between the papers of the overview, found in the reference lists of the papers. 810 rows.
+Citation links between the papers of the overview, found in the reference lists of the papers. 844 rows.
 
 | Column | Description |
 |---|---|
