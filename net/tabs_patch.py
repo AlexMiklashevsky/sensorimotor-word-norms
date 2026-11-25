@@ -9,6 +9,7 @@ _start=t.index('<p class="sub">'); _end=t.index('<div id="method"></div>')+len('
 _tfilters='''<div class="controls" id="tfilters"><span class="lbl" style="font-weight:600">Filters</span>
  <input type="search" id="tq" placeholder="Find a paper (e.g., Lynott)">
  <span><span class="lbl">Language</span><select id="t_lang"></select></span>
+ <span><span class="lbl">Category</span><select id="t_cat"></select></span>
  <span><span class="lbl">Years</span><span class="yr"><input type="range" id="ty0" aria-label="From year"><input type="range" id="ty1" aria-label="To year"></span> <span id="tyrLab" class="yrlab"></span></span>
  <span><span class="lbl">Rater group</span><select id="t_f_rg"></select></span>
  <span><span class="lbl">Perspective</span><select id="t_f_pp"></select></span>
@@ -70,18 +71,21 @@ assert t.count(_a)==1; t=t.replace(_a,"const rows=N.filter(tpass)")
 _a="table();render();panel();\n</script>"
 assert t.count(_a)==1
 t=t.replace(_a,r'''// table filters (independent of the network filters)
-const TS={lang:'',f:{},y0:YMIN,y1:YMAX,q:''};
-function tpass(n){return (!TS.lang||n.language.split(' / ').includes(TS.lang))&&n.year>=TS.y0&&n.year<=TS.y1&&FKEYS.every(k=>!TS.f[k]||(n[k]||[]).includes(TS.f[k]))&&(!TS.q||n.id.toLowerCase().includes(TS.q))}
-function tcount(){const k=N.filter(tpass).length,a=TS.lang||TS.q||TS.y0>YMIN||TS.y1<YMAX||FKEYS.some(x=>TS.f[x]);document.getElementById('tcount').textContent=a?k+' of '+N.length+' papers shown':''}
+const TS={lang:'',cat:'',f:{},y0:YMIN,y1:YMAX,q:''};
+const hasCat=(n,k)=>n.pie&&n.pie.length?n.pie.some(([c])=>c===k):CL.indexOf(n.cluster)+1===k;
+function tpass(n){return (!TS.lang||n.language.split(' / ').includes(TS.lang))&&(!TS.cat||hasCat(n,+TS.cat))&&n.year>=TS.y0&&n.year<=TS.y1&&FKEYS.every(k=>!TS.f[k]||(n[k]||[]).includes(TS.f[k]))&&(!TS.q||n.id.toLowerCase().includes(TS.q))}
+function tcount(){const k=N.filter(tpass).length,a=TS.lang||TS.cat||TS.q||TS.y0>YMIN||TS.y1<YMAX||FKEYS.some(x=>TS.f[x]);document.getElementById('tcount').textContent=a?k+' of '+N.length+' papers shown':''}
 document.getElementById('t_lang').innerHTML=document.getElementById('langSel').innerHTML;
 document.getElementById('t_lang').onchange=e=>{TS.lang=e.target.value;table();tcount()};
+document.getElementById('t_cat').innerHTML='<option value="">All categories</option>'+CL.map((c,i)=>`<option value="${i+1}">${c} (${N.filter(n=>hasCat(n,i+1)).length})</option>`).join('');
+document.getElementById('t_cat').onchange=e=>{TS.cat=e.target.value;table();tcount()};
 FKEYS.forEach(k=>{const s=document.getElementById('t_'+k);s.innerHTML=document.getElementById(k).innerHTML;s.value='';s.onchange=e=>{TS.f[k]=e.target.value;table();tcount()}});
 const ty0=document.getElementById('ty0'),ty1=document.getElementById('ty1'),tyl=document.getElementById('tyrLab');
 [ty0,ty1].forEach(s=>{s.min=YMIN;s.max=YMAX;s.step=1});ty0.value=YMIN;ty1.value=YMAX;tyl.textContent=YMIN+'-'+YMAX;
 function tyr(e){let a=+ty0.value,b=+ty1.value;if(a>b){if(e.target===ty0){a=b;ty0.value=a}else{b=a;ty1.value=b}}TS.y0=a;TS.y1=b;ty0.style.zIndex=a>=YMAX-1?3:1;tyl.textContent=a+'-'+b;table();tcount()}
 ty0.oninput=tyr;ty1.oninput=tyr;
 document.getElementById('tq').oninput=e=>{TS.q=e.target.value.trim().toLowerCase();table();tcount()};
-document.getElementById('tclear').onclick=()=>{TS.lang='';TS.q='';TS.f={};TS.y0=YMIN;TS.y1=YMAX;document.getElementById('t_lang').value='';document.getElementById('tq').value='';FKEYS.forEach(k=>document.getElementById('t_'+k).value='');ty0.value=YMIN;ty1.value=YMAX;tyl.textContent=YMIN+'-'+YMAX;table();tcount()};
+document.getElementById('tclear').onclick=()=>{TS.lang='';TS.cat='';document.getElementById('t_cat').value='';TS.q='';TS.f={};TS.y0=YMIN;TS.y1=YMAX;document.getElementById('t_lang').value='';document.getElementById('tq').value='';FKEYS.forEach(k=>document.getElementById('t_'+k).value='');ty0.value=YMIN;ty1.value=YMAX;tyl.textContent=YMIN+'-'+YMAX;table();tcount()};
 // tabs
 const TABS=['network','details','table','references','contact'];
 function showTab(id,push){if(!TABS.includes(id))id='network';document.querySelectorAll('.tabp').forEach(s=>s.hidden=s.id!=='tab-'+id);document.querySelectorAll('.tabs button').forEach(b=>b.setAttribute('aria-selected',String(b.dataset.t===id)));if(push&&history.replaceState)history.replaceState(null,'','#'+id);if(id==='network')render()}
