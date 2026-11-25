@@ -156,8 +156,8 @@ details{margin:6px 0}summary{cursor:pointer;color:var(--text-secondary)}
 <span class="muted">General good practice: label at least the endpoints of the scale.</span></div>
 <div id="p_sc" class="pchecks"></div><input id="p_sc_other" class="pother" type="text" placeholder="Please specify the scale, e.g., 1-10 slider" hidden><label class="pinl psep">Anchors <input id="p_anch" type="text" placeholder="e.g., 0 = not experienced at all, 5 = experienced greatly"></label><label class="pinl psep"><input id="p_dk" type="checkbox" checked> Include a "don't know the word" option</label></div>
 <div class="pstep"><h4>8 Instruction wording</h4><p class="muted pnote">How similar studies worded their instructions: up to 3 examples per category, closest to your choices first (verbatim where the paper prints it).</p><div id="p_ex" class="plist pexbox"></div><label class="pinl psep">Your planned instruction wording (per scale) <textarea id="p_instr" rows="4"></textarea></label></div>
-<div class="pstep"><h4>9 Study details (optional)</h4><label class="pinl">Authors <input id="p_auth" type="text"></label><label class="pinl">Title or working title <input id="p_title" type="text"></label><label class="pinl">Year / status <input id="p_year" type="text" placeholder="e.g., 2027, in preparation"></label><label class="pinl">Paper or preprint link <input id="p_plink" type="text"></label><label class="pinl">Data link <input id="p_dlink" type="text"></label></div>
-<div class="pstep"><h4>10 Data</h4><label class="pinl">Data level <input id="p_dlev" type="text" placeholder="e.g., item means and SDs, trial-level data"></label><label class="pinl">Other variables collected <input id="p_ovar" type="text"></label><label class="pinl">Comments <textarea id="p_comm" rows="3"></textarea></label></div>
+<div class="pstep"><h4>9 Data</h4><p class="muted pnote">What data will be provided?</p><div id="p_dprov" class="pchecks"><label><input type="checkbox" value="trial-level data (each single rating)"> trial-level data (each single rating)</label><label><input type="checkbox" value="mean per item"> mean per item</label><label><input type="checkbox" value="SD per item"> SD per item</label><label><input type="checkbox" value="number of ratings per item"> number of ratings per item</label><label><input type="checkbox" value="proportion of &quot;don&#x27;t know&quot; responses per item"> proportion of "don't know" responses per item</label><label><input type="checkbox" value="rater information (e.g., age, gender, language background)"> rater information (e.g., age, gender, language background)</label><label><input type="checkbox" value="other (please specify)"> other (please specify)</label></div><input id="p_dprov_other" class="pother" type="text" placeholder="Please specify the other data" hidden><label class="pinl psep">Other variables collected <input id="p_ovar" type="text"></label></div>
+<div class="pstep"><h4>10 Study details (optional)</h4><label class="pinl">Authors <input id="p_auth" type="text"></label><label class="pinl">Title or working title <input id="p_title" type="text"></label><label class="pinl">Year / status <input id="p_year" type="text" placeholder="e.g., 2027, in preparation"></label><label class="pinl">Paper or preprint link <input id="p_plink" type="text"></label><label class="pinl">Data link <input id="p_dlink" type="text"></label><label class="pinl">Comments <textarea id="p_comm" rows="3"></textarea></label></div>
 </div>
 <div class="pside">
 <h4>Similar datasets</h4><p id="p_note" class="muted"></p><div id="p_list" class="plist"></div>
@@ -184,7 +184,7 @@ details{margin:6px 0}summary{cursor:pointer;color:var(--text-secondary)}
 <h3 class="fh">Visitor statistics</h3>
 <p>This page counts visits with <a href="https://www.goatcounter.com" target="_blank" rel="noopener">GoatCounter</a>, which sets no cookies and stores no personal data. It records page views, the referring site, browser, screen size and country, only as totals. See the <a href="https://www.goatcounter.com/privacy" target="_blank" rel="noopener">GoatCounter privacy policy</a>.</p>
 <h3 class="fh">Last update</h3>
-<p>2026-11-25, 08:38 (CET)</p>
+<p>2026-11-25, 08:43 (CET)</p>
 </section>
 </div>
 <script>
@@ -365,7 +365,7 @@ const sel=()=>{const cats=[...document.querySelectorAll('#p_cats input:checked')
  const lang=$('p_lang').value==='__other'?$('p_lang_other').value.trim():$('p_lang').value;
  const n=+$('p_n').value||0;const bin=n?(NB.find(b=>n>=b[0]&&n<=b[1])||[0,0,'fewer than 30'])[2]:'';
  return {lang,cats,dims,dimo:$('p_dims_other').value.trim(),pp:g('p_pp'),ppo:$('p_pp_other').value.trim(),rg:g('p_rg'),rgo:$('p_rg_other').value.trim(),pos:g('p_pos'),poso:$('p_pos_other').value.trim(),sc:g('p_sc'),sco:$('p_sc_other').value.trim(),n,bin,rpi:$('p_rpi').value,anch:$('p_anch').value.trim(),dk:$('p_dk').checked,
-  auth:$('p_auth').value.trim(),title:$('p_title').value.trim(),pop:$('p_pop').value.trim(),instr:$('p_instr').value.trim(),plink:$('p_plink').value.trim(),dlink:$('p_dlink').value.trim(),itype:$('p_itype').value.trim(),year:$('p_year').value.trim(),dlev:$('p_dlev').value.trim(),ovar:$('p_ovar').value.trim(),comm:$('p_comm').value.trim()}};
+  auth:$('p_auth').value.trim(),title:$('p_title').value.trim(),pop:$('p_pop').value.trim(),instr:$('p_instr').value.trim(),plink:$('p_plink').value.trim(),dlink:$('p_dlink').value.trim(),itype:$('p_itype').value.trim(),year:$('p_year').value.trim(),dprov:[...document.querySelectorAll('#p_dprov input:checked')].map(x=>x.value),dprovo:$('p_dprov_other').value.trim(),ovar:$('p_ovar').value.trim(),comm:$('p_comm').value.trim()}};
 const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;');
 function dimsUI(s){const prev=new Set(s.dims);let h='';
  s.cats.forEach(k=>{const ds=Object.keys(dimc).filter(d=>d.startsWith(k+'|')&&!d.endsWith('|other')).sort((a,b)=>dimc[b]-dimc[a]||a.localeCompare(b));
@@ -384,7 +384,7 @@ function crit(s){const C=[];
  if(s.sc&&s.sc!=='other')C.push(['scale '+s.sc,n=>(n.f_scale||[]).includes(s.sc),n=>'scale '+((n.f_scale||[]).join(', ')||'not stated')]);
  return C}
 function upd(){const s=sel();
- $('p_lang_other').hidden=$('p_lang').value!=='__other';$('p_pp_other').hidden=s.pp!=='other';$('p_rg_other').hidden=s.rg!=='other';$('p_pos_other').hidden=s.pos!=='Other';$('p_sc_other').hidden=s.sc!=='other';
+ $('p_lang_other').hidden=$('p_lang').value!=='__other';$('p_pp_other').hidden=s.pp!=='other';$('p_rg_other').hidden=s.rg!=='other';$('p_pos_other').hidden=s.pos!=='Other';$('p_sc_other').hidden=s.sc!=='other';$('p_dprov_other').hidden=!s.dprov.includes('other (please specify)');
  dimsUI(s);s.dims=[...document.querySelectorAll('#p_dims input:checked')].map(x=>x.value);
  $('p_nbin').textContent=s.bin?'Size group: '+s.bin+' ('+N.filter(n=>(n.f_nb||[]).includes(s.bin)).length+' existing papers)':'';
  const C=crit(s);
@@ -418,7 +418,7 @@ function sheet(s){if(edited)return;const L=[];const v=x=>x||'';
  'RATINGS','What raters judge (category): '+s.cats.map(k=>k+' '+CATN[k]).join('; '),'Dimensions / scales: '+dims,'Perspective (whose experience): '+(s.pp==='other'?'other: '+s.ppo:v(s.pp)),
  'Rating scale: '+(s.sc==='other'?'other: '+s.sco:(s.sc||''))+(s.anch?'; anchors: '+s.anch:''),'"Don\'t know the word" option: '+(s.dk?'yes':'no'),'Exact instruction wording (per scale):',s.instr?s.instr:'','',
  'RATERS','Rater group: '+(s.rg==='other'?'other: '+s.rgo:v(s.rg)),'Rater population (country, recruitment, age): '+v(s.pop),'Ratings per item: '+v(s.rpi),'',
- 'DATA','Data level (e.g., item means and SDs, trial-level data): '+v(s.dlev),'Other variables collected: '+v(s.ovar),'Comments: '+v(s.comm));
+ 'DATA','Data provided: '+s.dprov.map(x=>x==='other (please specify)'?'other: '+s.dprovo:x).join('; '),'Other variables collected: '+v(s.ovar),'Comments: '+v(s.comm));
  $('p_sheet').value=L.join('\n')}
 const tp=$('tab-planning');tp.addEventListener('input',e=>{if(e.target.id!=='p_sheet')upd()});tp.addEventListener('change',e=>{if(e.target.id!=='p_sheet')upd()});
 $('p_sheet').addEventListener('input',()=>{edited=true;$('p_msg').textContent='Edited by hand; further choices no longer update the sheet.'});
