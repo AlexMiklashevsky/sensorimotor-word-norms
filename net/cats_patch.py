@@ -57,8 +57,8 @@ F+=f"""
 # v13: reorder blocks in the order of the controls, each with a heading identical to the control label
 def _cut(s,a,b=None):
     i=s.index(a); j=s.index(b,i) if b else len(s); return s[i:j]
-_comm=F[:F.index('<p><b>Category 2 is split')]
-_split=_cut(F,'<p><b>Category 2 is split','<p><b>Most cited within')
+_comm=F[:F.index('<p>Category 2 is split')]
+_split=_cut(F,'<p>Category 2 is split','<p><b>Most cited within')
 _most=_cut(F,'<p><b>Most cited within','\n<p><b>The six categories.')
 _cats=_cut(F,'<p><b>The six categories.','\n<p><b>Perspective: whose')
 _pers=_cut(F,'<p><b>Perspective: whose')
