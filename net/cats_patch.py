@@ -19,7 +19,7 @@ def _stats(k):
     parts=', '.join(f"{n} {(_ST1 if n==1 else _ST).get(x,x)}" for x,n in st.most_common())
     com=', '.join(f"{c} ({n})" for c,n in sorted(cm.items(),key=lambda z:-z[1]))
     nocom=m-sum(cm.values())
-    return f"Of the {m} main-category papers: {parts}; by citation community: {com}"+(f", not in a community {nocom}" if nocom else '')+'.'
+    return f"Of the {m} main-category papers: {parts}."  # per-community counts removed (user, 2026-11-25)
 def _cooc(k):
     anyc=[n for n in nodes if any(c==k for c,_ in n['pie'])]
     alone=sum(1 for n in anyc if {c for c,_ in n['pie']}=={k})
@@ -29,17 +29,17 @@ def _cooc(k):
 def _cotext(k):
     alone,top,n=_cooc(k)
     t=(f"None of the {n} papers uses only this category" if alone==0 else f"{alone} of the {n} papers use only this category")
-    if top: t+=f"; it is most often combined with category {top[0]} ({top[1]} {'paper' if top[1]==1 else 'papers'})"
+    if top and top[1]>1: t+=f"; it is most often combined with category {top[0]} ({top[1]} {'paper' if top[1]==1 else 'papers'})"
     return t+'.'
 F+=f"""
-<p><b>The six categories.</b> Each rating scale in the overview table was assigned to one or more categories according to what raters were asked to judge; a paper's pie shows every category its scales belong to, and its main category is the one with the most scales (see Method). Counts below: papers with at least one scale in the category, and papers for which it is the main category; "most cited" lists main-category papers with the number of later table papers citing them.</p>
+<p><b>The six categories.</b> Each rating scale in the overview table was assigned to one or more categories according to what raters were asked to judge. Categories were defined top-down, based on theoretical analysis of constructs measured in available datasets. A paper's pie shows every category its scales belong to, and its main category is the one with the most scales (see Method). Counts below: papers with at least one scale in the category, and papers for which it is the main category; "most cited" lists main-category papers with the number of later table papers citing them.</p>
 <ul>
 <li><b>1 Global sensory experience (SER; {_h(1)}):</b> one overall rating of how much sensory experience a word evokes, without separating the senses (Juhasz et al., 2011: "the degree of sensory experience each one evokes for you"). {_stats(1)} {_cotext(1)} Most cited: {_top(1)}.</li>
 <li><b>2 Experience per sense ({_h(2)}):</b> a separate rating for each modality (vision, hearing, touch, taste, smell, often interoception), as in the Lancaster norms ("To what extent do you experience WORD", answered by seeing, by hearing, etc.). {_stats(2)} {_cotext(2)} Most cited: {_top(2)}.</li>
-<li><b>3 Perceptual features ({_h(3)}):</b> specific features within a modality, such as color, visual motion, loudness, pain, temperature or weight (Amsel et al., 2012: "How vivid (intense) is the color of this object?"; the feature ratings of Binder et al., 2016). {_stats(3)} {_cotext(3)} Most cited: {_top(3)}.</li>
-<li><b>4 Bodily involvement, no body part named ({_h(4)}):</b> how much a word's meaning involves the body or bodily movement in general, without naming an effector (e.g., the relative embodiment ratings of Sidhu et al., 2014; Tomasino et al., 2007: whether the word refers to a movement). {_stats(4)} {_cotext(4)} Most cited: {_top(4)}.</li>
-<li><b>5 Specific body part / effector ({_h(5)}):</b> which body part an action involves, typically hand/arm, leg/foot and face/mouth (Hauk and Pulvermüller, 2004: "Does this word remind you of an action you could perform with your arms, hands, or fingers?"). {_stats(5)} {_cotext(5)} Most cited: {_top(5)}.</li>
-<li><b>6 Body-object interaction (BOI; {_h(6)}):</b> the ease with which a human body can physically interact with what a word refers to (Tillotson et al., 2008: "the ease with which a human body can physically interact with what they represent"). {_stats(6)} {_cotext(6)} Most cited: {_top(6)}.</li>
+<li><b>3 Perceptual features ({_h(3)}):</b> specific features within a modality (or cross-modally), such as color, shape, visual motion, loudness, pain, temperature or weight (Amsel et al., 2012: "How vivid (intense) is the color of this object?"; the feature ratings of Binder et al., 2016). {_stats(3)} {_cotext(3)} Most cited: {_top(3)}.</li>
+<li><b>4 Bodily involvement, no body part named ({_h(4)}):</b> how much a word's meaning involves the body or bodily movement in general, without specifying an effector (e.g., the relative embodiment ratings of Sidhu et al., 2014; Tomasino et al., 2007: whether the word refers to a movement). This category, unlike category 6, can include verbs, both concrete and abstract (e.g., walk, run, think). {_stats(4)} {_cotext(4)} Most cited: {_top(4)}.</li>
+<li><b>5 Specific body part / effector ({_h(5)}):</b> which body part an action involves, typically hand/arm, leg/foot and face/mouth (Hauk and Pulvermüller, 2004: "Does this word remind you of an action you could perform with your arms, hands, or fingers?"). Also includes norms for manipulability / graspability, as they also imply a specific effector, the hand. {_stats(5)} {_cotext(5)} Most cited: {_top(5)}.</li>
+<li><b>6 Body-object interaction (BOI; {_h(6)}):</b> the ease with which a human body can physically interact with what a word refers to (Tillotson et al., 2008: "the ease with which a human body can physically interact with what they represent"). Unlike category 4, this category is defined for objects; some BOI datasets nevertheless include verbs or adjectives (e.g., Pexman et al., 2019; Muraki et al., 2022; Dickinson and Yates, 2026). {_stats(6)} {_cotext(6)} Most cited: {_top(6)}.</li>
 </ul>"""
 # v11: perspective explanation
 import collections as _co2
