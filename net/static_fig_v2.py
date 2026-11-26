@@ -4,7 +4,7 @@ from matplotlib.patches import Wedge,Circle
 from matplotlib.lines import Line2D
 nodes=json.load(open('nodes.json')); E=json.load(open('edges.json'))
 CL=['1 Global sensory experience','2 Experience per sense','3 Perceptual features','4 Bodily involvement (no body part named)','5 Specific body part / effector','6 Body-object interaction']
-COL=['#1f5fbf','#e8590c','#1baf7a','#d9a900','#b0207a','#8f5713']; GRAY='#8a8984'
+COL=['#363ea9', '#a136a9', '#a9363e', '#a9a136', '#3ea936', '#36a9a1']; GRAY='#8a8984'
 N={n['id']:n for n in nodes}
 def short(i):
     i=re.sub(r' et al\. \((\d{4})\)',r' et al. \1',i); i=re.sub(r' and (.+?) \((\d{4})\)',r' & \1 \2',i); return re.sub(r' \((\d{4})\)',r' \1',i)
