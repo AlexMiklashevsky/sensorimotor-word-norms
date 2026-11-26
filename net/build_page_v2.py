@@ -108,7 +108,7 @@ t=t.replace("${n.language} · ${n.cluster}","${n.language} · ${n.cluster}${n.ca
 import re
 t=re.sub(r"t\.textContent=c\.split\(' \('\)\[0\]\.replace\([^;]*\)\}\)\}","t.textContent=({'1 Global sensory experience':'1 Global (SER)','2 Experience per sense':'2 Per sense','3 Perceptual features':'3 Features','4 Bodily involvement (no body part named)':'4 Bodily','5 Specific body part / effector':'5 Effector','6 Body-object interaction':'6 BOI','Outside the categories':'Outside'})[c]||c})}",t)
 import re as _re
-NEWC='--c1:#363ea9;--c2:#a136a9;--c3:#a9363e;--c4:#a9a136;--c5:#3ea936;--c6:#36a9a1;--c7:#8a8984'
+NEWC='--c1:#363ea9;--c2:#b046b8;--c3:#a9363e;--c4:#a9a136;--c5:#23931b;--c6:#36a9a1;--c7:#8a8984'
 t=_re.sub(r'--c1:#[0-9a-f]{6};--c2:#[0-9a-f]{6};--c3:#[0-9a-f]{6};--c4:#[0-9a-f]{6};--c5:#[0-9a-f]{6};--c6:#[0-9a-f]{6};--c7:#[0-9a-f]{6}',NEWC,t)
 exec(open('cats_patch.py').read())
 exec(open('tabs_patch.py').read())

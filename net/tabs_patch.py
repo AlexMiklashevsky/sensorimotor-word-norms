@@ -108,15 +108,15 @@ for _a,_b in [("['n_items','N of items'],","['n_items','N of items'],['f_st','St
   ('Paper link</a></p>`:\'\'}','Paper link</a></p>`:\'\'}${(n.vars||[]).length?`<p class="muted" style="margin:4px 0"><b>Rated variables:</b> ${n.vars.map(x=>x.replace(/</g,"&lt;")).join(" | ")}</p>`:""}${(n.pop||[]).length?`<p class="muted" style="margin:4px 0"><b>Rater population:</b> ${n.pop.map(x=>x.replace(/</g,"&lt;")).join(" | ")}</p>`:""}')]:
     assert t.count(_a)==1,(_a[:60],t.count(_a)); t=t.replace(_a,_b)
 
-# v24: citation communities get their own colors (--k1..--k5), distinct from the category colors (--c1..--c6) and from not assigned (gray): palette chosen by the author (11 hues: odd = categories, even = communities)
-t=t.replace('--c7:#8a8984','--c7:#8a8984;--k1:#6836a9;--k2:#a93677;--k3:#a96836;--k4:#77a936;--k5:#36a968')
+# v24: citation communities get their own colors (--k1..--k5), distinct from the category colors (--c1..--c6) and from not assigned (gray): palette chosen by the author (11 hues: odd = categories, even = communities); c2, c5, k3, k4 adjusted in lightness for separation and color-blind safety
+t=t.replace('--c7:#8a8984','--c7:#8a8984;--k1:#6836a9;--k2:#a93677;--k3:#916f57;--k4:#456b01;--k5:#36a968')
 assert t.count('--k1:#6836a9')>=1
 for _a,_b in [("return n.community?`var(--c${COMMS.indexOf(n.community)+1})`","return n.community?`var(--k${Math.min(COMMS.indexOf(n.community)+1,5)})`"),
   ('<circle r="5" fill="var(--c${i+1})"/></svg>Commu','<circle r="5" fill="var(--k${Math.min(i+1,5)})"/></svg>Commu')]:
     assert t.count(_a)==1,(_a,t.count(_a)); t=t.replace(_a,_b)
 
 # v28: page metadata, icon, e-mail assembled on click (keeps the address away from simple harvesters)
-t=t.replace('<meta charset="utf-8">','<meta charset="utf-8">\n<meta name="description" content="Interactive overview of sensorimotor word norm datasets across languages: citation network, categories of rating scales, searchable table, references and a guide for planning new rating studies.">\n<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27%3E%3Ccircle cx=%274%27 cy=%2711%27 r=%273%27 fill=%27%23363ea9%27/%3E%3Ccircle cx=%2712%27 cy=%2711%27 r=%273%27 fill=%27%23a136a9%27/%3E%3Ccircle cx=%278%27 cy=%274%27 r=%273%27 fill=%27%23a9363e%27/%3E%3C/svg%3E">',1)
+t=t.replace('<meta charset="utf-8">','<meta charset="utf-8">\n<meta name="description" content="Interactive overview of sensorimotor word norm datasets across languages: citation network, categories of rating scales, searchable table, references and a guide for planning new rating studies.">\n<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27%3E%3Ccircle cx=%274%27 cy=%2711%27 r=%273%27 fill=%27%23363ea9%27/%3E%3Ccircle cx=%2712%27 cy=%2711%27 r=%273%27 fill=%27%23b046b8%27/%3E%3Ccircle cx=%278%27 cy=%274%27 r=%273%27 fill=%27%23a9363e%27/%3E%3C/svg%3E">',1)
 _a="// tabs\nconst TABS="
 assert t.count(_a)==1
 t=t.replace(_a,"(function(){const m=document.getElementById('mailme');if(m)m.onclick=e=>{e.preventDefault();location.href='mailto:'+m.dataset.u+'@'+m.dataset.d}})();\n"+_a,1)
