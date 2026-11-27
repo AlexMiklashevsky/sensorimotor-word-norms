@@ -162,7 +162,7 @@ _recs=[x for x in _j.load(open(ROOT+'/work/records.json',encoding='utf-8')) if n
 _nrows=len(_recs); _npap=len({x['Authors'] for x in _recs}); _nlang=len({x['Language'] for x in _recs})
 _intro=f'''<div id="intro">
 <p>This site collects published rating norms that describe how words relate to perception and action, e.g., sensory modality strength, body-object interaction, graspability, or effector involvement. It currently covers {_nrows:,} datasets from {_npap:,} papers in {_nlang} languages.</p>
-<p>The <a href="#network">Interactive network</a> shows how these papers cite each other. The <a href="#table">Table</a> lets you search and filter all datasets, and <a href="#planning">Planning a study</a> helps you design a new rating study and finds the most similar existing datasets. How the datasets were found and how the network was built is explained under <a href="#details">Details</a>.</p>
+<p>The <a href="#network">Interactive network</a> shows how these papers cite each other. The <a href="#table">Table</a> lets you search and filter all papers, and <a href="#planning">Planning a study</a> helps you design a new rating study and finds the most similar existing datasets. How the datasets were found and how the network was built is explained under <a href="#details">Details</a>.</p>
 <p>If you use this overview, please cite: Miklashevsky, A., Ulianova, T., &amp; Platonova, O. (in prep.). <i>Sensorimotor word norms: An overview.</i></p>
 <button type="button" id="introHide" class="fbtn">Hide intro</button>
 </div>
