@@ -124,6 +124,12 @@ for _a,_b in [("['n_items','N of items'],","['n_items','N of items'],['f_st','St
   ('Paper link</a></p>`:\'\'}','Paper link</a></p>`:\'\'}${(n.vars||[]).length?`<p class="muted" style="margin:4px 0"><b>Rated variables:</b> ${n.vars.map(x=>x.replace(/</g,"&lt;")).join(" | ")}</p>`:""}${(n.pop||[]).length?`<p class="muted" style="margin:4px 0"><b>Rater population:</b> ${n.pop.map(x=>x.replace(/</g,"&lt;")).join(" | ")}</p>`:""}')]:
     assert t.count(_a)==1,(_a[:60],t.count(_a)); t=t.replace(_a,_b)
 
+# v30: table without citation-count columns (counts stay in the Selected paper panel); default sort by paper name
+for _a,_b in [("['cited_by','Cited by'],['potential_citers','Could cite it'],['cites','Cites']",""),
+  ('<td class="n">${n.cited_by}</td><td class="n">${n.potential_citers}</td><td class="n">${n.cites}</td></tr>','</tr>'),
+  ("let sortK='cited_by',sortD=-1;","let sortK='id',sortD=1;")]:
+    assert t.count(_a)==1,(_a[:60],t.count(_a)); t=t.replace(_a,_b)
+
 # v24: citation communities get their own colors (--k1..--k5), distinct from the category colors (--c1..--c6) and from not assigned (gray): palette chosen by the author (11 hues: odd = categories, even = communities); c2, c5, k3, k4 adjusted in lightness for separation and color-blind safety
 t=t.replace('--c7:#8a8984','--c7:#8a8984;--k1:#6836a9;--k2:#a93677;--k3:#916f57;--k4:#456b01;--k5:#36a968')
 assert t.count('--k1:#6836a9')>=1
