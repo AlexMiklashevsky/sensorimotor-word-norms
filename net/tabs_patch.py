@@ -157,3 +157,24 @@ if _gc:
     _a='</script></body></html>'
     assert t.count(_a)==1
     t=t.replace(_a,'</script>\n<script data-goatcounter="https://'+_gc+'.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script></body></html>',1)
+# v37: short intro under the page title (all tabs), with counts from the data; "Hide intro" remembered per browser
+_recs=[x for x in _j.load(open(ROOT+'/work/records.json',encoding='utf-8')) if not x.get('_excluded')]
+_nrows=len(_recs); _npap=len({x['Authors'] for x in _recs}); _nlang=len({x['Language'] for x in _recs})
+_intro=f'''<div id="intro">
+<p>This site collects published rating norms that describe how words relate to perception and action, e.g., sensory modality strength, body-object interaction, graspability, or effector involvement. It currently covers {_nrows:,} datasets from {_npap:,} papers in {_nlang} languages.</p>
+<p>The <a href="#network">Interactive network</a> shows how these papers cite each other. The <a href="#table">Table</a> lets you search and filter all datasets, and <a href="#planning">Planning a study</a> helps you design a new rating study and finds the most similar existing datasets. How the datasets were found and how the network was built is explained under <a href="#details">Details</a>.</p>
+<p>If you use this overview, please cite: Miklashevsky, A., Ulianova, T., &amp; Platonova, O. (in prep.). <i>Sensorimotor word norms: An overview.</i></p>
+<button type="button" id="introHide" class="fbtn">Hide intro</button>
+</div>
+<button type="button" id="introShow" class="fbtn" hidden>Show intro</button>
+'''
+_a='<nav class="tabs" role="tablist"'
+assert t.count(_a)==1; t=t.replace(_a,_intro+_a,1)
+t=t.replace('.lbl{','#intro{max-width:980px;margin:4px 0 14px}\n#intro p{margin:0 0 8px}\n#introShow{margin:2px 0 10px}\n.lbl{',1)
+_a="// tabs\nconst TABS="
+assert t.count(_a)==1
+t=t.replace(_a,r'''(function(){const i=document.getElementById('intro'),h=document.getElementById('introHide'),s=document.getElementById('introShow');
+function set(v){i.hidden=v;s.hidden=!v;try{localStorage.setItem('smn_intro_hidden',v?'1':'0')}catch(e){}}
+let v=false;try{v=localStorage.getItem('smn_intro_hidden')==='1'}catch(e){}
+i.hidden=v;s.hidden=!v;h.onclick=()=>set(true);s.onclick=()=>set(false)})();
+'''+_a,1)
